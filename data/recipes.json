@@ -1,0 +1,2014 @@
+{
+  "recipes": [
+    {
+      "id": "lemon-pasta",
+      "name": "Lemon & basil pasta",
+      "cuisine": "Italian",
+      "meal": "Dinner",
+      "minutes": 25,
+      "servings": 2,
+      "tags": ["Vegetarian"],
+      "allergens": ["Wheat", "Milk"],
+      "contributorId": "luca",
+      "description": "Bright lemon, fresh basil, and a silky sauce. A little sunshine in a bowl.",
+      "ingredients": [
+        {
+          "name": "Spaghetti",
+          "quantity": 180,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Lemon juice",
+          "quantity": 30,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 30,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Parmesan",
+          "quantity": 40,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Fresh basil",
+          "quantity": 10,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Bring a large pot of water to a boil and cook the spaghetti according to its package instructions. Reserve 120 ml of cooking water before draining.",
+        "Warm the olive oil in a large pan over low heat. Add the lemon juice and half the reserved water.",
+        "Add the drained pasta and toss for 1–2 minutes. Turn off the heat, then fold in the Parmesan, adding the remaining water a little at a time to make a silky sauce.",
+        "Tear in the basil, season to taste, and serve straight away."
+      ],
+      "notes": "Add cheese off the heat so it melts gently. Pasta water is a process aid; use only enough to loosen the sauce.",
+      "keywords": [
+        "spaghetti",
+        "lemon juice",
+        "olive oil",
+        "parmesan",
+        "fresh basil",
+        "salt and pepper",
+        "italian",
+        "dinner"
+      ],
+      "image": "assets/images/lemon-pasta.jpg",
+      "imageAlt": "A bowl of pasta with green herbs",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601"
+    },
+    {
+      "id": "tomato-toast",
+      "name": "Tomato & basil bruschetta",
+      "cuisine": "Italian",
+      "meal": "Breakfast",
+      "minutes": 15,
+      "servings": 2,
+      "tags": ["Vegetarian", "Vegan"],
+      "allergens": ["Wheat"],
+      "contributorId": "luca",
+      "description": "Crunchy toast topped with juicy tomatoes, basil, and a drizzle of olive oil.",
+      "ingredients": [
+        {
+          "name": "Rustic bread",
+          "quantity": 4,
+          "unit": "slices",
+          "scalable": true
+        },
+        {
+          "name": "Tomatoes",
+          "quantity": 250,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 20,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Garlic",
+          "quantity": 1,
+          "unit": "clove",
+          "scalable": true
+        },
+        {
+          "name": "Fresh basil",
+          "quantity": 8,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Dice the tomatoes and place in a bowl. Tear the basil and stir it into the tomatoes with half the olive oil.",
+        "Toast the bread until crisp on both sides, using a dry pan or a toaster.",
+        "Cut the garlic clove in half and gently rub the cut side across the warm toast.",
+        "Spoon over the tomato mixture, drizzle with the remaining oil, season to taste, and serve immediately."
+      ],
+      "notes": "Add the topping just before serving to keep the bread crisp. Choose vegan bread if following the sample vegan tag.",
+      "keywords": [
+        "rustic bread",
+        "tomatoes",
+        "olive oil",
+        "garlic",
+        "fresh basil",
+        "salt and pepper",
+        "italian",
+        "breakfast"
+      ],
+      "image": "assets/images/tomato-toast.jpg",
+      "imageAlt": "Toast topped with diced tomatoes and fresh herbs",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1607098665874-fd193397547b"
+    },
+    {
+      "id": "mushroom-risotto",
+      "name": "Creamy mushroom risotto",
+      "cuisine": "Italian",
+      "meal": "Dinner",
+      "minutes": 45,
+      "servings": 2,
+      "tags": ["Vegetarian"],
+      "allergens": ["Milk"],
+      "contributorId": "luca",
+      "description": "Golden mushrooms and tender rice for a slow, comforting evening.",
+      "ingredients": [
+        {
+          "name": "Arborio rice",
+          "quantity": 160,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Mushrooms",
+          "quantity": 250,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Vegetable stock",
+          "quantity": 650,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Onion",
+          "quantity": 80,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Butter",
+          "quantity": 25,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Vegetarian hard cheese",
+          "quantity": 35,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Warm the stock in a small saucepan. Slice the mushrooms and finely chop the onion.",
+        "Melt half the butter in a wide pan. Brown the mushrooms, remove to a plate, then soften the onion in the same pan.",
+        "Stir in the rice. Add warm stock a ladle at a time, stirring and allowing each addition to absorb before the next. Continue until the rice is tender, about 20–25 minutes.",
+        "Fold in the mushrooms, remaining butter, and cheese. Season to taste and let stand for 2 minutes before serving."
+      ],
+      "notes": "Use a vegetarian cheese if desired. Stock absorption varies; add a splash of water if the rice needs more time.",
+      "keywords": [
+        "arborio rice",
+        "mushrooms",
+        "vegetable stock",
+        "onion",
+        "butter",
+        "vegetarian hard cheese",
+        "salt and pepper",
+        "italian",
+        "dinner"
+      ],
+      "image": "assets/images/mushroom-risotto.jpg",
+      "imageAlt": "A warm rice dish with savoury toppings",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1476124369491-e7addf5db371"
+    },
+    {
+      "id": "caprese-salad",
+      "name": "Garden caprese salad",
+      "cuisine": "Italian",
+      "meal": "Lunch",
+      "minutes": 10,
+      "servings": 2,
+      "tags": ["Vegetarian"],
+      "allergens": ["Milk"],
+      "contributorId": "luca",
+      "description": "Ripe tomatoes, soft mozzarella, and basil. Simple things, beautifully together.",
+      "ingredients": [
+        {
+          "name": "Tomatoes",
+          "quantity": 300,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Mozzarella",
+          "quantity": 150,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Fresh basil",
+          "quantity": 10,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 20,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Balsamic vinegar",
+          "quantity": 10,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Wash the tomatoes and basil. Slice the tomatoes and mozzarella into even pieces.",
+        "Arrange the tomatoes and cheese on a serving plate, alternating them as you go.",
+        "Scatter the basil over the plate. Whisk together the olive oil and vinegar, then drizzle on top.",
+        "Season to taste and serve at once, preferably at room temperature."
+      ],
+      "notes": "Let chilled tomatoes stand briefly before serving for fuller flavour.",
+      "keywords": [
+        "tomatoes",
+        "mozzarella",
+        "fresh basil",
+        "olive oil",
+        "balsamic vinegar",
+        "salt and pepper",
+        "italian",
+        "lunch"
+      ],
+      "image": "assets/images/caprese-salad.jpg",
+      "imageAlt": "A colourful mixed vegetable salad",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
+    },
+    {
+      "id": "rainbow-bowl",
+      "name": "The feel-good rainbow bowl",
+      "cuisine": "Mediterranean",
+      "meal": "Lunch",
+      "minutes": 25,
+      "servings": 2,
+      "tags": ["Vegetarian", "Vegan"],
+      "allergens": ["Sesame"],
+      "contributorId": "maya",
+      "description": "A bright mix of grains, crunchy vegetables, and a lemon-tahini dressing.",
+      "ingredients": [
+        {
+          "name": "Dry quinoa",
+          "quantity": 120,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Cooked chickpeas",
+          "quantity": 200,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 150,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Cherry tomatoes",
+          "quantity": 150,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Carrot",
+          "quantity": 100,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Salad greens",
+          "quantity": 60,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Tahini",
+          "quantity": 30,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Lemon juice",
+          "quantity": 25,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Rinse the quinoa. Add it to a saucepan with water according to its package instructions, cook until tender, and leave to stand for 5 minutes.",
+        "Rinse and drain the chickpeas. Slice the cucumber and tomatoes, and grate the carrot.",
+        "Whisk the tahini with lemon juice and a little water until pourable. Season to taste.",
+        "Divide the quinoa and greens between bowls. Arrange the vegetables and chickpeas on top, drizzle with dressing, and enjoy."
+      ],
+      "notes": "Use different coloured vegetables for variety. Tahini can thicken with lemon; add water gradually.",
+      "keywords": [
+        "dry quinoa",
+        "cooked chickpeas",
+        "cucumber",
+        "cherry tomatoes",
+        "carrot",
+        "salad greens",
+        "tahini",
+        "lemon juice",
+        "salt and pepper",
+        "mediterranean",
+        "lunch"
+      ],
+      "image": "assets/images/rainbow-bowl.jpg",
+      "imageAlt": "A colourful bowl of fresh vegetables, chickpeas and greens",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
+    },
+    {
+      "id": "greek-salad",
+      "name": "Everyday Greek salad",
+      "cuisine": "Mediterranean",
+      "meal": "Lunch",
+      "minutes": 15,
+      "servings": 2,
+      "tags": ["Vegetarian"],
+      "allergens": ["Milk"],
+      "contributorId": "maya",
+      "description": "Crisp cucumber, tomatoes, olives, and feta with a lively oregano dressing.",
+      "ingredients": [
+        {
+          "name": "Cucumber",
+          "quantity": 200,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Tomatoes",
+          "quantity": 250,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Feta",
+          "quantity": 100,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Olives",
+          "quantity": 50,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Red onion",
+          "quantity": 40,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 20,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Dried oregano",
+          "quantity": 1,
+          "unit": "tsp",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Wash the vegetables. Cut the cucumber and tomatoes into bite-sized chunks, and thinly slice the onion.",
+        "Place the vegetables and olives in a large bowl.",
+        "Drizzle with olive oil, add oregano, and toss gently. Taste before adding salt because feta and olives are salty.",
+        "Crumble the feta over the top and serve immediately."
+      ],
+      "notes": "Keep the dressing separate if preparing the vegetables ahead.",
+      "keywords": [
+        "cucumber",
+        "tomatoes",
+        "feta",
+        "olives",
+        "red onion",
+        "olive oil",
+        "dried oregano",
+        "salt and pepper",
+        "mediterranean",
+        "lunch"
+      ],
+      "image": "assets/images/greek-salad.jpg",
+      "imageAlt": "Leafy salad with colourful fresh vegetables",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1540420773420-3366772f4999"
+    },
+    {
+      "id": "hummus-plate",
+      "name": "Lemon hummus & warm pita",
+      "cuisine": "Mediterranean",
+      "meal": "Snack",
+      "minutes": 15,
+      "servings": 2,
+      "tags": ["Vegetarian", "Vegan"],
+      "allergens": ["Sesame", "Wheat"],
+      "contributorId": "maya",
+      "description": "Creamy chickpea hummus with warm bread and crunchy vegetable sticks.",
+      "ingredients": [
+        {
+          "name": "Cooked chickpeas",
+          "quantity": 240,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Tahini",
+          "quantity": 35,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Lemon juice",
+          "quantity": 25,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Garlic",
+          "quantity": 1,
+          "unit": "clove",
+          "scalable": true
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 15,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Pita bread",
+          "quantity": 2,
+          "unit": "pieces",
+          "scalable": true
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 100,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Drain the chickpeas, reserving some liquid. Peel the garlic and cut the cucumber into sticks.",
+        "Blend chickpeas, tahini, lemon juice, garlic, and olive oil until smooth. Add reserved chickpea liquid a spoonful at a time to reach your preferred texture.",
+        "Warm the pita in a dry pan and cut into wedges.",
+        "Spoon hummus onto a plate, season to taste, and serve with the warm pita and cucumber sticks."
+      ],
+      "notes": "The liquid is added to texture rather than a fixed quantity; keep it out of the scaling calculation.",
+      "keywords": [
+        "cooked chickpeas",
+        "tahini",
+        "lemon juice",
+        "garlic",
+        "olive oil",
+        "pita bread",
+        "cucumber",
+        "salt and pepper",
+        "mediterranean",
+        "snack"
+      ],
+      "image": "assets/images/hummus-plate.jpg",
+      "imageAlt": "A bowl of creamy hummus with chickpeas, herbs and oil",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1637949907734-d5583aa35b41"
+    },
+    {
+      "id": "avocado-eggs",
+      "name": "Avocado & soft scrambled eggs",
+      "cuisine": "Mediterranean",
+      "meal": "Breakfast",
+      "minutes": 15,
+      "servings": 2,
+      "tags": ["Vegetarian"],
+      "allergens": ["Egg", "Milk", "Wheat"],
+      "contributorId": "maya",
+      "description": "Soft eggs and buttery avocado on golden toast. A gentler start to the day.",
+      "ingredients": [
+        {
+          "name": "Eggs",
+          "quantity": 4,
+          "unit": "pieces",
+          "scalable": true
+        },
+        {
+          "name": "Avocado",
+          "quantity": 1,
+          "unit": "piece",
+          "scalable": true
+        },
+        {
+          "name": "Bread",
+          "quantity": 2,
+          "unit": "slices",
+          "scalable": true
+        },
+        {
+          "name": "Butter",
+          "quantity": 15,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Lemon juice",
+          "quantity": 10,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Toast the bread. Halve and mash the avocado with the lemon juice.",
+        "Crack the eggs into a bowl and whisk together.",
+        "Melt the butter in a pan over low heat. Add the eggs and stir gently until softly set and cooked through.",
+        "Spread avocado onto the toast, spoon over the eggs, season to taste, and serve warm."
+      ],
+      "notes": "Scaled whole ingredients may appear fractional. Measure beaten eggs by proportion or round practical counts thoughtfully.",
+      "keywords": [
+        "eggs",
+        "avocado",
+        "bread",
+        "butter",
+        "lemon juice",
+        "salt and pepper",
+        "mediterranean",
+        "breakfast"
+      ],
+      "image": "assets/images/avocado-eggs.jpg",
+      "imageAlt": "A plated breakfast with toast and eggs",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1525351484163-7529414344d8"
+    },
+    {
+      "id": "chicken-rice",
+      "name": "Ginger chicken rice bowl",
+      "cuisine": "Vietnamese",
+      "meal": "Dinner",
+      "minutes": 35,
+      "servings": 2,
+      "tags": ["Dairy-free"],
+      "allergens": ["Soy", "Wheat"],
+      "contributorId": "linh",
+      "description": "Fragrant ginger chicken, fluffy rice, and crisp cucumber for a cosy dinner.",
+      "ingredients": [
+        {
+          "name": "Chicken breast",
+          "quantity": 300,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Dry jasmine rice",
+          "quantity": 150,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Fresh ginger",
+          "quantity": 20,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 25,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 150,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Vegetable oil",
+          "quantity": 15,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Rinse the rice and cook with water according to its package instructions.",
+        "Slice the chicken into even strips. Peel and grate the ginger, then combine it with the soy sauce and chicken.",
+        "Heat the oil in a frying pan. Cook the chicken, turning regularly, until completely cooked through.",
+        "Slice the cucumber and serve alongside the chicken and rice. Spoon the hot pan juices over the bowl."
+      ],
+      "notes": "Keep raw chicken separate from ready-to-eat vegetables. The sample soy sauce contains wheat.",
+      "keywords": [
+        "chicken breast",
+        "dry jasmine rice",
+        "fresh ginger",
+        "soy sauce",
+        "cucumber",
+        "vegetable oil",
+        "salt and pepper",
+        "vietnamese",
+        "dinner"
+      ],
+      "image": "assets/images/chicken-rice.jpg",
+      "imageAlt": "A prepared bowl with colourful vegetables",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1547592180-85f173990554"
+    },
+    {
+      "id": "rice-paper-rolls",
+      "name": "Fresh garden rice paper rolls",
+      "cuisine": "Vietnamese",
+      "meal": "Lunch",
+      "minutes": 30,
+      "servings": 2,
+      "tags": ["Vegetarian", "Vegan", "Dairy-free"],
+      "allergens": ["Soy", "Wheat"],
+      "contributorId": "linh",
+      "description": "Fresh herbs and crisp vegetables wrapped in delicate rice paper.",
+      "ingredients": [
+        {
+          "name": "Rice paper",
+          "quantity": 8,
+          "unit": "sheets",
+          "scalable": true
+        },
+        {
+          "name": "Dry rice vermicelli",
+          "quantity": 80,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Carrot",
+          "quantity": 100,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 150,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Lettuce",
+          "quantity": 60,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Fresh mint",
+          "quantity": 10,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 20,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Lime juice",
+          "quantity": 15,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Cook the vermicelli according to its package instructions, rinse with cool water, and drain.",
+        "Cut the carrot and cucumber into fine strips. Wash and dry the lettuce and mint.",
+        "Soften one rice paper sheet at a time in lukewarm water. Place vegetables, noodles, and mint near the lower edge; fold in the sides and roll snugly.",
+        "Mix soy sauce and lime juice in a small dipping bowl. Serve the rolls immediately with the dipping sauce."
+      ],
+      "notes": "Use a damp board to prevent the wrappers sticking. Fractional sheets from scaling are mathematical estimates.",
+      "keywords": [
+        "rice paper",
+        "dry rice vermicelli",
+        "carrot",
+        "cucumber",
+        "lettuce",
+        "fresh mint",
+        "soy sauce",
+        "lime juice",
+        "salt and pepper",
+        "vietnamese",
+        "lunch"
+      ],
+      "image": "assets/images/rice-paper-rolls.jpg",
+      "imageAlt": "Fresh rice paper rolls with colourful vegetables and dipping sauce",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1670427254796-177198e5319d"
+    },
+    {
+      "id": "banh-mi",
+      "name": "Lemongrass tofu bánh mì",
+      "cuisine": "Vietnamese",
+      "meal": "Lunch",
+      "minutes": 30,
+      "servings": 2,
+      "tags": ["Vegetarian", "Vegan", "Dairy-free"],
+      "allergens": ["Soy", "Wheat"],
+      "contributorId": "linh",
+      "description": "Golden tofu, quick tangy vegetables, and fragrant herbs in a crisp baguette.",
+      "ingredients": [
+        {
+          "name": "Firm tofu",
+          "quantity": 250,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Small baguettes",
+          "quantity": 2,
+          "unit": "pieces",
+          "scalable": true
+        },
+        {
+          "name": "Carrot",
+          "quantity": 100,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 100,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Lemongrass",
+          "quantity": 15,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 20,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Rice vinegar",
+          "quantity": 25,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Vegetable oil",
+          "quantity": 15,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Cut the carrot into thin strips and toss with rice vinegar. Slice the cucumber and finely chop the tender lemongrass centre.",
+        "Pat the tofu dry, slice it, and coat with soy sauce and lemongrass.",
+        "Heat the oil in a non-stick pan and fry the tofu until golden on both sides.",
+        "Split the baguettes. Fill with hot tofu, drained carrot, and cucumber. Season to taste and serve immediately."
+      ],
+      "notes": "Pressing excess moisture from tofu helps it brown. Use dairy-free baguettes for the sample vegan version.",
+      "keywords": [
+        "firm tofu",
+        "small baguettes",
+        "carrot",
+        "cucumber",
+        "lemongrass",
+        "soy sauce",
+        "rice vinegar",
+        "vegetable oil",
+        "salt and pepper",
+        "vietnamese",
+        "lunch"
+      ],
+      "image": "assets/images/banh-mi.jpg",
+      "imageAlt": "A filled Vietnamese baguette with fresh herbs and vegetables",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1600454309261-3dc9b7597637"
+    },
+    {
+      "id": "banana-coconut",
+      "name": "Banana coconut breakfast bowl",
+      "cuisine": "Vietnamese",
+      "meal": "Breakfast",
+      "minutes": 15,
+      "servings": 2,
+      "tags": ["Vegetarian", "Vegan", "Dairy-free"],
+      "allergens": [],
+      "contributorId": "linh",
+      "description": "Warm coconut oats with banana for a simple, satisfying morning.",
+      "ingredients": [
+        {
+          "name": "Rolled oats",
+          "quantity": 100,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Coconut milk",
+          "quantity": 250,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Water",
+          "quantity": 150,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Banana",
+          "quantity": 2,
+          "unit": "pieces",
+          "scalable": true
+        },
+        {
+          "name": "Toasted coconut",
+          "quantity": 15,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Combine oats, coconut milk, and water in a saucepan.",
+        "Bring to a gentle simmer and cook for 5–7 minutes, stirring often, until creamy.",
+        "Slice the bananas. Mash half into the oats and reserve the rest for topping.",
+        "Divide into bowls, top with the remaining banana and toasted coconut, and serve warm."
+      ],
+      "notes": "This is an original sample inspired by coconut flavours, not a claim of a traditional Vietnamese dish.",
+      "keywords": [
+        "rolled oats",
+        "coconut milk",
+        "water",
+        "banana",
+        "toasted coconut",
+        "salt and pepper",
+        "vietnamese",
+        "breakfast"
+      ],
+      "image": "assets/images/banana-coconut.jpg",
+      "imageAlt": "A breakfast bowl topped with fruit",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1517673400267-0251440c45dc"
+    },
+    {
+      "id": "teriyaki-tofu",
+      "name": "Sticky teriyaki tofu bowl",
+      "cuisine": "Japanese",
+      "meal": "Dinner",
+      "minutes": 30,
+      "servings": 2,
+      "tags": ["Vegetarian", "Vegan", "Dairy-free"],
+      "allergens": ["Soy", "Wheat", "Sesame"],
+      "contributorId": "linh",
+      "description": "Crisp tofu and tender broccoli with a glossy homemade teriyaki glaze.",
+      "ingredients": [
+        {
+          "name": "Firm tofu",
+          "quantity": 300,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Dry rice",
+          "quantity": 140,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Broccoli",
+          "quantity": 200,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 30,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Brown sugar",
+          "quantity": 20,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Rice vinegar",
+          "quantity": 15,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Vegetable oil",
+          "quantity": 15,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Sesame seeds",
+          "quantity": 5,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Cook the rice according to its package instructions. Cut the broccoli into small florets and steam until tender.",
+        "Pat the tofu dry and cut into cubes. Heat the oil in a pan and fry the tofu until golden.",
+        "Mix soy sauce, sugar, and rice vinegar. Add to the tofu and simmer briefly until the glaze coats the cubes.",
+        "Divide rice and broccoli between bowls. Add the glazed tofu and finish with sesame seeds."
+      ],
+      "notes": "Reduce the glaze gently; it thickens more as it cools.",
+      "keywords": [
+        "firm tofu",
+        "dry rice",
+        "broccoli",
+        "soy sauce",
+        "brown sugar",
+        "rice vinegar",
+        "vegetable oil",
+        "sesame seeds",
+        "salt and pepper",
+        "japanese",
+        "dinner"
+      ],
+      "image": "assets/images/teriyaki-tofu.jpg",
+      "imageAlt": "A prepared bowl with tofu, vegetables and eggs, illustrating a rice bowl style",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
+    },
+    {
+      "id": "miso-noodles",
+      "name": "Miso mushroom noodle soup",
+      "cuisine": "Japanese",
+      "meal": "Lunch",
+      "minutes": 20,
+      "servings": 2,
+      "tags": ["Vegetarian", "Vegan", "Dairy-free"],
+      "allergens": ["Soy", "Wheat"],
+      "contributorId": "linh",
+      "description": "A savoury mushroom broth with noodles, greens, and mellow white miso.",
+      "ingredients": [
+        {
+          "name": "Wheat noodles",
+          "quantity": 160,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Mushrooms",
+          "quantity": 150,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Vegetable stock",
+          "quantity": 700,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "White miso",
+          "quantity": 35,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Pak choi",
+          "quantity": 150,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Firm tofu",
+          "quantity": 120,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Slice the mushrooms and tofu. Wash and chop the pak choi.",
+        "Bring the vegetable stock to a simmer. Add the mushrooms and tofu and cook for 5 minutes.",
+        "Cook the noodles according to their package instructions. Add the greens to the broth for the final 2 minutes.",
+        "Turn off the heat. Dissolve miso in a little hot broth, stir it back into the pot, and serve over the drained noodles."
+      ],
+      "notes": "Add miso after turning off the heat to preserve its delicate aroma. Check that the miso contains no fish stock.",
+      "keywords": [
+        "wheat noodles",
+        "mushrooms",
+        "vegetable stock",
+        "white miso",
+        "pak choi",
+        "firm tofu",
+        "salt and pepper",
+        "japanese",
+        "lunch"
+      ],
+      "image": "assets/images/miso-noodles.jpg",
+      "imageAlt": "A steaming bowl of noodle soup",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624"
+    },
+    {
+      "id": "onigiri",
+      "name": "Sesame cucumber onigiri",
+      "cuisine": "Japanese",
+      "meal": "Snack",
+      "minutes": 35,
+      "servings": 2,
+      "tags": ["Vegetarian", "Vegan", "Dairy-free"],
+      "allergens": ["Sesame"],
+      "contributorId": "linh",
+      "description": "Little rice parcels with sesame and cucumber. Perfect for a quiet snack.",
+      "ingredients": [
+        {
+          "name": "Dry sushi rice",
+          "quantity": 180,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 80,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Nori sheets",
+          "quantity": 1,
+          "unit": "piece",
+          "scalable": true
+        },
+        {
+          "name": "Sesame seeds",
+          "quantity": 10,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Rice vinegar",
+          "quantity": 15,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Rinse and cook the sushi rice according to its package instructions. Stir in rice vinegar and let cool until safe to handle.",
+        "Finely dice the cucumber and pat dry. Cut the nori into strips.",
+        "With clean, slightly damp hands, shape portions of warm rice around small amounts of cucumber. Make compact triangles or rounds.",
+        "Press sesame seeds onto the surface, wrap with strips of nori, and serve."
+      ],
+      "notes": "Freshly shaped rice holds together best. The image is an illustrative Japanese-style rice dish.",
+      "keywords": [
+        "dry sushi rice",
+        "cucumber",
+        "nori sheets",
+        "sesame seeds",
+        "rice vinegar",
+        "salt and pepper",
+        "japanese",
+        "snack"
+      ],
+      "image": "assets/images/onigiri.jpg",
+      "imageAlt": "A Japanese-style rice dish with a savoury topping",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1516684732162-798a0062be99"
+    },
+    {
+      "id": "okonomiyaki",
+      "name": "Cabbage breakfast pancakes",
+      "cuisine": "Japanese",
+      "meal": "Breakfast",
+      "minutes": 25,
+      "servings": 2,
+      "tags": ["Vegetarian", "Dairy-free"],
+      "allergens": ["Egg", "Wheat", "Soy"],
+      "contributorId": "linh",
+      "description": "Golden savoury cabbage pancakes with a simple soy drizzle.",
+      "ingredients": [
+        {
+          "name": "Cabbage",
+          "quantity": 220,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Plain flour",
+          "quantity": 80,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Eggs",
+          "quantity": 2,
+          "unit": "pieces",
+          "scalable": true
+        },
+        {
+          "name": "Water",
+          "quantity": 80,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Spring onion",
+          "quantity": 30,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Vegetable oil",
+          "quantity": 15,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 15,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Finely shred the cabbage and slice the spring onion.",
+        "Whisk flour, eggs, and water into a batter. Fold in cabbage and spring onion.",
+        "Heat the oil in a frying pan over medium heat. Spoon in the mixture to make small pancakes and cook on both sides until golden and set through the centre.",
+        "Serve warm with a light drizzle of soy sauce and seasoning to taste."
+      ],
+      "notes": "Make smaller pancakes for easier turning. These are a simplified educational interpretation of okonomiyaki.",
+      "keywords": [
+        "cabbage",
+        "plain flour",
+        "eggs",
+        "water",
+        "spring onion",
+        "vegetable oil",
+        "soy sauce",
+        "salt and pepper",
+        "japanese",
+        "breakfast"
+      ],
+      "image": "assets/images/okonomiyaki.jpg",
+      "imageAlt": "A stack of golden pancakes on a plate",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1528207776546-365bb710ee93"
+    },
+    {
+      "id": "chickpea-curry",
+      "name": "Golden chickpea & spinach curry",
+      "cuisine": "Indian",
+      "meal": "Dinner",
+      "minutes": 30,
+      "servings": 2,
+      "tags": ["Vegetarian", "Vegan", "Dairy-free"],
+      "allergens": [],
+      "contributorId": "maya",
+      "description": "A gently spiced tomato curry full of chickpeas, spinach, and comfort.",
+      "ingredients": [
+        {
+          "name": "Cooked chickpeas",
+          "quantity": 300,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Chopped tomatoes",
+          "quantity": 300,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Spinach",
+          "quantity": 120,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Onion",
+          "quantity": 100,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Coconut milk",
+          "quantity": 120,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Curry powder",
+          "quantity": 2,
+          "unit": "tsp",
+          "scalable": true
+        },
+        {
+          "name": "Vegetable oil",
+          "quantity": 15,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Finely chop the onion. Drain and rinse the chickpeas.",
+        "Heat the oil in a saucepan and soften the onion. Stir in the curry powder and cook for 30 seconds.",
+        "Add tomatoes, chickpeas, and coconut milk. Simmer gently for 15 minutes, stirring occasionally.",
+        "Fold in the spinach until wilted. Season to taste and serve in bowls."
+      ],
+      "notes": "Rice or bread is an optional accompaniment and is not included in the ingredient calculation.",
+      "keywords": [
+        "cooked chickpeas",
+        "chopped tomatoes",
+        "spinach",
+        "onion",
+        "coconut milk",
+        "curry powder",
+        "vegetable oil",
+        "salt and pepper",
+        "indian",
+        "dinner"
+      ],
+      "image": "assets/images/chickpea-curry.jpg",
+      "imageAlt": "A warmly coloured curry in a serving bowl",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398"
+    },
+    {
+      "id": "red-lentil-dal",
+      "name": "Everyday red lentil dal",
+      "cuisine": "Indian",
+      "meal": "Dinner",
+      "minutes": 35,
+      "servings": 2,
+      "tags": ["Vegetarian", "Vegan", "Dairy-free"],
+      "allergens": [],
+      "contributorId": "maya",
+      "description": "Soft red lentils, warming spices, and a squeeze of lemon.",
+      "ingredients": [
+        {
+          "name": "Dry red lentils",
+          "quantity": 160,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Water",
+          "quantity": 600,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Onion",
+          "quantity": 100,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Tomato",
+          "quantity": 150,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Ground cumin",
+          "quantity": 1,
+          "unit": "tsp",
+          "scalable": true
+        },
+        {
+          "name": "Ground turmeric",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "scalable": true
+        },
+        {
+          "name": "Vegetable oil",
+          "quantity": 15,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Lemon juice",
+          "quantity": 15,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Rinse the lentils until the water runs mostly clear. Finely chop the onion and tomato.",
+        "Heat the oil in a saucepan, soften the onion, and add cumin and turmeric.",
+        "Stir in the tomato, lentils, and water. Simmer for 20–25 minutes, stirring regularly, until the lentils are soft. Add a little extra water if needed.",
+        "Stir in the lemon juice, season to taste, and ladle into bowls."
+      ],
+      "notes": "Lentils thicken as they stand. Add a splash of water when reheating to restore a spoonable texture.",
+      "keywords": [
+        "dry red lentils",
+        "water",
+        "onion",
+        "tomato",
+        "ground cumin",
+        "ground turmeric",
+        "vegetable oil",
+        "lemon juice",
+        "salt and pepper",
+        "indian",
+        "dinner"
+      ],
+      "image": "assets/images/red-lentil-dal.jpg",
+      "imageAlt": "A selection of Indian-style dishes in bowls",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1546833999-b9f581a1996d"
+    },
+    {
+      "id": "masala-toast",
+      "name": "Masala potato toast",
+      "cuisine": "Indian",
+      "meal": "Breakfast",
+      "minutes": 25,
+      "servings": 2,
+      "tags": ["Vegetarian", "Vegan", "Dairy-free"],
+      "allergens": ["Wheat"],
+      "contributorId": "maya",
+      "description": "Crisp toast piled with warmly spiced potato and fresh tomato.",
+      "ingredients": [
+        {
+          "name": "Potatoes",
+          "quantity": 250,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Bread",
+          "quantity": 4,
+          "unit": "slices",
+          "scalable": true
+        },
+        {
+          "name": "Tomato",
+          "quantity": 100,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Onion",
+          "quantity": 50,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Ground cumin",
+          "quantity": 1,
+          "unit": "tsp",
+          "scalable": true
+        },
+        {
+          "name": "Vegetable oil",
+          "quantity": 15,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Peel and dice the potatoes. Boil in water until tender, then drain.",
+        "Finely chop onion and tomato. Heat the oil in a pan and soften the onion with cumin.",
+        "Add the tomato and cooked potato. Mash lightly in the pan and cook for 3–4 minutes.",
+        "Toast the bread and spoon the spiced potato mixture on top. Season to taste and serve warm."
+      ],
+      "notes": "Smaller potato cubes cook faster. The total preparation time includes boiling.",
+      "keywords": [
+        "potatoes",
+        "bread",
+        "tomato",
+        "onion",
+        "ground cumin",
+        "vegetable oil",
+        "salt and pepper",
+        "indian",
+        "breakfast"
+      ],
+      "image": "assets/images/masala-toast.jpg",
+      "imageAlt": "Toast topped with diced tomatoes and fresh herbs",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1607098665874-fd193397547b"
+    },
+    {
+      "id": "cucumber-raita",
+      "name": "Cooling cucumber raita",
+      "cuisine": "Indian",
+      "meal": "Snack",
+      "minutes": 10,
+      "servings": 2,
+      "tags": ["Vegetarian"],
+      "allergens": ["Milk"],
+      "contributorId": "maya",
+      "description": "Thick yogurt, cucumber, mint, and toasted cumin for a cooling side.",
+      "ingredients": [
+        {
+          "name": "Plain yogurt",
+          "quantity": 250,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 150,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Fresh mint",
+          "quantity": 5,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Ground cumin",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Grate the cucumber and gently squeeze out excess moisture.",
+        "Whisk the yogurt in a bowl until smooth.",
+        "Finely chop the mint. Fold mint, cucumber, and cumin into the yogurt.",
+        "Season to taste and serve chilled."
+      ],
+      "notes": "The photograph illustrates a yogurt-style dip rather than an exact finished raita.",
+      "keywords": [
+        "plain yogurt",
+        "cucumber",
+        "fresh mint",
+        "ground cumin",
+        "salt and pepper",
+        "indian",
+        "snack"
+      ],
+      "image": "assets/images/cucumber-raita.jpg",
+      "imageAlt": "A bowl of creamy hummus with chickpeas, herbs and oil",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1637949907734-d5583aa35b41"
+    },
+    {
+      "id": "black-bean-tacos",
+      "name": "Weeknight black bean tacos",
+      "cuisine": "Mexican",
+      "meal": "Dinner",
+      "minutes": 20,
+      "servings": 2,
+      "tags": ["Vegetarian", "Vegan", "Dairy-free"],
+      "allergens": [],
+      "contributorId": "luca",
+      "description": "Warm tortillas, smoky beans, and a fresh crunch. Weeknight happiness.",
+      "ingredients": [
+        {
+          "name": "Cooked black beans",
+          "quantity": 300,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Corn tortillas",
+          "quantity": 6,
+          "unit": "pieces",
+          "scalable": true
+        },
+        {
+          "name": "Tomatoes",
+          "quantity": 150,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Avocado",
+          "quantity": 1,
+          "unit": "piece",
+          "scalable": true
+        },
+        {
+          "name": "Lime juice",
+          "quantity": 20,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Ground cumin",
+          "quantity": 1,
+          "unit": "tsp",
+          "scalable": true
+        },
+        {
+          "name": "Vegetable oil",
+          "quantity": 10,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Rinse and drain the beans. Dice the tomatoes and slice the avocado.",
+        "Heat the oil in a pan. Add the cumin and beans with a splash of water; cook for 5 minutes and mash some beans lightly.",
+        "Warm the tortillas in a dry pan on both sides.",
+        "Fill the tortillas with beans, tomato, and avocado. Add lime juice and seasoning to taste."
+      ],
+      "notes": "Check tortilla labels for wheat or other allergens; the sample uses corn-only tortillas.",
+      "keywords": [
+        "cooked black beans",
+        "corn tortillas",
+        "tomatoes",
+        "avocado",
+        "lime juice",
+        "ground cumin",
+        "vegetable oil",
+        "salt and pepper",
+        "mexican",
+        "dinner"
+      ],
+      "image": "assets/images/black-bean-tacos.jpg",
+      "imageAlt": "Soft tacos with vegetables and fresh garnishes",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b"
+    },
+    {
+      "id": "corn-quinoa",
+      "name": "Roasted corn quinoa salad",
+      "cuisine": "Mexican",
+      "meal": "Lunch",
+      "minutes": 30,
+      "servings": 2,
+      "tags": ["Vegetarian", "Vegan", "Dairy-free"],
+      "allergens": [],
+      "contributorId": "luca",
+      "description": "Sweet corn, fluffy quinoa, and a punchy lime dressing.",
+      "ingredients": [
+        {
+          "name": "Dry quinoa",
+          "quantity": 120,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Sweetcorn",
+          "quantity": 180,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Cooked black beans",
+          "quantity": 150,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Tomato",
+          "quantity": 120,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Lime juice",
+          "quantity": 25,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 20,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Cook the quinoa according to its package instructions, then fluff with a fork.",
+        "Heat half the oil in a frying pan and cook the corn until lightly golden.",
+        "Dice the tomato and rinse the beans. Combine with quinoa and roasted corn.",
+        "Whisk lime juice with the remaining oil, pour over the salad, season to taste, and toss gently."
+      ],
+      "notes": "Serve warm or allow the quinoa to cool before combining for a cold salad.",
+      "keywords": [
+        "dry quinoa",
+        "sweetcorn",
+        "cooked black beans",
+        "tomato",
+        "lime juice",
+        "olive oil",
+        "salt and pepper",
+        "mexican",
+        "lunch"
+      ],
+      "image": "assets/images/corn-quinoa.jpg",
+      "imageAlt": "A colourful mixed vegetable salad",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
+    },
+    {
+      "id": "breakfast-quesadilla",
+      "name": "Spinach breakfast quesadilla",
+      "cuisine": "Mexican",
+      "meal": "Breakfast",
+      "minutes": 15,
+      "servings": 2,
+      "tags": ["Vegetarian"],
+      "allergens": ["Wheat", "Egg", "Milk"],
+      "contributorId": "luca",
+      "description": "A crisp tortilla filled with eggs, spinach, and a little melting cheese.",
+      "ingredients": [
+        {
+          "name": "Flour tortillas",
+          "quantity": 2,
+          "unit": "pieces",
+          "scalable": true
+        },
+        {
+          "name": "Eggs",
+          "quantity": 3,
+          "unit": "pieces",
+          "scalable": true
+        },
+        {
+          "name": "Spinach",
+          "quantity": 60,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Cheddar",
+          "quantity": 60,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Vegetable oil",
+          "quantity": 10,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Beat the eggs. Wash the spinach and grate the cheese.",
+        "Heat half the oil in a pan. Wilt the spinach, add the eggs, and gently scramble until cooked through. Transfer to a bowl.",
+        "Place a tortilla in the pan, add half the cheese and egg mixture to one side, and fold over. Cook until golden on both sides. Repeat with the other tortilla.",
+        "Cut into wedges, season to taste, and serve hot."
+      ],
+      "notes": "Cook on medium heat so the cheese melts before the tortilla browns too much.",
+      "keywords": [
+        "flour tortillas",
+        "eggs",
+        "spinach",
+        "cheddar",
+        "vegetable oil",
+        "salt and pepper",
+        "mexican",
+        "breakfast"
+      ],
+      "image": "assets/images/breakfast-quesadilla.jpg",
+      "imageAlt": "A savoury tortilla dish with colourful fillings",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1599974579688-8dbdd335c77f"
+    },
+    {
+      "id": "fajita-bowl",
+      "name": "Smoky vegetable fajita bowl",
+      "cuisine": "Mexican",
+      "meal": "Dinner",
+      "minutes": 30,
+      "servings": 2,
+      "tags": ["Vegetarian", "Vegan", "Dairy-free"],
+      "allergens": [],
+      "contributorId": "luca",
+      "description": "Colourful peppers, warm spices, and hearty beans over fluffy rice.",
+      "ingredients": [
+        {
+          "name": "Dry rice",
+          "quantity": 140,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Bell peppers",
+          "quantity": 250,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Onion",
+          "quantity": 100,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Cooked kidney beans",
+          "quantity": 250,
+          "unit": "g",
+          "scalable": true
+        },
+        {
+          "name": "Smoked paprika",
+          "quantity": 1.5,
+          "unit": "tsp",
+          "scalable": true
+        },
+        {
+          "name": "Lime juice",
+          "quantity": 20,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Vegetable oil",
+          "quantity": 15,
+          "unit": "ml",
+          "scalable": true
+        },
+        {
+          "name": "Salt and pepper",
+          "quantity": 0,
+          "unit": "",
+          "scalable": false,
+          "note": "To taste"
+        }
+      ],
+      "steps": [
+        "Cook the rice according to its package instructions. Slice the onion and peppers into thin strips.",
+        "Heat the oil in a wide pan. Fry the onion and peppers over medium-high heat until softened and lightly charred.",
+        "Add smoked paprika and drained beans. Stir for 3–4 minutes until heated through.",
+        "Spoon the vegetables and beans over the rice, add lime juice, and season to taste."
+      ],
+      "notes": "Keep the pan uncrowded so the peppers brown. Use two batches for larger serving counts.",
+      "keywords": [
+        "dry rice",
+        "bell peppers",
+        "onion",
+        "cooked kidney beans",
+        "smoked paprika",
+        "lime juice",
+        "vegetable oil",
+        "salt and pepper",
+        "mexican",
+        "dinner"
+      ],
+      "image": "assets/images/fajita-bowl.jpg",
+      "imageAlt": "A colourful bowl of fresh vegetables, chickpeas and greens",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
+    }
+  ],
+  "contributors": [
+    {
+      "id": "linh",
+      "name": "Linh Nguyen",
+      "firstName": "Linh",
+      "initials": "LN",
+      "colour": "#dfebd7",
+      "speciality": "Fresh flavours & everyday bowls",
+      "background": "A fictional home cook who finds inspiration in Vietnamese markets and Japanese comfort food.",
+      "bio": "Linh is a fictional contributor who loves the contrast of crisp vegetables, soft rice, and fragrant herbs. Her sample recipes bring approachable Vietnamese-inspired flavours and simple Japanese-style meals to a busy everyday kitchen.",
+      "interests": ["Fresh herbs", "Rice bowls", "Vegetable-forward lunches"]
+    },
+    {
+      "id": "maya",
+      "name": "Maya Kapoor",
+      "firstName": "Maya",
+      "initials": "MK",
+      "colour": "#f0dfc6",
+      "speciality": "Plant-forward comfort food",
+      "background": "A fictional recipe enthusiast with a love of warming spices and colourful Mediterranean tables.",
+      "bio": "Maya is a fictional contributor inspired by the comfort of lentils, the warmth of spices, and the freshness of a generous salad. Her sample dishes make vegetables and pantry staples the heart of the meal.",
+      "interests": ["Lentils and pulses", "Seasonal salads", "Gentle spices"]
+    },
+    {
+      "id": "luca",
+      "name": "Luca Romano",
+      "firstName": "Luca",
+      "initials": "LR",
+      "colour": "#ead7cb",
+      "speciality": "Simple pleasures & family favourites",
+      "background": "A fictional home cook exploring Italian classics and relaxed Mexican-inspired weeknight meals.",
+      "bio": "Luca is a fictional contributor who believes a few good ingredients can create a very happy table. His sample recipes range from lemony pasta to quick tacos, always with an emphasis on relaxed, approachable cooking.",
+      "interests": ["Pasta", "Quick breakfasts", "Sharing food"]
+    }
+  ],
+  "collections": [
+    {
+      "id": "quick",
+      "name": "Little time, big flavour.",
+      "description": "Bright, satisfying meals ready in 20 minutes or less.",
+      "recipeIds": ["tomato-toast", "caprese-salad", "miso-noodles", "black-bean-tacos"],
+      "image": "assets/images/lemon-pasta.jpg"
+    },
+    {
+      "id": "breakfast",
+      "name": "A brighter kind of morning.",
+      "description": "Simple breakfast ideas worth getting out of bed for.",
+      "recipeIds": ["avocado-eggs", "banana-coconut", "okonomiyaki", "breakfast-quesadilla"],
+      "image": "assets/images/avocado-eggs.jpg"
+    },
+    {
+      "id": "vegetarian",
+      "name": "Good things from the garden.",
+      "description": "Vegetable-forward favourites, full of colour and comfort.",
+      "recipeIds": ["rainbow-bowl", "chickpea-curry", "mushroom-risotto", "fajita-bowl"],
+      "image": "assets/images/rainbow-bowl.jpg"
+    },
+    {
+      "id": "regional",
+      "name": "A little taste of Vietnam.",
+      "description": "Fresh herbs, crisp textures, and comforting everyday bowls.",
+      "recipeIds": ["chicken-rice", "rice-paper-rolls", "banh-mi", "banana-coconut"],
+      "image": "assets/images/chicken-rice.jpg"
+    }
+  ]
+}

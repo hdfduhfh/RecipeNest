@@ -1,0 +1,29 @@
+<section class="wrap section" ng-if="profile.person">
+  <a class="text-link" href="#!/contributors">{{ 'text.95d6cd931ab0' | t }}</a>
+  <div class="profile-hero">
+    <div class="avatar large" ng-style="{'background-color':profile.person.colour}">
+      {{profile.person.initials}}
+    </div>
+    <div>
+      <span class="pill">{{ 'text.a4798471bf58' | t }}</span>
+      <h1>{{ (profile.person.name) | t }}</h1>
+      <p class="eyebrow">{{ (profile.person.speciality) | t }}</p>
+      <p class="lead">{{ (profile.person.bio) | t }}</p>
+      <p><b>{{ 'text.e091c2624bd1' | t }}</b> {{profile.person.interests | tList}}</p>
+    </div>
+  </div>
+  <div class="section-heading">
+    <h2>{{ 'text.64de7cbe22ba' | t:{name:profile.person.firstName} }}</h2>
+    <span>{{profile.recipes.length}} {{ 'text.b18171ba0281' | t }}</span>
+  </div>
+  <div class="recipe-grid">
+    <recipe-card
+      ng-repeat="recipe in profile.recipes track by recipe.id"
+      recipe="recipe"
+    ></recipe-card>
+  </div>
+</section>
+<section class="wrap empty-state" ng-if="!profile.person && !shell.loading">
+  <h1>{{ 'text.418cfcbff8f2' | t }}</h1>
+  <a class="button btn btn-primary" href="#!/contributors">{{ 'text.d41a664d2c23' | t }}</a>
+</section>

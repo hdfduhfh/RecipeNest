@@ -1,0 +1,116 @@
+<section class="wrap page-intro">
+  <p class="eyebrow">{{ 'text.3b1f0f65fb2c' | t }}</p>
+  <h1>{{ 'text.f0e9284d76a1' | t }}</h1>
+  <p>{{ 'text.021b6f4b7f71' | t }}</p>
+</section>
+<section class="wrap section-bottom">
+  <div class="planner-toolbar">
+    <p>
+      <strong>{{planner.count()}}</strong> {{ 'text.83ca43badcc1' | t }}
+      <span>{{ 'text.15d326670b39' | t }}</span>
+    </p>
+    <a class="text-link" href="#!/recipes">{{ 'text.0128982ef779' | t }}</a>
+  </div>
+  <p class="notice" role="status" ng-if="planner.notice">
+    {{ planner.notice | t:{slot:(planner.slotLabel | t)} }}
+  </p>
+  <div class="notice" ng-if="planner.count() === 0">
+    <b>{{ 'text.d42ec3530b19' | t }}</b> {{ 'text.0bc78107f297' | t }}
+  </div>
+  <div class="week-grid">
+    <article
+      class="day-card"
+      ng-repeat="day in planner.days track by $index"
+      ng-init="dayIndex = $index"
+    >
+      <h2><small>{{ 'text.a239f0a63108' | t }}{{$index + 1}}</small>{{ (day) | t }}</h2>
+      <div
+        class="meal-slot"
+        ng-repeat="meal in planner.meals"
+        ng-init="slotKey = dayIndex + '-' + meal"
+      >
+        <h3>{{ (meal) | t }}</h3>
+        <div ng-if="planner.saved.plan[slotKey]">
+          <a class="planned-name" ng-href="#!/recipe/{{planner.saved.plan[slotKey].recipeId}}"
+            >{{ (planner.lookup(planner.saved.plan[slotKey].recipeId).name) | t }}</a
+          >
+          <p class="tiny">{{planner.saved.plan[slotKey].servings}} {{ 'text.f722126a80ea' | t }}</p>
+          <div class="slot-actions">
+            <button
+              ng-click="planner.edit(dayIndex, meal, $event)"
+              aria-label="{{ 'text.64fbd995d3b6' | t }} {{ (day) | t }} {{ (meal) | t }}"
+            >
+              {{ 'text.64fbd995d3b6' | t }}</button
+            ><button
+              ng-click="planner.remove(slotKey)"
+              aria-label="{{ 'text.e963907dac5c' | t }} {{ (day) | t }} {{ (meal) | t }}"
+            >
+              {{ 'text.e963907dac5c' | t }}
+            </button>
+          </div>
+        </div>
+        <button
+          class="add-slot"
+          ng-if="!planner.saved.plan[slotKey]"
+          ng-click="planner.edit(dayIndex, meal, $event)"
+          aria-label="{{ 'text.61cc55aa0453' | t }} {{ (day) | t }} {{ (meal) | t }}"
+        >
+          <span>+</span> {{ 'text.97c947106c54' | t }}
+        </button>
+      </div>
+    </article>
+  </div>
+  <p class="tiny muted">{{ 'text.e8508ff1e343' | t }}</p>
+</section>
+<div class="modal-backdrop" ng-if="planner.editing" modal-keys="planner.close()">
+  <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="planner-title">
+    <button
+      class="modal-close"
+      aria-label="{{ 'text.d52bd26315f5' | t }}"
+      ng-click="planner.close()"
+    >
+      ×
+    </button>
+    <p class="eyebrow">{{ 'text.556b703204a4' | t }}</p>
+    <h2 id="planner-title">{{ (planner.slotLabel) | t }}</h2>
+    <form name="planForm" ng-submit="planner.save(planForm)" novalidate>
+      <label for="plan-recipe">{{ 'text.1dcda804c96d' | t }}</label
+      ><select class="form-select" id="plan-recipe" name="recipe" ng-model="planner.draft.recipeId" required>
+        <option value="">{{ 'text.d1abdd2273c2' | t }}</option>
+        <option ng-repeat="recipe in shell.data.recipes | orderBy:'name'" value="{{recipe.id}}">
+          {{ (recipe.name) | t }} · {{recipe.minutes}} {{ 'text.b6c935d4f3c7' | t }}
+        </option>
+      </select>
+      <p
+        class="field-error"
+        ng-if="(planForm.$submitted || planForm.recipe.$touched) && planForm.recipe.$invalid"
+      >
+        {{ 'text.2a1bd035da4a' | t }}
+      </p>
+      <label for="plan-servings">{{ 'text.772a7248d271' | t }}</label
+      ><input class="form-control"
+        id="plan-servings"
+        name="servings"
+        ng-model="planner.draft.servings"
+        type="number"
+        min="1"
+        max="20"
+        step="1"
+        required
+      />
+      <p
+        class="field-error"
+        ng-if="(planForm.$submitted || planForm.servings.$touched) && planForm.servings.$invalid"
+      >
+        {{ 'text.3d5f3560ada5' | t }}
+      </p>
+      <p class="field-error" role="alert" ng-if="planner.error">{{ (planner.error) | t }}</p>
+      <div class="actions">
+        <button class="button btn btn-primary" type="submit">{{ 'text.88531207635a' | t }}</button
+        ><button class="button btn secondary btn-outline-primary" type="button" ng-click="planner.close()">
+          {{ 'text.77dfd2135f4d' | t }}
+        </button>
+      </div>
+    </form>
+  </section>
+</div>

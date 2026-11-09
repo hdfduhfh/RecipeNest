@@ -1,0 +1,888 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RecipeNest Project Report</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: #f4f2ec;
+        color: #26392b;
+        font:
+          15px/1.8 'Segoe UI',
+          Arial,
+          sans-serif;
+      }
+      main {
+        max-width: 1080px;
+        padding: 65px 60px;
+        background: white;
+        margin: 35px auto;
+      }
+      h1,
+      h2,
+      h3 {
+        line-height: 1.2;
+      }
+      h1 {
+        font:
+          46px/1.15 Georgia,
+          serif;
+        margin: 10px 0 20px;
+      }
+      h2 {
+        font:
+          30px/1.25 Georgia,
+          serif;
+        margin: 46px 0 20px;
+      }
+      h3 {
+        font-size: 18px;
+        margin-top: 28px;
+      }
+      p {
+        margin: 0 0 18px;
+      }
+      .kicker {
+        font-size: 11px;
+        letter-spacing: 2px;
+        color: #a3442c;
+        font-weight: bold;
+      }
+      .lead {
+        font-size: 19px;
+        color: #5a6b5c;
+      }
+      nav {
+        padding: 20px;
+        background: #edf1e6;
+        margin: 30px 0;
+      }
+      nav a {
+        display: inline-block;
+        margin: 5px 17px 5px 0;
+        color: #52623e;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 12px;
+        margin: 20px 0;
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 12px 11px;
+        border: 1px solid #d5ddce;
+        vertical-align: top;
+        overflow-wrap: anywhere;
+      }
+      th {
+        background: #e6ecdf;
+        font-weight: 600;
+      }
+      tr:nth-child(even) {
+        background: #fafbf7;
+      }
+      pre {
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
+        background: #f2f4ec;
+        padding: 22px;
+        font:
+          12px/1.85 Consolas,
+          monospace;
+        border-radius: 5px;
+      }
+      code {
+        font-family: Consolas, monospace;
+        font-size: 0.9em;
+      }
+      .note {
+        padding: 20px 24px;
+        background: #f7eddf;
+        border-left: 4px solid #b7472c;
+        margin: 25px 0;
+      }
+      figure {
+        margin: 25px 0;
+      }
+      figure img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #d8ddce;
+      }
+      figcaption {
+        font-size: 12px;
+        color: #5e6a57;
+        margin: 10px 0;
+      }
+      .screens {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        align-items: start;
+      }
+      .screens figure {
+        margin: 0;
+      }
+      .screens .mobile img {
+        max-height: 700px;
+        object-fit: contain;
+        object-position: top;
+        width: 100%;
+      }
+      .flow {
+        max-width: 620px;
+        margin: 25px auto;
+      }
+      .flow svg {
+        width: 100%;
+        height: auto;
+      }
+      .flow figcaption {
+        text-align: center;
+        font-weight: 600;
+      }
+      a {
+        color: #a3442c;
+      }
+      .table-scroll {
+        overflow: auto;
+      }
+      .badge {
+        display: inline-block;
+        padding: 7px 13px;
+        background: #e6ecdf;
+        margin: 5px 10px 5px 0;
+        border-radius: 4px;
+        font-size: 12px;
+      }
+      @media (max-width: 700px) {
+        main {
+          margin: 0;
+          padding: 30px 20px;
+        }
+        h1 {
+          font-size: 36px;
+        }
+        .screens {
+          grid-template-columns: 1fr;
+        }
+        th,
+        td {
+          padding: 8px;
+          font-size: 10px;
+        }
+      }
+      @media print {
+        body {
+          background: white;
+        }
+        main {
+          padding: 0;
+          margin: 0;
+          max-width: none;
+        }
+        nav {
+          display: none;
+        }
+        h2,
+        h3 {
+          break-after: avoid;
+        }
+        figure,
+        tr,
+        pre {
+          break-inside: avoid;
+        }
+        .screens .mobile img {
+          max-height: 230mm;
+        }
+        figure img {
+          max-height: 230mm;
+          width: 100%;
+          object-fit: contain;
+        }
+        a {
+          color: inherit;
+        }
+      }
+      @page {
+        size: A4;
+        margin: 18mm;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="kicker">ANGULARJS WEBSITE DEVELOPMENT · 31 OCTOBER 2026</p>
+      <h1>RecipeNest Project Report</h1>
+      <p class="lead">A website for discovering recipes and planning meals</p>
+      <p>
+        This report explains the implementation of the Problem Statement and Functional Requirement Specification in the RecipeNest brief, including the source code structure, algorithms, assumptions, and recorded test results. The application runs entirely in the browser, with a local static server serving the project files.
+      </p>
+      <span class="badge">24 recipes</span><span class="badge">6 cuisines</span
+      ><span class="badge">33 automated tests passed</span
+      ><span class="badge">360 / 768 / 1280 px</span>
+      <nav>
+        <a href="#problem">Problem definition</a><a href="#design">Design</a
+        ><a href="#requirements">Requirement mapping</a><a href="#algorithms">Algorithms</a
+        ><a href="#tests">Testing</a><a href="#screens">Screenshots</a
+        ><a href="#startup">Getting started</a>
+      </nav>
+      <h2 id="problem">1 Problem definition</h2>
+      <p>
+        Home cooks often search for recipes across multiple sources and find it difficult to keep track of favourite dishes, adjust ingredient quantities, and organise meals. RecipeNest brings these activities together in one recipe portal: discover dishes, read recipe details, choose serving counts, save favourites, and add meals to a seven-day plan.
+      </p>
+      <p>
+        The target users are home cooks. The dataset contains 24 sample recipes, 3 fictional contributors, and 4 collections. The website does not include sign-in, a backend database, email delivery, transactions, or online service integrations.
+      </p>
+      <h2 id="design">2 Design specifications</h2>
+      <h3>Visual and responsive design</h3>
+      <p>
+        The visual design uses cream, terracotta, and green, with serif headings, sans-serif body text, food image cards, and generous spacing. Desktop layouts use multiple columns, tablets use fewer columns, and mobile layouts stack content vertically with a collapsible navigation menu. The planner displays days side by side on desktop and as stacked cards on mobile.
+      </p>
+      <h3>Site navigation</h3>
+      <pre>
+Home → Recipes → Recipe detail → Calculator / Favourite / Planner
+Home → Collections → Recipe detail
+Footer → Contributors → Contributor detail → Associated recipes
+Footer → Gallery → Preview / Recipe detail
+Header → Favourites / Planner / About
+Footer → Contact</pre
+      >
+      <h3>AngularJS architecture</h3>
+      <table>
+        <tr>
+          <th>Layer</th>
+          <th>Responsibility</th>
+        </tr>
+        <tr>
+          <td>Module recipeNest</td>
+          <td>Depends on ngRoute; routes use hashbang #! for refreshable static deep links.</td>
+        </tr>
+        <tr>
+          <td>Catalogue service</td>
+          <td>
+            Loads data/recipes.json, finds recipes by stable ID, keeps filters during detail
+            navigation.
+          </td>
+        </tr>
+        <tr>
+          <td>SavedData service</td>
+          <td>
+            Shares favourites and plan across views, validates loaded data, handles persistence and
+            warnings.
+          </td>
+        </tr>
+        <tr>
+          <td>BrowserStorage adapter</td>
+          <td>Delegates getItem/setItem to Local Storage; injectable for failure tests.</td>
+        </tr>
+        <tr>
+          <td>Controllers</td>
+          <td>
+            Shell, Home, Catalogue, Detail, Favourites, Collections, Profile, Planner, Gallery,
+            Contact.
+          </td>
+        </tr>
+        <tr>
+          <td>Directives</td>
+          <td>
+            recipeCard reuses card template; modalKeys handles Escape, focus trap, gallery arrows.
+          </td>
+        </tr>
+        <tr>
+          <td>Pure logic</td>
+          <td>
+            Named functions with parameters and return values for validation, scaling, searching,
+            cleaning and totals.
+          </td>
+        </tr>
+      </table>
+      <h3>Data model</h3>
+      <pre>
+Recipe { id, name, cuisine, meal, minutes, servings, tags[], allergens[],
+  contributorId, description, ingredients[], steps[], notes, keywords[],
+  image, imageAlt, imageCredit, imageSource }
+Ingredient { name, quantity, unit, scalable, note? }
+Contributor { id, name, firstName, initials, colour, speciality,
+  background, bio, interests[] }
+Collection { id, name, description, recipeIds[], image }
+Favourites = unique array of valid Recipe IDs
+Plan = { "0-Breakfast": {recipeId, servings}, ... "6-Dinner": ... }</pre
+      >
+      <h3>Assumptions and boundaries</h3>
+      <p>
+        Serving counts must be whole numbers from 1 to 20. Calculating new quantities does not change the original recipe. Units are preserved and quantities are rounded to two decimal places; ingredients added to taste are not scaled. Countable ingredients may produce fractional quantities, which represent mathematical estimates. The total cooking time is an estimate for the dish and is not automatically multiplied by the serving count.
+      </p>
+      <p>
+        The planner contains 21 slots in a sample Monday–Sunday week. Each slot holds one recipe ID and a serving count. Removing a favourite does not remove its planned meals. Local Storage stores only recipe IDs and serving counts; contact messages are not stored. Sample data does not guarantee dietary suitability, and illustrative images may not show the exact dish.
+      </p>
+      <h2 id="requirements">3 Functional requirement mapping</h2>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Requirement</th>
+              <th>Implemented behaviour</th>
+              <th>Location</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>01</td>
+              <td>Home</td>
+              <td>Brand identity, search, featured recipes, collections, and an introduction to the planning tools</td>
+              <td>home.html</td>
+            </tr>
+            <tr>
+              <td>02</td>
+              <td>Catalogue</td>
+              <td>24 records, ng-repeat, responsive cards, and stable IDs</td>
+              <td>catalogue.html, card.html, recipes.json</td>
+            </tr>
+            <tr>
+              <td>03</td>
+              <td>Search filtering sorting</td>
+              <td>
+                Case-insensitive keyword search, four filters combined with AND, A–Z/Z–A sorting, result count, clear action, no-results state, and retained filters
+              </td>
+              <td>CatalogueController, RecipeLogic.filterRecipes</td>
+            </tr>
+            <tr>
+              <td>04</td>
+              <td>Recipe details</td>
+              <td>
+                Metadata, ingredients, cooking steps, notes, sample tags/allergens, related recipes, favourites, and planner integration
+              </td>
+              <td>detail.html, DetailController</td>
+            </tr>
+            <tr>
+              <td>05</td>
+              <td>Contributors</td>
+              <td>Three fictional profiles with background information, interests, biographies, and ID-based recipe links</td>
+              <td>contributors.html, profile.html</td>
+            </tr>
+            <tr>
+              <td>06</td>
+              <td>Gallery</td>
+              <td>Images, alternative text, captions, credits, previews, previous/next controls, keyboard navigation, and focus management</td>
+              <td>gallery.html, GalleryController, modalKeys</td>
+            </tr>
+            <tr>
+              <td>07</td>
+              <td>Calculator</td>
+              <td>Whole-number input from 1 to 20, proportional scaling, non-scalable ingredients, rounding, and preservation of the original data</td>
+              <td>RecipeLogic.scaleIngredients, detail.html</td>
+            </tr>
+            <tr>
+              <td>08</td>
+              <td>Collections</td>
+              <td>Four collections with data binding and links to recipe details</td>
+              <td>collections.html, recipes.json</td>
+            </tr>
+            <tr>
+              <td>09</td>
+              <td>Favourites</td>
+              <td>Unique IDs, Local Storage, restoration, removal, empty states, and warnings</td>
+              <td>SavedData, favourites.html</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>About</td>
+              <td>Purpose, workflow, assumptions, sample content, and credits</td>
+              <td>about.html</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>Contact</td>
+              <td>
+                Required name, email, and message fields; email format validation; field-level errors; local demo confirmation; and reset
+              </td>
+              <td>contact.html, ContactController</td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>Navigation</td>
+              <td>Header/footer, active section, back link, menu mobile, focus, hash deep links</td>
+              <td>index.html, route config, styles.css</td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>Planner</td>
+              <td>Seven days × three meals, add/change/remove actions, serving counts, meal counting through iteration, and restoration</td>
+              <td>planner.html, PlannerController, SavedData</td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>Programming logic</td>
+              <td>
+                Module/controllers/services/directives, arrays/objects/functions, pseudocode,
+                flowcharts, tests
+              </td>
+              <td>js/, tests/, and this report</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h2 id="algorithms">4 Pseudocode and flowcharts</h2>
+      <p>
+        Selection statements check conditions; iteration traverses recipes, ingredients, and meal slots; arrays hold lists; and objects represent records. Functions do not modify the original dataset. User input is displayed as text through AngularJS interpolation.
+      </p>
+      <h3>Serving quantity calculator</h3>
+      <pre>
+FUNCTION validServings(n)
+  RETURN n is NUMBER AND integer AND 1 &lt;= n &lt;= 20
+
+FUNCTION scaleIngredients(recipe, requested)
+  IF NOT validServings(requested) THEN return validation error
+  result = empty ARRAY
+  FOR EACH ingredient IN recipe.ingredients
+    copy = new OBJECT copied from ingredient
+    IF ingredient.scalable != FALSE
+      copy.quantity = ROUND(ingredient.quantity * requested / recipe.servings, 2)
+    ELSE keep original quantity and non-scalable note
+    APPEND copy TO result
+  RETURN result
+  // Original recipe and its ingredient objects are not modified.</pre
+      >
+      <figure class="flow">
+        <figcaption>Calculator flowchart</figcaption>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label="Calculator flowchart"
+          viewBox="0 0 600 440"
+        >
+          <rect x="40" y="10" width="520" height="56" rx="8" fill="#e8eddf" stroke="#acb79d" />
+          <text x="300" y="34" text-anchor="middle" font-size="13" fill="#29382e">
+            Start with recipe and requested servings
+          </text>
+          <path d="M300 67 v19 m-5-5 5 5 5-5" fill="none" stroke="#b7472c" stroke-width="2" />
+          <rect x="40" y="92" width="520" height="56" rx="8" fill="#f6eee4" stroke="#acb79d" />
+          <text x="300" y="116" text-anchor="middle" font-size="13" fill="#29382e">
+            Whole number 1 to 20?
+          </text>
+          <text x="300" y="133" text-anchor="middle" font-size="13" fill="#29382e">
+            No: show error and stop; Yes: continue
+          </text>
+          <path d="M300 149 v19 m-5-5 5 5 5-5" fill="none" stroke="#b7472c" stroke-width="2" />
+          <rect x="40" y="174" width="520" height="56" rx="8" fill="#e8eddf" stroke="#acb79d" />
+          <text x="300" y="198" text-anchor="middle" font-size="13" fill="#29382e">
+            Loop ingredients: scalable?
+          </text>
+          <text x="300" y="215" text-anchor="middle" font-size="13" fill="#29382e">
+            Yes: calculate ratio; No: preserve note
+          </text>
+          <path d="M300 231 v19 m-5-5 5 5 5-5" fill="none" stroke="#b7472c" stroke-width="2" />
+          <rect x="40" y="256" width="520" height="56" rx="8" fill="#f6eee4" stroke="#acb79d" />
+          <text x="300" y="280" text-anchor="middle" font-size="13" fill="#29382e">
+            Round to 2 decimals and retain unit
+          </text>
+          <path d="M300 313 v19 m-5-5 5 5 5-5" fill="none" stroke="#b7472c" stroke-width="2" />
+          <rect x="40" y="338" width="520" height="56" rx="8" fill="#e8eddf" stroke="#acb79d" />
+          <text x="300" y="362" text-anchor="middle" font-size="13" fill="#29382e">
+            Return new ingredient array; display results
+          </text>
+        </svg>
+      </figure>
+      <h3>Search filtering and sorting</h3>
+      <pre>
+FUNCTION filterRecipes(recipes, filters)
+  query = LOWERCASE(TRIM(filters.query))
+  matches = empty ARRAY
+  FOR EACH recipe IN recipes
+    keywordMatch = query appears in LOWERCASE(name + description + keywords)
+    IF keywordMatch AND cuisineMatch AND mealMatch AND timeMatch AND dietMatch
+      APPEND recipe TO matches
+  SORT a copied matches array by A-Z, Z-A, or total minutes
+  RETURN matches
+  // An empty filter matches all values. Time uses &lt;=. No matches yields [].</pre
+      >
+      <figure class="flow">
+        <figcaption>Search and filtering flowchart</figcaption>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label="Search and filtering flowchart"
+          viewBox="0 0 600 440"
+        >
+          <rect x="40" y="10" width="520" height="56" rx="8" fill="#e8eddf" stroke="#acb79d" />
+          <text x="300" y="34" text-anchor="middle" font-size="13" fill="#29382e">
+            Read keyword and active filters
+          </text>
+          <path d="M300 67 v19 m-5-5 5 5 5-5" fill="none" stroke="#b7472c" stroke-width="2" />
+          <rect x="40" y="92" width="520" height="56" rx="8" fill="#f6eee4" stroke="#acb79d" />
+          <text x="300" y="116" text-anchor="middle" font-size="13" fill="#29382e">
+            Trim and lowercase query; loop all recipes
+          </text>
+          <path d="M300 149 v19 m-5-5 5 5 5-5" fill="none" stroke="#b7472c" stroke-width="2" />
+          <rect x="40" y="174" width="520" height="56" rx="8" fill="#e8eddf" stroke="#acb79d" />
+          <text x="300" y="198" text-anchor="middle" font-size="13" fill="#29382e">
+            All active conditions match?
+          </text>
+          <text x="300" y="215" text-anchor="middle" font-size="13" fill="#29382e">
+            Yes: append to results; No: skip
+          </text>
+          <path d="M300 231 v19 m-5-5 5 5 5-5" fill="none" stroke="#b7472c" stroke-width="2" />
+          <rect x="40" y="256" width="520" height="56" rx="8" fill="#f6eee4" stroke="#acb79d" />
+          <text x="300" y="280" text-anchor="middle" font-size="13" fill="#29382e">
+            Sort results and count records
+          </text>
+          <path d="M300 313 v19 m-5-5 5 5 5-5" fill="none" stroke="#b7472c" stroke-width="2" />
+          <rect x="40" y="338" width="520" height="56" rx="8" fill="#e8eddf" stroke="#acb79d" />
+          <text x="300" y="362" text-anchor="middle" font-size="13" fill="#29382e">
+            Empty? Show no-match state
+          </text>
+          <text x="300" y="379" text-anchor="middle" font-size="13" fill="#29382e">
+            Otherwise render recipe cards
+          </text>
+        </svg>
+      </figure>
+      <h3>Contact form validation</h3>
+      <pre>
+ON CONTACT SUBMIT
+  mark form submitted
+  IF name blank OR email blank/invalid OR message blank
+    show errors for invalid fields
+    do not confirm
+  ELSE show a local demonstration confirmation
+  // Do not send or save contact details.
+
+ON RESET
+  clear fields and confirmation
+  set form pristine and untouched</pre
+      >
+      <figure class="flow">
+        <figcaption>Contact validation flowchart</figcaption>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label="Contact validation flowchart"
+          viewBox="0 0 600 358"
+        >
+          <rect x="40" y="10" width="520" height="56" rx="8" fill="#e8eddf" stroke="#acb79d" />
+          <text x="300" y="34" text-anchor="middle" font-size="13" fill="#29382e">
+            User submits contact form
+          </text>
+          <path d="M300 67 v19 m-5-5 5 5 5-5" fill="none" stroke="#b7472c" stroke-width="2" />
+          <rect x="40" y="92" width="520" height="56" rx="8" fill="#f6eee4" stroke="#acb79d" />
+          <text x="300" y="116" text-anchor="middle" font-size="13" fill="#29382e">
+            Required fields complete and email valid?
+          </text>
+          <path d="M300 149 v19 m-5-5 5 5 5-5" fill="none" stroke="#b7472c" stroke-width="2" />
+          <rect x="40" y="174" width="520" height="56" rx="8" fill="#e8eddf" stroke="#acb79d" />
+          <text x="300" y="198" text-anchor="middle" font-size="13" fill="#29382e">
+            No: show field-level errors
+          </text>
+          <text x="300" y="215" text-anchor="middle" font-size="13" fill="#29382e">
+            Yes: show demo confirmation
+          </text>
+          <path d="M300 231 v19 m-5-5 5 5 5-5" fill="none" stroke="#b7472c" stroke-width="2" />
+          <rect x="40" y="256" width="520" height="56" rx="8" fill="#f6eee4" stroke="#acb79d" />
+          <text x="300" y="280" text-anchor="middle" font-size="13" fill="#29382e">
+            Reset clears input and form state
+          </text>
+          <text x="300" y="297" text-anchor="middle" font-size="13" fill="#29382e">
+            No email sent and no data stored
+          </text>
+        </svg>
+      </figure>
+      <h3>Personal planner and persistence</h3>
+      <pre>
+ON STARTUP
+  TRY parse Local Storage JSON; CATCH -&gt; warn, use defaults
+  remove duplicate/unknown favourite IDs
+  FOR EACH stored meal slot
+    IF slot is valid AND recipe exists AND servings is integer 1..20
+      retain a new {recipeId, servings} record
+
+ON SAVE SLOT(key, recipeId, servings)
+  IF invalid slot/recipe/servings THEN report error, keep existing plan
+  ELSE plan[key] = {recipeId, servings}
+  TRY save JSON; CATCH -&gt; show memory-only warning
+
+ON REMOVE SLOT(key)
+  delete plan[key]; attempt save
+
+FUNCTION countMeals(plan)
+  total = 0
+  FOR EACH own key IN plan: total = total + 1
+  RETURN total</pre
+      >
+      <figure class="flow">
+        <figcaption>Planner flowchart</figcaption>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label="Planner flowchart"
+          viewBox="0 0 600 440"
+        >
+          <rect x="40" y="10" width="520" height="56" rx="8" fill="#e8eddf" stroke="#acb79d" />
+          <text x="300" y="34" text-anchor="middle" font-size="13" fill="#29382e">
+            Read JSON; catch errors and validate saved records
+          </text>
+          <path d="M300 67 v19 m-5-5 5 5 5-5" fill="none" stroke="#b7472c" stroke-width="2" />
+          <rect x="40" y="92" width="520" height="56" rx="8" fill="#f6eee4" stroke="#acb79d" />
+          <text x="300" y="116" text-anchor="middle" font-size="13" fill="#29382e">
+            User selects add, change or remove
+          </text>
+          <path d="M300 149 v19 m-5-5 5 5 5-5" fill="none" stroke="#b7472c" stroke-width="2" />
+          <rect x="40" y="174" width="520" height="56" rx="8" fill="#e8eddf" stroke="#acb79d" />
+          <text x="300" y="198" text-anchor="middle" font-size="13" fill="#29382e">
+            Slot, ID and servings valid?
+          </text>
+          <text x="300" y="215" text-anchor="middle" font-size="13" fill="#29382e">
+            No: show error; Yes: replace one slot
+          </text>
+          <path d="M300 231 v19 m-5-5 5 5 5-5" fill="none" stroke="#b7472c" stroke-width="2" />
+          <rect x="40" y="256" width="520" height="56" rx="8" fill="#f6eee4" stroke="#acb79d" />
+          <text x="300" y="280" text-anchor="middle" font-size="13" fill="#29382e">
+            Attempt persistence
+          </text>
+          <text x="300" y="297" text-anchor="middle" font-size="13" fill="#29382e">
+            Write fails: warn, keep memory state
+          </text>
+          <path d="M300 313 v19 m-5-5 5 5 5-5" fill="none" stroke="#b7472c" stroke-width="2" />
+          <rect x="40" y="338" width="520" height="56" rx="8" fill="#e8eddf" stroke="#acb79d" />
+          <text x="300" y="362" text-anchor="middle" font-size="13" fill="#29382e">
+            Loop valid slots; display planned meal count
+          </text>
+        </svg>
+      </figure>
+      <h2 id="tests">5 Test cases and actual results</h2>
+      <p>
+        Test date: 31 October 2026. Runtime: Node.js 24.19.0; AngularJS/route 1.8.2. The in-app browser reported Chrome/156.0.0.0 on Windows NT 10.0. Running  <code>npm test</code>  passed all 33 tests. Service tests use mock storage to exercise error paths without changing browser security settings.
+      </p>
+      <div class="table-scroll">
+        <table>
+          <tr>
+            <th>Test</th>
+            <th>Input</th>
+            <th>Expected</th>
+            <th>Actual</th>
+          </tr>
+          <tr>
+            <td>Calculator: 1 serving</td>
+            <td>180 g / 2 × 1</td>
+            <td>90 g</td>
+            <td>Passed: UI + unit tests</td>
+          </tr>
+          <tr>
+            <td>Calculator: 6 servings</td>
+            <td>180 g / 2 × 6</td>
+            <td>540 g</td>
+            <td>Passed: UI + unit tests</td>
+          </tr>
+          <tr>
+            <td>Calculator: 20 servings</td>
+            <td>180 g / 2 × 20</td>
+            <td>1800 g</td>
+            <td>Passed: UI + unit tests</td>
+          </tr>
+          <tr>
+            <td>Calculator invalid</td>
+            <td>0, 21, 1.5, blank</td>
+            <td>Show an error and hide the calculated quantities</td>
+            <td>Passed: UI + unit tests</td>
+          </tr>
+          <tr>
+            <td>Rounding</td>
+            <td>1 tsp / 3 × 2</td>
+            <td>0.67 tsp</td>
+            <td>Passed: unit tests</td>
+          </tr>
+          <tr>
+            <td>Non-scalable</td>
+            <td>Salt to taste, 20 servings</td>
+            <td>Preserve the To taste note</td>
+            <td>Passed: UI + unit tests</td>
+          </tr>
+          <tr>
+            <td>Combined filters</td>
+            <td>basil + Italian + Breakfast + 15 min + Vegan</td>
+            <td>1 bruschetta</td>
+            <td>Passed: UI + unit tests</td>
+          </tr>
+          <tr>
+            <td>No results</td>
+            <td>nothing-xyz-999</td>
+            <td>Empty message + clear action</td>
+            <td>Passed: UI checks</td>
+          </tr>
+          <tr>
+            <td>Filter persistence</td>
+            <td>Open recipe details, then go back</td>
+            <td>Retain all filters</td>
+            <td>Passed: UI checks</td>
+          </tr>
+          <tr>
+            <td>Favourites persistence</td>
+            <td>Save, then reload</td>
+            <td>Restore one recipe ID</td>
+            <td>Passed: UI + service tests</td>
+          </tr>
+          <tr>
+            <td>Duplicate / unknown ID</td>
+            <td>Duplicate ID + unknown ID</td>
+            <td>Retain only unique valid IDs</td>
+            <td>Passed: unit + service tests</td>
+          </tr>
+          <tr>
+            <td>Planner persistence</td>
+            <td>Save two slots, then reload</td>
+            <td>Restore two meals with the correct serving counts</td>
+            <td>Passed: UI + service tests</td>
+          </tr>
+          <tr>
+            <td>Planner edit / remove</td>
+            <td>Change servings from 3 to 1; remove the second meal</td>
+            <td>One meal, one serving</td>
+            <td>Passed: UI + service tests</td>
+          </tr>
+          <tr>
+            <td>Unsave planned recipe</td>
+            <td>Remove a planned recipe from favourites</td>
+            <td>Keep the planned meal; favourites become empty</td>
+            <td>Passed: UI + unit tests</td>
+          </tr>
+          <tr>
+            <td>Malformed JSON / storage denied</td>
+            <td>Malformed JSON / mocked getItem and setItem throw errors</td>
+            <td>Show a warning and use in-memory state</td>
+            <td>Passed: service tests</td>
+          </tr>
+          <tr>
+            <td>Contact invalid / valid</td>
+            <td>Blank fields, bad-email, then valid input</td>
+            <td>Field-level errors, then local demo confirmation</td>
+            <td>Passed: UI checks</td>
+          </tr>
+          <tr>
+            <td>Contact reset</td>
+            <td>Reset after successful validation</td>
+            <td>Clear the fields and reset the form state</td>
+            <td>Passed: UI checks</td>
+          </tr>
+          <tr>
+            <td>Gallery keyboard</td>
+            <td>Next, ArrowRight, Escape</td>
+            <td>Switch images, close the preview, and restore focus</td>
+            <td>Passed: UI checks</td>
+          </tr>
+          <tr>
+            <td>Responsive</td>
+            <td>11 routes × 360/768/1280 px</td>
+            <td>No horizontal overflow or broken images</td>
+            <td>Passed: DOM measurements</td>
+          </tr>
+          <tr>
+            <td>Second desktop browser</td>
+            <td>Complete UI test suite</td>
+            <td>Record the browser version and results</td>
+            <td>Not yet performed</td>
+          </tr>
+          <tr>
+            <td>Video demonstration</td>
+            <td>Follow the 5–7-minute demo script</td>
+            <td>A video demonstrating the features</td>
+            <td>Not yet recorded; script provided</td>
+          </tr>
+        </table>
+      </div>
+      <p>
+        All 11 routes were measured at widths of 360, 768, and 1280 px, with no horizontal overflow. Content widths were 345, 753, and 1265 px respectively because of the vertical scrollbar. Individual measurement results are available in 
+        <a href="viewport-checks.json">viewport-checks.json</a>; the full description is provided in 
+        <a href="TEST-RESULTS.md">TEST-RESULTS.md</a>.
+      </p>
+      <div class="note">
+        <b>Verification still required for submission</b>
+        <p>
+          Full testing has not yet been completed in a second independent desktop browser, on a physical mobile device, or with a screen reader. The demo video has not yet been recorded. These items are not marked as passed. Testing guidance and a recording script are included in the ZIP package.
+        </p>
+      </div>
+      <h2 id="screens">6 Application screenshots</h2>
+      <p>
+        These screenshots were captured from the application running through HTTP. The meal-plan entries shown are test data from the verification session, rather than default data supplied to users.
+      </p>
+      <figure>
+        <img src="home-desktop.png" alt="RecipeNest homepage at desktop width" />
+        <figcaption>
+          Home page at 1280 px; local food assets, featured cards, collections and planner
+          introduction.
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="catalogue-filters.png" alt="Combined catalogue filters returning one recipe" />
+        <figcaption>Search and all four filters return one matching bruschetta recipe.</figcaption>
+      </figure>
+      <figure>
+        <img src="detail-calculator.png" alt="Recipe details and serving calculator" />
+        <figcaption>
+          Recipe details with six-serving ingredient quantities, base data, notes and related
+          recipes.
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="planner-desktop.png" alt="Meal planner with two meals" />
+        <figcaption>Desktop planner after saving two meals and reloading.</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="contact-validation.png"
+          alt="Contact form with a local demonstration confirmation"
+        />
+        <figcaption>
+          Valid input produces an explicit demonstration confirmation with no delivery.
+        </figcaption>
+      </figure>
+      <div class="screens">
+        <figure class="mobile">
+          <img src="home-mobile.png" alt="Home page on a mobile viewport" />
+          <figcaption>Mobile home at 360 px.</figcaption>
+        </figure>
+        <figure class="mobile">
+          <img src="planner-mobile.png" alt="Meal planner on a mobile viewport" />
+          <figcaption>Mobile planner at 360 px, days stacked vertically.</figcaption>
+        </figure>
+      </div>
+      <h2 id="startup">7 Prerequisites and startup</h2>
+      <p>
+        Extract the entire ZIP package. You need Node.js 18+ or Python 3, a modern browser, and an editor if you want to modify the code. The extracted version does not require npm install or an Internet connection to run. Double-click START-WINDOWS.bat, or run one of the commands below from the RecipeNest root folder.
+      </p>
+      <pre>
+node server.js
+# Or
+python -m http.server 4175 --bind 127.0.0.1
+
+# Open http://127.0.0.1:4175
+# Test with Node
+npm test</pre
+      >
+      <p>
+        Do not open the site through file:// because AngularJS loads templates and JSON over HTTP. Hashbang routing allows recipe detail links to be refreshed on a static server. If necessary, change the Node server port using the PORT environment variable.
+      </p>
+      <h3>Reset browser data</h3>
+      <p>
+        Delete the two keys  <code>recipenest.favourites.v1</code>  and  <code>recipenest.plan.v1</code>  from DevTools → Application/Storage → Local Storage for the project origin, then reload the page. Alternatively, use the browser’s option to clear site data. Different addresses or ports use separate storage areas.
+      </p>
+      <h2>8 Assets dependencies and handover</h2>
+      <p>
+        Images are provided by Unsplash and stored in assets/images. Detailed image sources are listed in 
+        <a href="../assets/CREDITS.md">assets/CREDITS.md</a>. Images illustrate dish types or ingredients, and some images are reused. AngularJS/route 1.8.2 was obtained from the 
+        <a href="https://code.angularjs.org/1.8.2/">AngularJS distribution site</a> and is included with its MIT licence. The interface and favicon were created for this project. All contributors are fictional.
+      </p>
+      <p>
+        The submission package includes HTML/CSS/JavaScript/AngularJS source code, templates, JSON data, local images, libraries, a startup script, test source code, this report, test results, screenshots, and a demo script. It also contains a Vietnamese README.md and an RTF-format ReadMe.doc that can be opened in Word. The submitter must record the video using 
+        <a href="DEMO-GUIDE.md">DEMO-GUIDE.md</a>. Hosting is optional and is not included in this local ZIP package.
+      </p>
+    </main>
+  </body>
+</html>

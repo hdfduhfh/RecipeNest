@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>RecipeNest browser environment</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <main class="wrap section">
+      <h1>Browser test environment</h1>
+      <p>
+        This diagnostic page only displays this browser's version and viewport. It sends and saves
+        nothing.
+      </p>
+      <pre id="environment" style="white-space: pre-wrap; overflow-wrap: anywhere"></pre>
+      <a href="../#!/">Back to RecipeNest</a>
+    </main>
+    <script>
+      document.getElementById('environment').textContent = JSON.stringify(
+        {
+          userAgent: navigator.userAgent,
+          viewport: { width: innerWidth, height: innerHeight },
+          angularVersion: '1.8.2',
+          testDate: '2026-10-31',
+        },
+        null,
+        2
+      );
+    </script>
+  </body>
+</html>

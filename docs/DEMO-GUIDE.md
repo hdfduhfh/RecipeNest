@@ -1,0 +1,16 @@
+# RecipeNest Video Demo Guide (5–7 Minutes)
+
+This document is a recording guide, not a completed video. Run the website through an HTTP server, then use your preferred screen recorder.
+
+1. **Home page** (30 seconds): Introduce RecipeNest, the featured recipes, the collections, and the link to the meal planner.
+2. **Recipe catalogue** (60 seconds): Open Recipes and show the 24 available recipes. Search for `basil`, then select Italian + Breakfast + 15 minutes + Vegan. The remaining result should be Tomato & basil bruschetta. Switch between A–Z and Z–A sorting. Enter a search term that does not exist to demonstrate the no-results message, then select Clear all.
+3. **Recipe details and serving calculator** (60 seconds): Open Lemon & basil pasta. Show the original quantities: 2 servings and 180 g of pasta. Change the serving count to 1 to show 90 g, to 6 to show 540 g, and to 20 to show 1800 g. Enter 0, 21, or 1.5, or leave the field blank, to demonstrate validation errors. Show that salt added to taste is not scaled. Point out that the original recipe remains at 2 servings.
+4. **Favourites** (45 seconds): Save two recipes using the heart buttons. Open My favourites and reload the page to show that the selections are retained. Remove one recipe and show the reduced count. Remove all favourites to demonstrate the empty state.
+5. **Meal planner** (60 seconds): Open the planner using Add to meal plan on a recipe details page. Select a recipe, set the serving count to 3, and save it to Monday Dinner. Add another recipe to Tuesday Lunch and show that the planned-meal count increases to 2. Edit a slot and enter an invalid serving count to demonstrate validation. Reload the page to show that the plan is restored. Remove a planned recipe from favourites and show that its planned meal remains. Delete a meal from one slot and show that the count decreases.
+6. **Gallery and contributors** (45 seconds): Open an image preview and demonstrate the next/previous controls and the left/right arrow keys. Press Escape to close the preview and show that focus returns to the image that opened it. Open a contributor profile and point out the fictional-profile label and the recipes associated with that contributor.
+7. **Contact form** (45 seconds): Submit the empty form to show errors for all three fields. Enter an invalid email address to demonstrate email validation. Enter valid sample data to show the local demo confirmation, which does not send an email. Select Reset.
+8. **Mobile and responsive layouts** (60 seconds): In browser DevTools, switch to a responsive viewport with a width of 360 px. Open and close the navigation menu. Try the catalogue, recipe details, serving calculator, meal planner, and contact form. Check that there is no horizontal scrolling. Repeat the checks at viewport widths of 768 px and 1280 px.
+
+Do not include real personal information in the recording. Use `Demo Cook`, `demo@example.com`, and `This is a local demonstration.` as sample form data.
+
+Cross-check the demonstration against the project report. After testing on the computer used for submission, record the names and versions of two desktop browsers, along with the operating system used.

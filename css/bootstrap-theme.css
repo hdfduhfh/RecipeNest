@@ -1,0 +1,59 @@
+/* Bootstrap 5 components, with RecipeNest's warm kitchen palette. */
+:root {
+  --bs-primary: #b7472c;
+  --bs-primary-rgb: 183, 71, 44;
+  --bs-border-radius: 1rem;
+  --bs-body-font-family: 'Segoe UI', Arial, sans-serif;
+}
+body { background: radial-gradient(ellipse at 0 5%, #eee9da 0, transparent 42%), var(--paper); }
+.site-header { position: relative; z-index: 30; background: #faf8f3f5; box-shadow: 0 6px 30px #29382e08; }
+.header-inner.container-fluid { padding-inline: 0; }
+.header-inner nav a { position: relative; transition: color .2s; }
+.header-inner nav a::after { content: ''; position: absolute; bottom: -9px; left: 0; right: 0; height: 2px; background: var(--red); transform: scaleX(0); transition: transform .22s; }
+.header-inner nav a:hover::after, .header-inner nav a.active::after { transform: scaleX(1); }
+.hero-visual { border-radius: 42% 42% 1.5rem 1.5rem; box-shadow: 0 22px 55px #29382e18; }
+.hero-search { border-radius: 3rem; box-shadow: 0 8px 25px #29382e0a; transition: box-shadow .2s; }
+.hero-search:focus-within { box-shadow: 0 0 0 4px #b7472c18; }
+.hero-search .form-control { background: transparent; box-shadow: none; border: 0; width: 0; min-width: 0; flex: 1; }
+.hero-search button { border-radius: 50%; }
+.hero-tags a, .pill { border-radius: 2rem; }
+.promise-strip { background: #e8eddf; border-block: 1px solid #dce3d1; }
+.recipe-card, .profile-card, .day-card { border-radius: 1.2rem; box-shadow: 0 5px 20px #29382e06; }
+.recipe-card { --bs-card-bg: var(--white); --bs-card-border-color: var(--line); }
+.recipe-card .card-body { display: flex; flex-direction: column; }
+.recipe-card .card-bottom { margin-top: auto; }
+.recipe-card:hover, .profile-card:hover { box-shadow: 0 15px 35px #29382e14; }
+.collection-tile { border-radius: 1.25rem; overflow: hidden; transition: transform .25s, box-shadow .25s; }
+.filter-panel, .contact-form { border-radius: 1.25rem; background: var(--white); box-shadow: 0 10px 30px #29382e08; }
+.contact-form { padding: clamp(20px, 4vw, 38px); border: 1px solid var(--line); }
+.form-control, .form-select { color: var(--ink); border-color: var(--line); border-radius: .7rem; font-size: inherit; }
+.form-control:focus, .form-select:focus { border-color: #b7472c80; box-shadow: 0 0 0 .2rem #b7472c16; }
+.form-control[aria-invalid="true"] { border-color: #b7472c; }
+.btn-primary { --bs-btn-bg: var(--red); --bs-btn-border-color: var(--red); --bs-btn-hover-bg: var(--red-dark); --bs-btn-hover-border-color: var(--red-dark); --bs-btn-active-bg: var(--red-dark); --bs-btn-active-border-color: var(--red-dark); }
+.btn-outline-primary { --bs-btn-color: var(--red); --bs-btn-border-color: var(--red); --bs-btn-hover-bg: var(--red); --bs-btn-hover-border-color: var(--red); --bs-btn-active-bg: var(--red-dark); --bs-btn-active-border-color: var(--red-dark); }
+.button.btn { border-radius: 2rem; }
+.button, button, .saved-nav, .hero-tags a { transition: transform .18s, background-color .2s, box-shadow .2s; }
+.button:hover { box-shadow: 0 7px 18px #b7472c22; transform: translateY(-2px); }
+button:not(:disabled):active, .button:active { transform: scale(.96); }
+.image-label.badge { color: var(--ink); font-weight: 600; line-height: 1.5; }
+.planner-promo { border-radius: 1.5rem; }
+.page-intro .eyebrow { display: inline-block; padding: 5px 12px; border-radius: 2rem; background: #e9eddf; }
+/* Bootstrap has a backdrop class too; Angular owns our dialogs and visibility. */
+.modal-backdrop { opacity: 1; width: auto; height: auto; right: 0; bottom: 0; }
+.modal-panel, .gallery-modal { border-radius: 1.25rem; animation: rn-dialog-in .22s ease-out; }
+.route-progress { position: fixed; top: 0; left: 0; width: 100%; height: 3px; background: var(--red); z-index: 2000; transform: scaleX(0); transform-origin: left; opacity: 0; transition: transform .25s, opacity .2s; pointer-events: none; }
+.rn-routing .route-progress { transform: scaleX(.8); opacity: 1; }
+.rn-route-enter { animation: rn-page-in .35s ease-out; }
+.rn-reveal { opacity: 0; transform: translateY(18px); transition: opacity .45s, transform .45s; }
+.rn-reveal.rn-visible { opacity: 1; transform: none; }
+.rn-click-pulse { animation: rn-pulse .3s ease-out; }
+@keyframes rn-page-in { from { opacity: .3; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+@keyframes rn-dialog-in { from { opacity: 0; transform: translateY(12px) scale(.98); } to { opacity: 1; transform: none; } }
+@keyframes rn-pulse { 50% { transform: scale(.92); } }
+@media (hover: hover) { .collection-tile:hover { transform: translateY(-5px); box-shadow: 0 15px 30px #29382e12; } }
+@media (max-width: 600px) { .hero-visual { border-radius: 1.5rem; } .contact-form { padding: 20px; } }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .rn-reveal { opacity: 1; transform: none; }
+}

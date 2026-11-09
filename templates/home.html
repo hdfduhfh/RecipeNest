@@ -1,0 +1,111 @@
+<section class="hero wrap">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="little-line"></span> {{ 'text.d64b38e0ad38' | t }}</p>
+    <h1>
+      {{ 'text.1b29209fc653' | t }}<br />{{ 'text.d60217132c6a' | t }}<br /><em
+        >{{ 'text.45406d3f3367' | t }}</em
+      >
+    </h1>
+    <p class="hero-description">{{ 'text.a384b91c0fe6' | t }}</p>
+    <form class="hero-search" ng-submit="shell.search(home.query)">
+      <label class="sr-only" for="home-search">{{ 'text.93095b69ed70' | t }}</label
+      ><span aria-hidden="true">⌕</span
+      ><input class="form-control"
+        id="home-search"
+        ng-model="home.query"
+        placeholder="{{ 'text.b3aa9a9f2c01' | t }}"
+      /><button type="submit" aria-label="{{ 'text.93095b69ed70' | t }}">→</button>
+    </form>
+    <div class="hero-tags">
+      <span>{{ 'text.483c30329e97' | t }}</span
+      ><a href="#!/recipes" ng-click="shell.category('Breakfast')">{{ 'text.364653cd2a4a' | t }}</a
+      ><a href="#!/collections">{{ 'text.bd7e2f9f77f7' | t }}</a
+      ><a href="#!/recipes" ng-click="shell.data.filters.diet = 'Vegetarian'"
+        >{{ 'text.599271d9491b' | t }}</a
+      >
+    </div>
+  </div>
+  <div class="hero-visual">
+    <img
+      src="assets/images/rainbow-bowl.jpg"
+      alt="{{ 'text.1f9187570fb4' | t }}"
+      width="900"
+      height="1000"
+      fetchpriority="high"
+    /><span class="hero-stamp" aria-hidden="true"
+      >{{ 'text.098de5f6c179' | t }}<br /><b
+        >{{ 'text.e572f95f9d1f' | t }}<br />{{ 'text.cc4ed5099595' | t }}</b
+      ><br />{{ 'text.0f6db5e8d458' | t }}</span
+    ><a class="hero-recipe" href="#!/recipe/rainbow-bowl"
+      ><span
+        ><small>{{ 'text.d132e3875b43' | t }}</small><strong>{{ 'text.e58db781209d' | t }}</strong
+        ><span>{{ 'text.adc6c0f275f2' | t }}</span></span
+      ><span class="circle-arrow" aria-hidden="true">↗</span></a
+    >
+  </div>
+</section>
+<div class="promise-strip">
+  <div class="wrap">
+    <span><b>24</b> {{ 'text.cbb7515feb61' | t }}</span
+    ><span><b>6</b> {{ 'text.2ce2d3a6c15f' | t }}</span
+    ><span><b>7</b> {{ 'text.dd6596acc15c' | t }}</span
+    ><span>{{ 'text.8b1653602b6b' | t }} <b>✳</b></span>
+  </div>
+</div>
+<section class="wrap section">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">{{ 'text.9a7cc50296a8' | t }}</p>
+      <h2>{{ 'text.0fc0e061f77b' | t }}</h2>
+    </div>
+    <a class="text-link" href="#!/recipes">{{ 'text.50bd47dd3ca4' | t }} <span>↗</span></a>
+  </div>
+  <div class="recipe-grid">
+    <recipe-card
+      ng-repeat="recipe in home.featured track by recipe.id"
+      recipe="recipe"
+    ></recipe-card>
+  </div>
+</section>
+<section class="wrap section collection-preview">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">{{ 'text.3d4f8f9a66a4' | t }}</p>
+      <h2>{{ 'text.0fa7893c92cc' | t }}</h2>
+    </div>
+    <a class="text-link" href="#!/collections">{{ 'text.2821fd6a0cd3' | t }}</a>
+  </div>
+  <div class="collection-grid">
+    <a
+      class="collection-tile"
+      href="#!/collections"
+      ng-repeat="collection in shell.data.collections | limitTo:3"
+      ><img ng-src="{{collection.image}}" alt="" loading="lazy" />
+      <div>
+        <span class="eyebrow">{{collection.recipeIds.length}} {{ 'text.e76430b07e90' | t }}</span>
+        <h3>{{ (collection.name) | t }}</h3>
+        <p>{{ (collection.description) | t }}</p>
+        <span class="text-link">{{ 'text.8eb93311bc58' | t }}</span>
+      </div></a
+    >
+  </div>
+</section>
+<section class="wrap planner-promo">
+  <div class="promo-art" aria-hidden="true">
+    <span>{{ 'text.ccdc1f754319' | t }}</span>
+    <div><b>{{ 'text.f61d4e9c50af' | t }}</b> {{ 'text.66db5c60c815' | t }} <i>✓</i></div>
+    <div><b>{{ 'text.b206a7958984' | t }}</b> {{ 'text.9c3655b4da17' | t }} <i>✓</i></div>
+    <div><b>{{ 'text.6c4b87926a96' | t }}</b> {{ 'text.3dd7c7ec1d86' | t }} <i>♡</i></div>
+  </div>
+  <div>
+    <p class="eyebrow">{{ 'text.f43d0f1ee530' | t }}</p>
+    <h2>{{ 'text.5b018379f9a2' | t }}<br />{{ 'text.ecb733cd7cfe' | t }}</h2>
+    <p>{{ 'text.bec397fa02d3' | t }}</p>
+    <a class="button btn btn-primary" href="#!/planner">{{ 'text.ddfe12386e1d' | t }} <span>↗</span></a>
+  </div>
+</section>
+<section class="wrap kitchen-note">
+  <span aria-hidden="true">✳</span>
+  <p>{{ 'text.b0b63c732ee4' | t }}<br /><em>{{ 'text.faf0a6d3c22a' | t }}</em>”</p>
+  <a href="#!/contributors">{{ 'text.d9e02a15dd75' | t }}</a>
+</section>

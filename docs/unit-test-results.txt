@@ -1,0 +1,45 @@
+
+> recipenest@1.0.0 test
+> node --test tests/*.test.js
+
+✔ 24 unique, fully linked sample records, local assets and collections (2.9259ms)
+✔ serving boundaries 1 and 20 are accepted (0.1004ms)
+✔ reject invalid serving count 0 (0.2869ms)
+✔ reject invalid serving count -1 (0.0745ms)
+✔ reject invalid serving count 21 (0.5419ms)
+✔ reject invalid serving count 1.5 (0.0565ms)
+✔ reject invalid serving count NaN (0.0513ms)
+✔ reject invalid serving count Infinity (0.0564ms)
+✔ reject invalid serving count undefined (0.0643ms)
+✔ reject invalid serving count null (0.1041ms)
+✔ reject invalid serving count 2 (0.0562ms)
+✔ reject invalid serving count  (0.0712ms)
+✔ reject invalid serving count [object Object] (0.0388ms)
+✔ reject invalid serving count true (0.0522ms)
+✔ one serving: 180 g pasta at base 2 becomes 90 g (0.0884ms)
+✔ six servings: 180 g pasta becomes 540 g; original data unchanged (0.079ms)
+✔ twenty servings: 180 g pasta becomes 1800 g (0.0434ms)
+✔ round to two decimal places without changing units (0.0476ms)
+✔ non-scalable salt retains the to-taste note (0.0336ms)
+✔ search is case-insensitive with trimmed keyword matching (6.0662ms)
+✔ all four filters and query combine with AND; exact expected record (0.5595ms)
+✔ time limit includes exact boundary (0.0893ms)
+✔ no match yields empty list (0.0722ms)
+✔ sorting and filtering do not reorder original catalogue (0.1797ms)
+✔ deduplicate saved IDs and reject unknown or malformed entries (0.1073ms)
+✔ planner restore only accepts valid slots, recipe IDs and serving counts (0.1807ms)
+✔ empty or malformed plan restores as empty (0.0733ms)
+✔ removing a favourite does not remove an independent planner entry (0.0461ms)
+✔ all Angular templates exist and all script files are local (3.1066ms)
+✔ actual service: favourite save, uniqueness, unsave, and reload persistence (0.7226ms)
+✔ actual service: planner rejects invalid entries, replaces slots, survives reload and removes (0.3203ms)
+✔ actual service: malformed JSON is handled with a warning and usable defaults (0.1347ms)
+✔ actual service: blocked storage uses memory and reports failure (0.1488ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 84.1266

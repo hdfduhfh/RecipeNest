@@ -1,0 +1,56 @@
+
+> recipenest@1.0.0 test
+> node --test tests/*.test.js
+
+✔ five supported languages, with English first and no automatic browser-language selection (1.2518ms)
+✔ unknown translation keys and languages fall back safely to English (0.2645ms)
+✔ all dictionaries have the same complete set of keys and placeholder names (6.8946ms)
+✔ every recipe name, description, step, note, image alt, ingredient, diet and allergen is translated (1.1608ms)
+✔ every static translation binding in live templates has all four translations (134.7285ms)
+✔ translated placeholders preserve user-entered content as data (12.4565ms)
+✔ search accepts translated recipe names and ingredients in all four languages (15.7026ms)
+✔ English keywords, combined canonical filters and IDs keep working in every language (1.627ms)
+✔ locale-aware sorting, empty results, and original data immutability (10.0748ms)
+✔ slot labels translate without changing the canonical saved-plan key (0.6494ms)
+✔ AngularJS language service persists choice, updates lang/title, handles storage failures (1.8811ms)
+✔ 24 unique, fully linked sample records, local assets and collections (4.1369ms)
+✔ serving boundaries 1 and 20 are accepted (0.1114ms)
+✔ reject invalid serving count 0 (0.3538ms)
+✔ reject invalid serving count -1 (0.6744ms)
+✔ reject invalid serving count 21 (0.0963ms)
+✔ reject invalid serving count 1.5 (0.0627ms)
+✔ reject invalid serving count NaN (0.0583ms)
+✔ reject invalid serving count Infinity (0.067ms)
+✔ reject invalid serving count undefined (0.0674ms)
+✔ reject invalid serving count null (0.1294ms)
+✔ reject invalid serving count 2 (0.0655ms)
+✔ reject invalid serving count  (0.5579ms)
+✔ reject invalid serving count [object Object] (0.0624ms)
+✔ reject invalid serving count true (0.0605ms)
+✔ one serving: 180 g pasta at base 2 becomes 90 g (0.7688ms)
+✔ six servings: 180 g pasta becomes 540 g; original data unchanged (0.1017ms)
+✔ twenty servings: 180 g pasta becomes 1800 g (0.06ms)
+✔ round to two decimal places without changing units (0.0633ms)
+✔ non-scalable salt retains the to-taste note (0.0445ms)
+✔ search is case-insensitive with trimmed keyword matching (9.274ms)
+✔ all four filters and query combine with AND; exact expected record (0.6976ms)
+✔ time limit includes exact boundary (0.1183ms)
+✔ no match yields empty list (0.0714ms)
+✔ sorting and filtering do not reorder original catalogue (0.2122ms)
+✔ deduplicate saved IDs and reject unknown or malformed entries (0.115ms)
+✔ planner restore only accepts valid slots, recipe IDs and serving counts (0.2249ms)
+✔ empty or malformed plan restores as empty (0.0907ms)
+✔ removing a favourite does not remove an independent planner entry (0.0571ms)
+✔ all Angular templates exist and all script files are local (6.6935ms)
+✔ actual service: favourite save, uniqueness, unsave, and reload persistence (0.9328ms)
+✔ actual service: planner rejects invalid entries, replaces slots, survives reload and removes (0.4288ms)
+✔ actual service: malformed JSON is handled with a warning and usable defaults (0.1728ms)
+✔ actual service: blocked storage uses memory and reports failure (0.1795ms)
+ℹ tests 44
+ℹ suites 0
+ℹ pass 44
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 296.9656

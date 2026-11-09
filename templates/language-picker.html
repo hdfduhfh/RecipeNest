@@ -1,0 +1,46 @@
+<details class="ui-dropdown native-dropdown">
+  <summary
+    id="language-trigger"
+    class="round-action language-button"
+    title="{{picker.current().label}}"
+    aria-label="{{'Language' | t}}: {{picker.current().label}}"
+    aria-controls="language-options"
+    ng-attr-aria-expanded="{{picker.open}}"
+  >
+    <img
+      class="flag-img current-flag"
+      ng-src="assets/images/flags/{{picker.i18n.language}}.svg"
+      alt=""
+      width="25"
+      height="17"
+    />
+  </summary>
+  <div
+    id="language-options"
+    class="dropdown-panel language-dropdown"
+    role="group"
+    aria-labelledby="language-heading"
+  >
+    <div id="language-heading" class="dropdown-heading">{{'Language' | t}}</div>
+    <button
+      type="button"
+      ng-repeat="language in picker.i18n.languages track by language.code"
+      ng-click="picker.select(language.code)"
+      ng-class="{active: picker.i18n.language === language.code}"
+      ng-attr-aria-pressed="{{picker.i18n.language === language.code}}"
+      lang="{{language.locale}}"
+      data-language-code="{{language.code}}"
+    >
+      <span class="flag-cell"
+        ><img
+          class="flag-img"
+          ng-src="assets/images/flags/{{language.code}}.svg"
+          alt=""
+          width="26"
+          height="18"
+      /></span>
+      <b>{{language.label}}</b>
+      <small aria-hidden="true">{{language.code | uppercase}}</small>
+    </button>
+  </div>
+</details>

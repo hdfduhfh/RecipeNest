@@ -1,0 +1,1487 @@
+[
+  {
+    "code": "en",
+    "route": "/",
+    "contentWidth": 345,
+    "heading": "\n      Good food.Great days.Start here.\n    ",
+    "lang": "en",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "en",
+    "route": "/recipes",
+    "contentWidth": 345,
+    "heading": "Recipes for real life.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "en",
+    "route": "/recipe/lemon-pasta",
+    "contentWidth": 345,
+    "heading": "Lemon & basil pasta",
+    "lang": "en",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "en",
+    "route": "/planner",
+    "contentWidth": 345,
+    "heading": "Your week, deliciously planned.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "en",
+    "route": "/favourites",
+    "contentWidth": 345,
+    "heading": "Love it? Keep it.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "en",
+    "route": "/collections",
+    "contentWidth": 345,
+    "heading": "A recipe for every mood.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "en",
+    "route": "/contributors",
+    "contentWidth": 345,
+    "heading": "Made with a little heart.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "en",
+    "route": "/contributor/linh",
+    "contentWidth": 345,
+    "heading": "Linh Nguyen",
+    "lang": "en",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "en",
+    "route": "/gallery",
+    "contentWidth": 345,
+    "heading": "From our kitchen.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "en",
+    "route": "/about",
+    "contentWidth": 345,
+    "heading": "Everyday food.Thoughtfully made.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "en",
+    "route": "/contact",
+    "contentWidth": 345,
+    "heading": "Let's talk food.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "en",
+    "route": "/",
+    "contentWidth": 753,
+    "heading": "\n      Good food.Great days.Start here.\n    ",
+    "lang": "en",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "en",
+    "route": "/recipes",
+    "contentWidth": 753,
+    "heading": "Recipes for real life.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "en",
+    "route": "/recipe/lemon-pasta",
+    "contentWidth": 753,
+    "heading": "Lemon & basil pasta",
+    "lang": "en",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "en",
+    "route": "/planner",
+    "contentWidth": 753,
+    "heading": "Your week, deliciously planned.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "en",
+    "route": "/favourites",
+    "contentWidth": 753,
+    "heading": "Love it? Keep it.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "en",
+    "route": "/collections",
+    "contentWidth": 753,
+    "heading": "A recipe for every mood.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "en",
+    "route": "/contributors",
+    "contentWidth": 753,
+    "heading": "Made with a little heart.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "en",
+    "route": "/contributor/linh",
+    "contentWidth": 753,
+    "heading": "Linh Nguyen",
+    "lang": "en",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "en",
+    "route": "/gallery",
+    "contentWidth": 753,
+    "heading": "From our kitchen.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "en",
+    "route": "/about",
+    "contentWidth": 753,
+    "heading": "Everyday food.Thoughtfully made.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "en",
+    "route": "/contact",
+    "contentWidth": 753,
+    "heading": "Let's talk food.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "en",
+    "route": "/",
+    "contentWidth": 1265,
+    "heading": "\n      Good food.Great days.Start here.\n    ",
+    "lang": "en",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "en",
+    "route": "/recipes",
+    "contentWidth": 1265,
+    "heading": "Recipes for real life.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "en",
+    "route": "/recipe/lemon-pasta",
+    "contentWidth": 1265,
+    "heading": "Lemon & basil pasta",
+    "lang": "en",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "en",
+    "route": "/planner",
+    "contentWidth": 1265,
+    "heading": "Your week, deliciously planned.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "en",
+    "route": "/favourites",
+    "contentWidth": 1265,
+    "heading": "Love it? Keep it.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "en",
+    "route": "/collections",
+    "contentWidth": 1265,
+    "heading": "A recipe for every mood.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "en",
+    "route": "/contributors",
+    "contentWidth": 1265,
+    "heading": "Made with a little heart.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "en",
+    "route": "/contributor/linh",
+    "contentWidth": 1265,
+    "heading": "Linh Nguyen",
+    "lang": "en",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "en",
+    "route": "/gallery",
+    "contentWidth": 1265,
+    "heading": "From our kitchen.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "en",
+    "route": "/about",
+    "contentWidth": 1265,
+    "heading": "Everyday food.Thoughtfully made.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "en",
+    "route": "/contact",
+    "contentWidth": 1265,
+    "heading": "Let's talk food.",
+    "lang": "en",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "vi",
+    "route": "/",
+    "contentWidth": 345,
+    "heading": "\n      Ăn ngon.Ngày vui.Bắt đầu từ đây.\n    ",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "vi",
+    "route": "/recipes",
+    "contentWidth": 345,
+    "heading": "Công thức cho mỗi ngày.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "vi",
+    "route": "/recipe/lemon-pasta",
+    "contentWidth": 345,
+    "heading": "Mì Ý chanh và húng quế",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "vi",
+    "route": "/planner",
+    "contentWidth": 345,
+    "heading": "Một tuần ăn ngon của bạn.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "vi",
+    "route": "/favourites",
+    "contentWidth": 345,
+    "heading": "Thích thì lưu lại nha.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "vi",
+    "route": "/collections",
+    "contentWidth": 345,
+    "heading": "Món ngon cho mọi tâm trạng.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "vi",
+    "route": "/contributors",
+    "contentWidth": 345,
+    "heading": "Nấu bằng cả tấm lòng.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "vi",
+    "route": "/contributor/linh",
+    "contentWidth": 345,
+    "heading": "Linh Nguyen",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "vi",
+    "route": "/gallery",
+    "contentWidth": 345,
+    "heading": "Từ gian bếp tụi mình.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "vi",
+    "route": "/about",
+    "contentWidth": 345,
+    "heading": "Món ngon mỗi ngày.Chăm chút từng chút một.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "vi",
+    "route": "/contact",
+    "contentWidth": 345,
+    "heading": "Cùng nói chuyện món ngon.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "vi",
+    "route": "/",
+    "contentWidth": 753,
+    "heading": "\n      Ăn ngon.Ngày vui.Bắt đầu từ đây.\n    ",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "vi",
+    "route": "/recipes",
+    "contentWidth": 753,
+    "heading": "Công thức cho mỗi ngày.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "vi",
+    "route": "/recipe/lemon-pasta",
+    "contentWidth": 753,
+    "heading": "Mì Ý chanh và húng quế",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "vi",
+    "route": "/planner",
+    "contentWidth": 753,
+    "heading": "Một tuần ăn ngon của bạn.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "vi",
+    "route": "/favourites",
+    "contentWidth": 753,
+    "heading": "Thích thì lưu lại nha.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "vi",
+    "route": "/collections",
+    "contentWidth": 753,
+    "heading": "Món ngon cho mọi tâm trạng.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "vi",
+    "route": "/contributors",
+    "contentWidth": 753,
+    "heading": "Nấu bằng cả tấm lòng.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "vi",
+    "route": "/contributor/linh",
+    "contentWidth": 753,
+    "heading": "Linh Nguyen",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "vi",
+    "route": "/gallery",
+    "contentWidth": 753,
+    "heading": "Từ gian bếp tụi mình.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "vi",
+    "route": "/about",
+    "contentWidth": 753,
+    "heading": "Món ngon mỗi ngày.Chăm chút từng chút một.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "vi",
+    "route": "/contact",
+    "contentWidth": 753,
+    "heading": "Cùng nói chuyện món ngon.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "vi",
+    "route": "/",
+    "contentWidth": 1265,
+    "heading": "\n      Ăn ngon.Ngày vui.Bắt đầu từ đây.\n    ",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "vi",
+    "route": "/recipes",
+    "contentWidth": 1265,
+    "heading": "Công thức cho mỗi ngày.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "vi",
+    "route": "/recipe/lemon-pasta",
+    "contentWidth": 1265,
+    "heading": "Mì Ý chanh và húng quế",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "vi",
+    "route": "/planner",
+    "contentWidth": 1265,
+    "heading": "Một tuần ăn ngon của bạn.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "vi",
+    "route": "/favourites",
+    "contentWidth": 1265,
+    "heading": "Thích thì lưu lại nha.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "vi",
+    "route": "/collections",
+    "contentWidth": 1265,
+    "heading": "Món ngon cho mọi tâm trạng.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "vi",
+    "route": "/contributors",
+    "contentWidth": 1265,
+    "heading": "Nấu bằng cả tấm lòng.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "vi",
+    "route": "/contributor/linh",
+    "contentWidth": 1265,
+    "heading": "Linh Nguyen",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "vi",
+    "route": "/gallery",
+    "contentWidth": 1265,
+    "heading": "Từ gian bếp tụi mình.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "vi",
+    "route": "/about",
+    "contentWidth": 1265,
+    "heading": "Món ngon mỗi ngày.Chăm chút từng chút một.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "vi",
+    "route": "/contact",
+    "contentWidth": 1265,
+    "heading": "Cùng nói chuyện món ngon.",
+    "lang": "vi",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "ja",
+    "route": "/",
+    "contentWidth": 345,
+    "heading": "\n      おいしいごはん。楽しい毎日。ここから。\n    ",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "ja",
+    "route": "/recipes",
+    "contentWidth": 345,
+    "heading": "毎日に寄り添うレシピ。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "ja",
+    "route": "/recipe/lemon-pasta",
+    "contentWidth": 345,
+    "heading": "レモンとバジルのパスタ",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "ja",
+    "route": "/planner",
+    "contentWidth": 345,
+    "heading": "あなたの、おいしい1週間。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "ja",
+    "route": "/favourites",
+    "contentWidth": 345,
+    "heading": "好きなレシピは、ここに。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "ja",
+    "route": "/collections",
+    "contentWidth": 345,
+    "heading": "気分に合うレシピを。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "ja",
+    "route": "/contributors",
+    "contentWidth": 345,
+    "heading": "心を込めて作りました。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "ja",
+    "route": "/contributor/linh",
+    "contentWidth": 345,
+    "heading": "Linh Nguyen",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "ja",
+    "route": "/gallery",
+    "contentWidth": 345,
+    "heading": "私たちのキッチンから。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "ja",
+    "route": "/about",
+    "contentWidth": 345,
+    "heading": "毎日のごはん。心を込めて。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "ja",
+    "route": "/contact",
+    "contentWidth": 345,
+    "heading": "料理の話をしましょう。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "ja",
+    "route": "/",
+    "contentWidth": 753,
+    "heading": "\n      おいしいごはん。楽しい毎日。ここから。\n    ",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "ja",
+    "route": "/recipes",
+    "contentWidth": 753,
+    "heading": "毎日に寄り添うレシピ。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "ja",
+    "route": "/recipe/lemon-pasta",
+    "contentWidth": 753,
+    "heading": "レモンとバジルのパスタ",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "ja",
+    "route": "/planner",
+    "contentWidth": 753,
+    "heading": "あなたの、おいしい1週間。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "ja",
+    "route": "/favourites",
+    "contentWidth": 753,
+    "heading": "好きなレシピは、ここに。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "ja",
+    "route": "/collections",
+    "contentWidth": 753,
+    "heading": "気分に合うレシピを。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "ja",
+    "route": "/contributors",
+    "contentWidth": 753,
+    "heading": "心を込めて作りました。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "ja",
+    "route": "/contributor/linh",
+    "contentWidth": 753,
+    "heading": "Linh Nguyen",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "ja",
+    "route": "/gallery",
+    "contentWidth": 753,
+    "heading": "私たちのキッチンから。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "ja",
+    "route": "/about",
+    "contentWidth": 753,
+    "heading": "毎日のごはん。心を込めて。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "ja",
+    "route": "/contact",
+    "contentWidth": 753,
+    "heading": "料理の話をしましょう。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "ja",
+    "route": "/",
+    "contentWidth": 1265,
+    "heading": "\n      おいしいごはん。楽しい毎日。ここから。\n    ",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "ja",
+    "route": "/recipes",
+    "contentWidth": 1265,
+    "heading": "毎日に寄り添うレシピ。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "ja",
+    "route": "/recipe/lemon-pasta",
+    "contentWidth": 1265,
+    "heading": "レモンとバジルのパスタ",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "ja",
+    "route": "/planner",
+    "contentWidth": 1265,
+    "heading": "あなたの、おいしい1週間。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "ja",
+    "route": "/favourites",
+    "contentWidth": 1265,
+    "heading": "好きなレシピは、ここに。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "ja",
+    "route": "/collections",
+    "contentWidth": 1265,
+    "heading": "気分に合うレシピを。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "ja",
+    "route": "/contributors",
+    "contentWidth": 1265,
+    "heading": "心を込めて作りました。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "ja",
+    "route": "/contributor/linh",
+    "contentWidth": 1265,
+    "heading": "Linh Nguyen",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "ja",
+    "route": "/gallery",
+    "contentWidth": 1265,
+    "heading": "私たちのキッチンから。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "ja",
+    "route": "/about",
+    "contentWidth": 1265,
+    "heading": "毎日のごはん。心を込めて。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "ja",
+    "route": "/contact",
+    "contentWidth": 1265,
+    "heading": "料理の話をしましょう。",
+    "lang": "ja",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "zh",
+    "route": "/",
+    "contentWidth": 345,
+    "heading": "\n      美味佳肴。美好一天。从这里开始。\n    ",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "zh",
+    "route": "/recipes",
+    "contentWidth": 345,
+    "heading": "为日常生活而做的食谱。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "zh",
+    "route": "/recipe/lemon-pasta",
+    "contentWidth": 345,
+    "heading": "柠檬罗勒意面",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "zh",
+    "route": "/planner",
+    "contentWidth": 345,
+    "heading": "为你安排美味的一周。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "zh",
+    "route": "/favourites",
+    "contentWidth": 345,
+    "heading": "喜欢就收藏吧。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "zh",
+    "route": "/collections",
+    "contentWidth": 345,
+    "heading": "每种心情都有一道食谱。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "zh",
+    "route": "/contributors",
+    "contentWidth": 345,
+    "heading": "带着心意制作。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "zh",
+    "route": "/contributor/linh",
+    "contentWidth": 345,
+    "heading": "Linh Nguyen",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "zh",
+    "route": "/gallery",
+    "contentWidth": 345,
+    "heading": "来自我们的厨房。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "zh",
+    "route": "/about",
+    "contentWidth": 345,
+    "heading": "日常美食。用心制作。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "zh",
+    "route": "/contact",
+    "contentWidth": 345,
+    "heading": "来聊聊美食吧。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "zh",
+    "route": "/",
+    "contentWidth": 753,
+    "heading": "\n      美味佳肴。美好一天。从这里开始。\n    ",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "zh",
+    "route": "/recipes",
+    "contentWidth": 753,
+    "heading": "为日常生活而做的食谱。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "zh",
+    "route": "/recipe/lemon-pasta",
+    "contentWidth": 753,
+    "heading": "柠檬罗勒意面",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "zh",
+    "route": "/planner",
+    "contentWidth": 753,
+    "heading": "为你安排美味的一周。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "zh",
+    "route": "/favourites",
+    "contentWidth": 753,
+    "heading": "喜欢就收藏吧。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "zh",
+    "route": "/collections",
+    "contentWidth": 753,
+    "heading": "每种心情都有一道食谱。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "zh",
+    "route": "/contributors",
+    "contentWidth": 753,
+    "heading": "带着心意制作。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "zh",
+    "route": "/contributor/linh",
+    "contentWidth": 753,
+    "heading": "Linh Nguyen",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "zh",
+    "route": "/gallery",
+    "contentWidth": 753,
+    "heading": "来自我们的厨房。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "zh",
+    "route": "/about",
+    "contentWidth": 753,
+    "heading": "日常美食。用心制作。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "zh",
+    "route": "/contact",
+    "contentWidth": 753,
+    "heading": "来聊聊美食吧。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "zh",
+    "route": "/",
+    "contentWidth": 1265,
+    "heading": "\n      美味佳肴。美好一天。从这里开始。\n    ",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "zh",
+    "route": "/recipes",
+    "contentWidth": 1265,
+    "heading": "为日常生活而做的食谱。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "zh",
+    "route": "/recipe/lemon-pasta",
+    "contentWidth": 1265,
+    "heading": "柠檬罗勒意面",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "zh",
+    "route": "/planner",
+    "contentWidth": 1265,
+    "heading": "为你安排美味的一周。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "zh",
+    "route": "/favourites",
+    "contentWidth": 1265,
+    "heading": "喜欢就收藏吧。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "zh",
+    "route": "/collections",
+    "contentWidth": 1265,
+    "heading": "每种心情都有一道食谱。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "zh",
+    "route": "/contributors",
+    "contentWidth": 1265,
+    "heading": "带着心意制作。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "zh",
+    "route": "/contributor/linh",
+    "contentWidth": 1265,
+    "heading": "Linh Nguyen",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "zh",
+    "route": "/gallery",
+    "contentWidth": 1265,
+    "heading": "来自我们的厨房。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "zh",
+    "route": "/about",
+    "contentWidth": 1265,
+    "heading": "日常美食。用心制作。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "zh",
+    "route": "/contact",
+    "contentWidth": 1265,
+    "heading": "来聊聊美食吧。",
+    "lang": "zh-CN",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "fr",
+    "route": "/",
+    "contentWidth": 345,
+    "heading": "\n      De bons plats.De belles journées.Tout commence ici.\n    ",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "fr",
+    "route": "/recipes",
+    "contentWidth": 345,
+    "heading": "Des recettes pour la vraie vie.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "fr",
+    "route": "/recipe/lemon-pasta",
+    "contentWidth": 345,
+    "heading": "Pâtes au citron et au basilic",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "fr",
+    "route": "/planner",
+    "contentWidth": 345,
+    "heading": "Votre semaine, délicieusement prévue.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "fr",
+    "route": "/favourites",
+    "contentWidth": 345,
+    "heading": "Vous aimez ? Gardez-la.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "fr",
+    "route": "/collections",
+    "contentWidth": 345,
+    "heading": "Une recette pour chaque envie.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "fr",
+    "route": "/contributors",
+    "contentWidth": 345,
+    "heading": "Préparé avec cœur.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "fr",
+    "route": "/contributor/linh",
+    "contentWidth": 345,
+    "heading": "Linh Nguyen",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "fr",
+    "route": "/gallery",
+    "contentWidth": 345,
+    "heading": "Depuis notre cuisine.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "fr",
+    "route": "/about",
+    "contentWidth": 345,
+    "heading": "La cuisine du quotidien.Préparée avec soin.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "fr",
+    "route": "/contact",
+    "contentWidth": 345,
+    "heading": "Parlons cuisine.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 360
+  },
+  {
+    "code": "fr",
+    "route": "/",
+    "contentWidth": 753,
+    "heading": "\n      De bons plats.De belles journées.Tout commence ici.\n    ",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "fr",
+    "route": "/recipes",
+    "contentWidth": 753,
+    "heading": "Des recettes pour la vraie vie.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "fr",
+    "route": "/recipe/lemon-pasta",
+    "contentWidth": 753,
+    "heading": "Pâtes au citron et au basilic",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "fr",
+    "route": "/planner",
+    "contentWidth": 753,
+    "heading": "Votre semaine, délicieusement prévue.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "fr",
+    "route": "/favourites",
+    "contentWidth": 753,
+    "heading": "Vous aimez ? Gardez-la.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "fr",
+    "route": "/collections",
+    "contentWidth": 753,
+    "heading": "Une recette pour chaque envie.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "fr",
+    "route": "/contributors",
+    "contentWidth": 753,
+    "heading": "Préparé avec cœur.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "fr",
+    "route": "/contributor/linh",
+    "contentWidth": 753,
+    "heading": "Linh Nguyen",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "fr",
+    "route": "/gallery",
+    "contentWidth": 753,
+    "heading": "Depuis notre cuisine.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "fr",
+    "route": "/about",
+    "contentWidth": 753,
+    "heading": "La cuisine du quotidien.Préparée avec soin.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "fr",
+    "route": "/contact",
+    "contentWidth": 753,
+    "heading": "Parlons cuisine.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 768
+  },
+  {
+    "code": "fr",
+    "route": "/",
+    "contentWidth": 1265,
+    "heading": "\n      De bons plats.De belles journées.Tout commence ici.\n    ",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "fr",
+    "route": "/recipes",
+    "contentWidth": 1265,
+    "heading": "Des recettes pour la vraie vie.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "fr",
+    "route": "/recipe/lemon-pasta",
+    "contentWidth": 1265,
+    "heading": "Pâtes au citron et au basilic",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "fr",
+    "route": "/planner",
+    "contentWidth": 1265,
+    "heading": "Votre semaine, délicieusement prévue.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "fr",
+    "route": "/favourites",
+    "contentWidth": 1265,
+    "heading": "Vous aimez ? Gardez-la.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "fr",
+    "route": "/collections",
+    "contentWidth": 1265,
+    "heading": "Une recette pour chaque envie.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "fr",
+    "route": "/contributors",
+    "contentWidth": 1265,
+    "heading": "Préparé avec cœur.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "fr",
+    "route": "/contributor/linh",
+    "contentWidth": 1265,
+    "heading": "Linh Nguyen",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "fr",
+    "route": "/gallery",
+    "contentWidth": 1265,
+    "heading": "Depuis notre cuisine.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "fr",
+    "route": "/about",
+    "contentWidth": 1265,
+    "heading": "La cuisine du quotidien.Préparée avec soin.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 1280
+  },
+  {
+    "code": "fr",
+    "route": "/contact",
+    "contentWidth": 1265,
+    "heading": "Parlons cuisine.",
+    "lang": "fr",
+    "unresolved": false,
+    "width": 1280
+  }
+]

@@ -1,0 +1,85 @@
+<section class="wrap page-intro">
+  <p class="eyebrow">{{ 'text.f74939c00dc0' | t }}</p>
+  <h1>{{ 'text.d6845530d26a' | t }}</h1>
+  <p>{{ 'text.cb4213ccd93b' | t }}</p>
+</section>
+<section class="wrap contact-layout section-bottom">
+  <div class="contact-note">
+    <span class="decorative-star" aria-hidden="true">✳</span>
+    <h2>{{ 'text.5fff261bda74' | t }}<br />{{ 'text.f1f3eb8766e3' | t }}</h2>
+    <p>{{ 'text.fed264e1a43c' | t }}</p>
+    <a class="text-link" href="#!/about">{{ 'text.341469879a3b' | t }}</a>
+  </div>
+  <form name="contactForm" class="contact-form" ng-submit="contact.submit(contactForm)" novalidate>
+    <label for="contact-name"
+      >{{ 'text.ab42293e29e1' | t }} <span>{{ 'text.0002fd23baf3' | t }}</span></label
+    ><input class="form-control"
+      id="contact-name"
+      name="name"
+      ng-model="contact.fields.name"
+      required
+      maxlength="80"
+      autocomplete="name"
+      ng-attr-aria-invalid="{{(contactForm.$submitted || contactForm.name.$touched) && contactForm.name.$invalid}}"
+      aria-describedby="name-error"
+      placeholder="{{ 'text.68e7d7d55864' | t }}"
+    />
+    <p
+      class="field-error"
+      id="name-error"
+      ng-if="(contactForm.$submitted || contactForm.name.$touched) && contactForm.name.$invalid"
+    >
+      {{ 'text.fffccfb74afa' | t }}
+    </p>
+    <label for="contact-email"
+      >{{ 'text.c94d3175a656' | t }} <span>{{ 'text.0002fd23baf3' | t }}</span></label
+    ><input class="form-control"
+      id="contact-email"
+      name="email"
+      type="email"
+      ng-model="contact.fields.email"
+      required
+      maxlength="254"
+      autocomplete="email"
+      aria-describedby="email-error"
+      ng-attr-aria-invalid="{{(contactForm.$submitted || contactForm.email.$touched) && contactForm.email.$invalid}}"
+      placeholder="you@example.com"
+    />
+    <p
+      class="field-error"
+      id="email-error"
+      ng-if="(contactForm.$submitted || contactForm.email.$touched) && contactForm.email.$invalid"
+    >
+      {{ 'text.d2306dd8970f' | t }}
+    </p>
+    <label for="contact-message"
+      >{{ 'text.f190c98ece6a' | t }} <span>{{ 'text.0002fd23baf3' | t }}</span></label
+    ><textarea class="form-control"
+      id="contact-message"
+      name="message"
+      rows="6"
+      ng-model="contact.fields.message"
+      required
+      maxlength="2000"
+      aria-describedby="message-error"
+      ng-attr-aria-invalid="{{(contactForm.$submitted || contactForm.message.$touched) && contactForm.message.$invalid}}"
+      placeholder="{{ 'text.1a5ba3779825' | t }}"
+    ></textarea>
+    <p
+      class="field-error"
+      id="message-error"
+      ng-if="(contactForm.$submitted || contactForm.message.$touched) && contactForm.message.$invalid"
+    >
+      {{ 'text.947abac23a60' | t }}
+    </p>
+    <div class="actions">
+      <button type="submit" class="button btn btn-primary">{{ 'text.2cc736f5af42' | t }}</button
+      ><button type="button" class="button btn secondary btn-outline-primary" ng-click="contact.reset(contactForm)">
+        {{ 'text.ace82ac6ea96' | t }}
+      </button>
+    </div>
+    <p class="notice" role="status" ng-if="contact.sent">
+      {{ 'text.d33336eefab2' | t:{name:contact.fields.name} }}
+    </p>
+  </form>
+</section>

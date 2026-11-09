@@ -1,0 +1,230 @@
+0¦Bỏ qua đến nội dung¦本文へスキップ¦跳转到正文¦Aller au contenu
+1¦MÓN NGON. CHÚT CẢM HỨNG. MỖI NGÀY.¦おいしい料理。ひらめきを、毎日に。¦美味佳肴，每日灵感。¦BIEN MANGER. UN PEU D’INSPIRATION. CHAQUE JOUR.
+2¦Trang chủ RecipeNest¦RecipeNest ホーム¦RecipeNest 首页¦Accueil RecipeNest
+3¦Điều hướng chính¦メインナビゲーション¦主导航¦Navigation principale
+4¦Trang chủ¦ホーム¦首页¦Accueil
+5¦Công thức¦レシピ¦食谱¦Recettes
+6¦Bộ sưu tập¦特集¦精选集¦Collections
+7¦Lịch ăn¦献立プラン¦用餐计划¦Menus de la semaine
+8¦Giới thiệu¦サイトについて¦关于我们¦À propos
+9¦Mục yêu thích¦お気に入り¦我的收藏¦Mes favoris
+10¦Đang chuẩn bị gian bếp…¦キッチンを準備しています…¦正在准备厨房…¦La cuisine se prépare…
+11¦Một chút cảm hứng.¦少しのひらめき。¦一点灵感。¦Un peu d’inspiration.
+12¦Thật nhiều món ngon.¦たくさんのおいしい料理。¦满满的美味。¦Beaucoup de bons petits plats.
+13¦Dự án front-end phục vụ học tập.¦学習用のフロントエンドプロジェクトです。¦用于学习的前端项目。¦Un projet front-end pédagogique.
+14¦Khám phá¦見つける¦探索¦Explorer
+15¦Tất cả công thức¦すべてのレシピ¦全部食谱¦Toutes les recettes
+16¦Thư viện ảnh¦キッチンギャラリー¦厨房图库¦Galerie culinaire
+17¦Gian bếp của bạn¦あなたのキッチン¦你的厨房¦Votre cuisine
+18¦Yêu thích¦お気に入り¦收藏¦Favoris
+19¦Người đóng góp¦投稿者¦创作者¦Contributeurs
+20¦Câu chuyện và nguồn tài nguyên¦私たちの紹介とクレジット¦我们的故事与资源来源¦Notre histoire et les crédits
+21¦Liên hệ¦お問い合わせ¦联系我们¦Nous contacter
+22¦Công thức mẫu và hồ sơ hư cấu.¦サンプルレシピと架空の投稿者です。¦示例食谱与虚构人物资料。¦Recettes d’exemple et profils fictifs.
+23¦Lưu trên thiết bị, dành riêng cho bạn.¦この端末に保存。あなたのために。¦保存在你的设备上，为你而做。¦Enregistré sur votre appareil, pour vous.
+24¦© 2026 RecipeNest. Dành cho niềm vui nấu nướng.¦© 2026 RecipeNest. 料理を楽しむために。¦© 2026 RecipeNest。为烹饪的乐趣而作。¦© 2026 RecipeNest. Pour le plaisir de cuisiner.
+25¦Ý TƯỞNG NHỎ, BÀN ĂN ẤM ÁP¦小さなアイデア、温かな食卓¦小小创意，温暖餐桌¦UNE PETITE IDÉE, UNE TABLE ACCUEILLANTE
+26¦Món ngon mỗi ngày.¦毎日のごはん。¦日常美食。¦La cuisine du quotidien.
+27¦Chăm chút từng chút một.¦心を込めて。¦用心制作。¦Préparée avec soin.
+28¦RecipeNest giúp câu hỏi “Tối nay ăn gì?” trở nên nhẹ nhàng, nhiều màu sắc và đầy cảm hứng hơn.¦「今夜は何を作ろう？」に、RecipeNest が彩りとひらめき、少しのゆとりを届けます。¦RecipeNest 为“今晚吃什么？”带来从容、色彩与灵感。¦RecipeNest apporte du calme, de la couleur et de l’inspiration à la question : « Qu’est-ce qu’on mange ce soir ? »
+29¦Bánh mì nướng mới làm với rau củ nhiều màu sắc¦彩り豊かな野菜をのせた焼きたてのトースト¦新鲜制作、搭配缤纷蔬菜的吐司¦Tartines fraîchement préparées avec des légumes colorés
+30¦Ngôi nhà ấm áp cho những công thức ngon.¦おいしいレシピが集まる場所。¦好食谱的温馨之家。¦Un petit chez-soi pour les bonnes recettes.
+31¦Khám phá 24 công thức mẫu thuộc sáu nền ẩm thực. Tìm theo tên hoặc từ khóa, kết hợp các bộ lọc và khám phá bộ sưu tập phù hợp với cách bạn nấu ăn.¦6つの料理ジャンル、24件のサンプルレシピを紹介します。名前やキーワードで検索し、条件を組み合わせて、暮らしに合う特集を見つけましょう。¦探索六种菜系的24道示例食谱。按名称或关键词搜索，组合筛选条件，发现适合日常烹饪的精选集。¦Explorez 24 recettes d’exemple issues de six cuisines. Recherchez par nom ou mot-clé, combinez les filtres et découvrez des collections adaptées à votre façon de cuisiner.
+32¦Từ cảm hứng đến kế hoạch.¦ひらめきから献立へ。¦从灵感到计划。¦De l’inspiration au menu.
+33¦Nhấn biểu tượng trái tim để lưu món. Mở công thức để điều chỉnh nguyên liệu theo khẩu phần, rồi thêm vào lịch ăn bảy ngày với bữa sáng, trưa và tối. Món yêu thích và lịch ăn được lưu trong trình duyệt bằng Local Storage.¦ハートでレシピを保存できます。詳細画面で人数に合わせて材料を調整し、朝・昼・夜の7日間の献立へ追加しましょう。お気に入りと献立はブラウザーの Local Storage に保存されます。¦点击爱心收藏食谱，在详情页按人数调整食材，再加入七天的早餐、午餐和晚餐计划。收藏和计划通过 Local Storage 保存在本浏览器中。¦Enregistrez vos recettes avec le cœur, adaptez les quantités au nombre de personnes, puis ajoutez-les aux petits-déjeuners, déjeuners et dîners de la semaine. Favoris et menus restent dans ce navigateur grâce au Local Storage.
+34¦Một chút tính toán trong bếp.¦キッチンのかんたん計算。¦厨房里的小计算。¦Un peu de calcul en cuisine.
+35¦Lượng mới = lượng gốc × khẩu phần yêu cầu ÷ khẩu phần gốc. Chọn số nguyên từ 1 đến 20. Kết quả làm tròn hai chữ số thập phân, giữ nguyên đơn vị. Nguyên liệu “nêm vừa ăn” không nhân theo khẩu phần. Thời gian chuẩn bị không thay đổi theo khẩu phần.¦変更後の分量＝元の分量×希望人数÷元の人数です。1〜20の整数を指定します。小数第2位まで丸め、単位は変えません。「お好みで」の材料と調理時間は人数に合わせて変更しません。¦新用量＝原用量×所需份数÷原份数。请输入1至20的整数。结果保留两位小数，单位不变。“适量”的食材和准备时间不随份数变化。¦Quantité adaptée = quantité initiale × portions demandées ÷ portions initiales. Choisissez un entier de 1 à 20. Le résultat est arrondi à deux décimales, sans changer les unités. Les ingrédients « selon le goût » et la durée ne sont pas ajustés.
+36¦Dữ liệu mẫu, phạm vi rõ ràng.¦サンプルデータとサイトの範囲。¦示例数据，明确范围。¦Des exemples et un cadre clair.
+37¦RecipeNest là website công thức nấu ăn phục vụ học tập, xây dựng bằng AngularJS. Công thức, nhãn chế độ ăn và chất gây dị ứng là dữ liệu mẫu; hồ sơ người đóng góp là hư cấu. Trợ lý tùy chọn sử dụng Ollama Cloud. Website không có tài khoản, thanh toán hay gửi email.¦RecipeNest は AngularJS で作成した学習用レシピサイトです。レシピ、食事タグ、アレルゲンはサンプル情報で、プロフィールは架空です。任意のアシスタントは Ollama Cloud を利用します。アカウント、決済、メール送信機能はありません。¦RecipeNest 是使用 AngularJS 构建的教学食谱网站。食谱、饮食标签和过敏原为示例数据，人物资料为虚构。可选助手使用 Ollama Cloud。网站没有账户、支付或邮件发送功能。¦RecipeNest est un site pédagogique de recettes réalisé avec AngularJS. Les recettes, étiquettes alimentaires et allergènes sont des exemples, et les profils sont fictifs. L’assistant facultatif utilise Ollama Cloud. Il n’y a ni comptes, ni paiements, ni envoi d’e-mails.
+38¦Hình ảnh và ghi công.¦画像とクレジット。¦图片与鸣谢。¦Images et remerciements.
+39¦Ảnh minh họa từ Unsplash được lưu sẵn trong dự án và có thể khác món ăn thực tế. Chú thích gallery ghi nhà cung cấp; phần¦料理の参考写真は Unsplash から取得し、ローカルに保存しています。実際の料理とは異なる場合があります。提供元はギャラリーの説明に、元の画像URLは¦示意美食照片来自Unsplash，已包含在本地项目中，可能与实际菜品不同。图库说明标注提供方；以下¦Les photos d’illustration proviennent d’Unsplash et sont incluses localement. Elles peuvent différer du plat réel. La galerie indique le fournisseur ; les
+40¦nguồn tài nguyên¦素材クレジット¦资源来源¦crédits des ressources
+41¦liệt kê URL ảnh gốc. Giao diện và bố cục được tạo cho RecipeNest. AngularJS đi kèm giấy phép MIT.¦に記載しています。画面デザインとレイアウトは RecipeNest 用に作成しました。AngularJS は MIT ライセンスで同梱しています。¦列出了原始图片网址。界面图形与布局为RecipeNest制作。AngularJS遵循MIT许可证。¦indiquent les URL d’origine. Les éléments graphiques et la mise en page ont été créés pour RecipeNest. AngularJS est fourni sous licence MIT.
+42¦Dữ liệu của bạn ở lại với bạn.¦データはあなたの手元に。¦你的数据留在你身边。¦Vos données restent chez vous.
+43¦Chỉ mã công thức, số khẩu phần và lựa chọn ngôn ngữ được lưu. Form liên hệ chỉ minh họa xác thực, không lưu tin nhắn. Để xóa món yêu thích và lịch ăn, dùng cài đặt dữ liệu trang của trình duyệt cho địa chỉ local này. Nếu lưu trữ gặp lỗi, ứng dụng thông báo và tiếp tục dùng bộ nhớ trong tab hiện tại.¦保存するのはレシピID、人数、選んだ言語だけです。お問い合わせフォームは入力チェックのデモで、メッセージは保存しません。データをリセットするには、このローカルアドレスのサイトデータをブラウザー設定から削除してください。保存できない場合は警告を表示し、現在のタブのメモリ上で動作します。¦仅保存食谱编号、份数及语言选择。联系表单只演示输入验证，不保存留言。若要重置收藏和计划，请在浏览器中清除此本地地址的网站数据。存储失败时会提示，并在当前标签页内存中继续运行。¦Seuls les identifiants des recettes, les portions et la langue choisie sont enregistrés. Le formulaire démontre la validation sans conserver de message. Pour réinitialiser favoris et menus, effacez les données de ce site local dans le navigateur. En cas d’erreur de stockage, l’application vous avertit et continue dans la mémoire de l’onglet.
+44¦Có góp ý? Nhắn tụi mình nha ↗¦ご意見があれば、お気軽に ↗¦有建议？来聊聊吧 ↗¦Une suggestion ? Dites-nous bonjour ↗
+45¦PHÚT¦分¦分钟¦MIN
+46¦Xem công thức¦レシピを見る¦查看食谱¦Voir la recette
+47¦TÌM MÓN NGON DÀNH CHO BẠN¦おいしい出会いを探して¦寻找你的美味¦TROUVEZ VOTRE PROCHAINE ENVIE
+48¦Công thức cho mỗi ngày.¦毎日に寄り添うレシピ。¦为日常生活而做的食谱。¦Des recettes pour la vraie vie.
+49¦Cảm hứng cho buổi sáng bận rộn, Chủ nhật thư thả và mọi thời điểm khác.¦忙しい朝にも、のんびりした日曜日にも。毎日の料理に新しいひらめきを。¦为忙碌的早晨、悠闲的周日和每个日常时刻带来灵感。¦De nouvelles idées pour les matins pressés, les dimanches tranquilles et tous les autres moments.
+50¦Tìm công thức của bạn¦レシピを探す¦寻找食谱¦Trouvez votre recette
+51¦Xóa tất cả¦すべて解除¦全部清除¦Tout effacer
+52¦Tìm kiếm¦検索¦搜索¦Rechercher
+53¦Tên món hoặc nguyên liệu…¦料理名や材料…¦名称或食材…¦Nom ou ingrédient…
+54¦Ẩm thực¦料理ジャンル¦菜系¦Cuisine
+55¦Tất cả nền ẩm thực¦すべてのジャンル¦全部菜系¦Toutes les cuisines
+56¦Loại bữa ăn¦食事の種類¦餐次¦Type de repas
+57¦Mọi bữa ăn¦すべての食事¦不限餐次¦Tous les repas
+58¦Bữa sáng¦朝食¦早餐¦Petit-déjeuner
+59¦Bữa trưa¦昼食¦午餐¦Déjeuner
+60¦Bữa tối¦夕食¦晚餐¦Dîner
+61¦Ăn nhẹ¦軽食¦小食¦En-cas
+62¦Thời gian hoàn thành¦調理時間¦完成时间¦Prêt en
+63¦Mọi thời lượng¦指定なし¦不限时间¦Toutes les durées
+64¦Không quá 15 phút¦15分以内¦15分钟以内¦15 minutes maximum
+65¦Không quá 30 phút¦30分以内¦30分钟以内¦30 minutes maximum
+66¦Không quá 45 phút¦45分以内¦45分钟以内¦45 minutes maximum
+67¦Chế độ ăn¦食事タグ¦饮食标签¦Régime alimentaire
+68¦Tất cả chế độ ăn¦すべての食事タグ¦全部饮食标签¦Tous les régimes
+69¦Các bộ lọc kết hợp với nhau. Nhãn và thông tin dị ứng là dữ liệu mẫu, không bảo đảm phù hợp chế độ ăn.¦各条件を組み合わせて絞り込みます。食事タグとアレルゲンはサンプル情報で、適合性を保証するものではありません。¦所有筛选条件共同生效。标签与过敏原信息仅为示例，不保证适合特定饮食。¦Les filtres se combinent. Les étiquettes et allergènes sont des exemples, sans garantie d’adéquation alimentaire.
+70¦công thức để khám phá¦件のレシピ¦道食谱可供探索¦recettes à découvrir
+71¦Sắp xếp theo¦並べ替え¦排序方式¦Trier par
+72¦Tên: A–Z¦名前：昇順¦名称：升序¦Nom : A–Z
+73¦Tên: Z–A¦名前：降順¦名称：降序¦Nom : Z–A
+74¦Nhanh nhất trước¦調理時間が短い順¦用时最短优先¦Les plus rapides
+75¦Chưa tìm thấy công thức.¦レシピが見つかりませんでした。¦暂时没有找到食谱。¦Aucune recette trouvée.
+76¦Thử từ khóa khác hoặc bớt một bộ lọc để tìm món bạn thích.¦キーワードを変えるか、条件を減らして検索してみてください。¦换个关键词或减少筛选条件，寻找下一道心仪美食。¦Essayez un autre mot-clé ou élargissez les filtres pour trouver votre prochaine recette préférée.
+77¦Xóa mọi bộ lọc¦すべての条件を解除¦清除全部筛选¦Effacer tous les filtres
+78¦TUYỂN CHỌN CHO MỖI NGÀY¦毎日のために選んだレシピ¦为日常精心挑选¦UNE SÉLECTION POUR LE QUOTIDIEN
+79¦Món ngon cho mọi tâm trạng.¦気分に合うレシピを。¦每种心情都有一道食谱。¦Une recette pour chaque envie.
+80¦Tìm kiếm ít hơn, cảm hứng nhiều hơn. Khám phá cách nấu bạn yêu thích.¦探す時間を減らして、ひらめきをもっと。自分らしい料理を見つけましょう。¦少一点搜索，多一点灵感，发现适合自己的烹饪方式。¦Moins de recherches, plus d’inspiration. Trouvez la cuisine qui vous ressemble.
+81¦CÔNG THỨC · ĐƯỢC CHỌN LỌC¦レシピ・心を込めたセレクション¦道食谱 · 精心挑选¦RECETTES · CHOISIES AVEC SOIN
+82¦BÀN ĂN LUÔN CÓ CHỖ CHO BẠN¦食卓には、いつでもあなたの席を¦餐桌总有你的位置¦IL Y A TOUJOURS UNE PLACE À NOTRE TABLE
+83¦Cùng nói chuyện món ngon.¦料理の話をしましょう。¦来聊聊美食吧。¦Parlons cuisine.
+84¦Câu hỏi, ý tưởng hay món bạn yêu thích? Tụi mình rất muốn nghe.¦質問、アイデア、お気に入りの料理。ぜひ聞かせてください。¦有问题、想法或喜欢的食谱？欢迎与我们分享。¦Une question, une idée ou une recette que vous aimez ? Racontez-nous.
+85¦Câu chuyện thú vị¦楽しい会話は¦美好的交谈¦Les bonnes conversations
+86¦bắt đầu từ gian bếp.¦キッチンから。¦从厨房开始。¦commencent en cuisine.
+87¦Đây là form minh họa. Hệ thống kiểm tra thông tin và hiển thị xác nhận tại đây. Không gửi email và không lưu tin nhắn.¦入力内容を確認して画面に結果を表示するデモフォームです。メールの送信やメッセージの保存は行いません。¦这是演示表单，仅验证输入并在此显示确认，不发送邮件，也不保存留言。¦Ce formulaire de démonstration vérifie les données et affiche une confirmation ici. Aucun e-mail n’est envoyé et votre message n’est pas enregistré.
+88¦Tìm hiểu RecipeNest ↗¦RecipeNest について ↗¦了解RecipeNest ↗¦Découvrez RecipeNest ↗
+89¦Tên của bạn¦お名前¦你的姓名¦Votre nom
+90¦(bắt buộc)¦（必須）¦（必填）¦(obligatoire)
+91¦Tụi mình gọi bạn là gì?¦お名前を教えてください¦我们该如何称呼你？¦Comment vous appelez-vous ?
+92¦Vui lòng nhập tên của bạn.¦お名前を入力してください。¦请输入姓名。¦Veuillez saisir votre nom.
+93¦Địa chỉ email¦メールアドレス¦电子邮箱¦Adresse e-mail
+94¦Vui lòng nhập địa chỉ email hợp lệ.¦有効なメールアドレスを入力してください。¦请输入有效的电子邮箱。¦Veuillez saisir une adresse e-mail valide.
+95¦Lời nhắn của bạn¦メッセージ¦你的留言¦Votre message
+96¦Bạn muốn chia sẻ điều gì?¦どんなお話ですか？¦有什么想分享的吗？¦Qu’aimeriez-vous nous dire ?
+97¦Vui lòng nhập lời nhắn.¦メッセージを入力してください。¦请输入留言。¦Veuillez écrire un message.
+98¦Kiểm tra lời nhắn ↗¦入力内容を確認 ↗¦检查留言 ↗¦Vérifier le message ↗
+99¦Đặt lại form¦フォームをリセット¦重置表单¦Réinitialiser
+100¦Cảm ơn,¦ありがとうございます、¦谢谢，¦Merci,
+101¦! Thông tin hợp lệ. Bản minh họa không gửi hoặc lưu lời nhắn của bạn.¦さん。入力は有効です。このデモでは送信も保存も行いません。¦！输入有效。本演示未发送或保存留言。¦ ! Vos données sont valides. Cette démonstration n’a ni envoyé ni enregistré votre message.
+102¦NHỮNG NGƯỜI BÊN BÀN ĂN¦食卓を囲む人たち¦我们餐桌旁的人们¦LES PERSONNES AUTOUR DE NOTRE TABLE
+103¦Nấu bằng cả tấm lòng.¦心を込めて作りました。¦带着心意制作。¦Préparé avec cœur.
+104¦Gặp những đầu bếp tại gia hư cấu đằng sau bộ công thức mẫu.¦サンプルレシピを紹介する架空の家庭料理人たちです。¦认识示例食谱背后的虚构家庭厨师。¦Rencontrez les cuisiniers fictifs de notre collection d’exemples.
+105¦Hồ sơ mẫu hư cấu¦架空のサンプルプロフィール¦虚构示例资料¦Profil fictif d’exemple
+106¦Gặp¦紹介：¦认识¦Découvrez
+107¦và khám phá công thức ↗¦のレシピを見る ↗¦并探索食谱 ↗¦et ses recettes ↗
+108¦Đường dẫn điều hướng¦パンくずリスト¦面包屑导航¦Fil d’Ariane
+109¦← Về danh sách công thức¦← レシピ一覧へ¦← 返回食谱列表¦← Retour aux recettes
+110¦phút¦分¦分钟¦min
+111¦Tổng thời gian chuẩn bị¦調理時間の目安¦总准备时间¦Préparation totale
+112¦khẩu phần¦人分¦份¦portions
+113¦Công thức gốc¦元のレシピ¦原始食谱¦Recette initiale
+114¦Công thức của¦レシピ提供：¦食谱作者¦Une recette de
+115¦Người đóng góp mẫu hư cấu¦架空のサンプル投稿者¦虚构示例创作者¦Contributeur fictif
+116¦Thêm vào lịch ăn ↗¦献立に追加 ↗¦加入用餐计划 ↗¦Ajouter au menu ↗
+117¦ĐIỀU CHỈNH THEO BẠN¦自分好みにアレンジ¦按你的需求调整¦ADAPTEZ À VOTRE TABLE
+118¦Nguyên liệu¦材料¦食材¦Ingrédients
+119¦Bàn ăn có mấy người?¦何人分を作りますか？¦准备几人份？¦Combien de personnes à table ?
+120¦Số nguyên từ 1–20. Lượng nguyên liệu tính từ¦1〜20の整数。材料は元の¦请输入1至20的整数。用量基于原食谱的¦Entiers de 1 à 20. Les quantités sont adaptées à partir de
+121¦khẩu phần gốc và làm tròn 2 chữ số thập phân.¦人分を基準にし、小数第2位まで丸めます。¦份数计算，并保留两位小数。¦portions initiales, avec un arrondi à deux décimales.
+122¦Không nhân theo khẩu phần¦分量調整なし¦不按份数调整¦Non ajusté
+123¦Thông tin dị ứng¦記載されたアレルゲン¦标注的过敏原¦Allergènes déclarés
+124¦Dữ liệu mẫu. Hãy tự kiểm tra nhãn nguyên liệu và mức độ phù hợp.¦サンプル情報です。食材の表示と適合性をご自身で確認してください。¦示例内容，请自行检查食材标签与适用性。¦Données d’exemple. Vérifiez vous-même les étiquettes et l’adéquation des ingrédients.
+125¦CHÚT CHĂM CHÚT, THÀNH MÓN NGON¦ひと手間で、おいしく¦一点用心，一道美味¦UN PEU D’ATTENTION, BEAUCOUP DE SAVEUR
+126¦Bắt tay vào nấu nha.¦さあ、作りましょう。¦开始烹饪吧。¦À vos fourneaux.
+128¦Ghi chú từ gian bếp¦キッチンからのメモ¦厨房小贴士¦Une note de la cuisine
+129¦TIẾP TỤC TÌM CẢM HỨNG¦ひらめきを、もう少し¦让灵感继续¦PROLONGEZ L’INSPIRATION
+130¦Có thể bạn cũng thích…¦こちらもおすすめ…¦你可能也喜欢…¦Vous aimerez aussi…
+131¦Gian bếp chưa có công thức này.¦このレシピは見つかりませんでした。¦厨房里暂时没有这道食谱。¦Cette recette est introuvable.
+132¦Đường dẫn công thức có thể chưa đúng. Vẫn còn nhiều món ngon để khám phá.¦レシピのリンクが間違っている可能性があります。他の料理も探してみましょう。¦食谱链接可能有误，还有更多美味等你探索。¦Le lien est peut-être incorrect. Il reste plein de bonnes recettes à découvrir.
+133¦Xem tất cả công thức¦すべてのレシピへ¦浏览全部食谱¦Parcourir les recettes
+134¦HỘP CÔNG THỨC CỦA RIÊNG BẠN¦あなただけのレシピボックス¦你的专属食谱盒¦VOTRE BOÎTE À RECETTES
+135¦Thích thì lưu lại nha.¦好きなレシピは、ここに。¦喜欢就收藏吧。¦Vous aimez ? Gardez-la.
+136¦Những món bạn thích, sẵn sàng mỗi khi cần cảm hứng.¦作りたくなったときに、いつでもお気に入りを。¦收藏你喜欢的食谱，随时唤起灵感。¦Vos recettes préférées, prêtes dès que l’inspiration arrive.
+137¦công thức đã lưu¦件を保存済み¦道已收藏食谱¦recettes enregistrées
+138¦Lên lịch một tuần ngon miệng ↗¦おいしい1週間を計画 ↗¦规划美味的一周 ↗¦Prévoir une semaine gourmande ↗
+139¦Nơi lưu những món bạn yêu thích.¦大好きなレシピの居場所。¦为心爱的食谱安个家。¦Une place pour vos recettes préférées.
+140¦Nhấn trái tim trên món bất kỳ để bắt đầu bộ sưu tập.¦レシピのハートを押して、コレクションを始めましょう。¦点击任意食谱上的爱心，开始你的收藏。¦Appuyez sur le cœur d’une recette pour commencer votre collection.
+141¦Mục yêu thích lưu trong trình duyệt này. Bỏ yêu thích không xóa món đã thêm vào lịch ăn.¦お気に入りはこのブラウザーに保存されます。お気に入りを解除しても献立の料理は残ります。¦收藏保存在本浏览器中，取消收藏不会删除计划中的餐食。¦Les favoris restent dans ce navigateur. Les retirer ne supprime pas les repas déjà planifiés.
+142¦Tìm món yêu thích đầu tiên ↗¦最初のお気に入りを探す ↗¦寻找第一道心仪食谱 ↗¦Trouver votre première favorite ↗
+143¦BỮA TIỆC CHO ĐÔI MẮT¦目でも楽しむ料理¦一场视觉盛宴¦UN FESTIN POUR LES YEUX
+144¦Từ gian bếp tụi mình.¦私たちのキッチンから。¦来自我们的厨房。¦Depuis notre cuisine.
+145¦Màu sắc, kết cấu và chút kỳ diệu mỗi ngày. Chọn ảnh để xem rõ hơn.¦彩り、質感、日々の小さな楽しみ。写真を選ぶと大きく表示します。¦色彩、质感与日常的小惊喜。选择照片以查看大图。¦Couleurs, textures et petits bonheurs du quotidien. Sélectionnez une photo pour l’agrandir.
+146¦· Ảnh món ăn minh họa¦・料理の参考写真¦· 美食示意照片¦· Photo culinaire d’illustration
+147¦Ảnh minh họa nguyên liệu hoặc phong cách món ăn, có thể khác thành phẩm. URL gốc và ghi công được liệt kê trong¦写真は材料や料理のイメージで、完成品と異なる場合があります。元のURLと提供元は、こちらの¦照片展示食材或菜品风格，可能与成品不同。原始网址与鸣谢请见¦Les photos illustrent des ingrédients ou des styles de plats et peuvent différer du résultat. Les URL et crédits figurent dans les
+148¦Đóng ảnh xem trước¦プレビューを閉じる¦关闭图片预览¦Fermer l’aperçu
+149¦Ảnh trước¦前の写真¦上一张¦Image précédente
+150¦· Ảnh minh họa¦・参考写真¦· 示意照片¦· Photo d’illustration
+151¦Mở công thức ↗¦レシピを開く ↗¦打开食谱 ↗¦Ouvrir la recette ↗
+152¦Ảnh tiếp theo¦次の写真¦下一张¦Image suivante
+153¦Dùng ← → để chuyển ảnh, Escape để đóng.¦← → キーで移動、Escape キーで閉じます。¦使用← →切换图片，按Escape关闭。¦Utilisez ← → pour parcourir et Échap pour fermer.
+154¦CHÀO MỪNG ĐẾN GIAN BẾP VUI VẺ¦楽しいキッチンへようこそ¦欢迎来到你的快乐厨房¦BIENVENUE DANS VOTRE PETIT BONHEUR
+155¦Ăn ngon.¦おいしいごはん。¦美味佳肴。¦De bons plats.
+156¦Ngày vui.¦楽しい毎日。¦美好一天。¦De belles journées.
+157¦Bắt đầu từ đây.¦ここから。¦从这里开始。¦Tout commence ici.
+158¦Tìm món yêu thích mới, biến tấu theo bạn và thêm niềm vui cho bàn ăn mỗi ngày.¦新しいお気に入りを見つけ、自分好みにアレンジして、毎日の食卓をもっと楽しく。¦发现新的心头好，融入自己的创意，让每天的餐桌多一点快乐。¦Découvrez une nouvelle favorite, adaptez-la et apportez un peu plus de joie à votre table au quotidien.
+159¦Tìm công thức¦レシピを検索¦搜索食谱¦Rechercher une recette
+160¦Bạn muốn nấu món gì?¦何を作りたいですか？¦你想做什么菜？¦Qu’avez-vous envie de cuisiner ?
+161¦Một chút cảm hứng:¦こんな料理はいかが：¦一点灵感：¦Un peu d’inspiration :
+162¦Nhanh và dễ¦簡単・時短¦快捷简单¦Rapide et facile
+163¦Ăn chay¦ベジタリアン¦蛋奶素¦Végétarien
+164¦Tô rau củ nhiều màu với rau xanh và nguyên liệu theo mùa¦新鮮な葉物と旬の食材を盛った彩り豊かな野菜ボウル¦搭配新鲜绿叶菜与时令食材的缤纷蔬菜碗¦Bol de légumes colorés avec des feuilles fraîches et des ingrédients de saison
+165¦Ý TƯỞNG TƯƠI MỚI¦新しいひらめき¦新鲜创意¦IDÉES FRAÎCHES
+166¦nấu¦心を¦用心¦préparé
+167¦bằng yêu thương¦込めて¦制作¦avec amour
+168¦CHO MỖI NGÀY¦毎日のために¦每一天¦POUR CHAQUE JOUR
+169¦THỰC ĐƠN HÔM NAY¦今日のおすすめ¦今日菜单¦AU MENU AUJOURD’HUI
+170¦Tô rau củ cầu vồng¦彩り野菜のレインボーボウル¦缤纷蔬菜彩虹碗¦Le bol arc-en-ciel qui fait du bien
+171¦25 phút · Địa Trung Hải · Ăn chay¦25分・地中海料理・ベジタリアン¦25分钟 · 地中海菜 · 蛋奶素¦25 min · Méditerranée · Végétarien
+172¦công thức đáng yêu¦件のとっておきレシピ¦道让人喜爱的食谱¦recettes à aimer
+173¦nền ẩm thực, vô vàn cảm hứng¦つの料理ジャンル、広がるひらめき¦种菜系，无限灵感¦cuisines, une infinité d’idées
+174¦ngày đầy món ngon¦日分のおいしい楽しみ¦天的美味可能¦jours de possibilités gourmandes
+175¦Một gian bếp nhỏ thật vui¦ひとつの楽しいキッチン¦一个快乐的小厨房¦Une petite cuisine heureuse
+176¦MỘT CHÚT MÓN TỤI MÌNH YÊU¦私たちのお気に入りを少し¦分享一点我们的心头好¦QUELQUES-UNES DE NOS ENVIES
+177¦Gặp món yêu thích tiếp theo.¦次のお気に入りに出会う。¦遇见下一道心头好。¦Découvrez votre prochaine favorite.
+178¦Khám phá tất cả công thức¦すべてのレシピを見る¦探索全部食谱¦Explorer toutes les recettes
+179¦BỚT LƯỚT, THÊM NẤU¦探すより、作る時間を¦少刷一点，多做一点¦MOINS D’ÉCRAN, PLUS DE CUISINE
+180¦Món ngon cho mọi tâm trạng.¦今の気分にぴったり。¦每种心情都能找到美味。¦Pour toutes vos envies.
+181¦Tất cả bộ sưu tập ↗¦すべての特集 ↗¦全部精选集 ↗¦Toutes les collections ↗
+182¦CÔNG THỨC¦レシピ¦道食谱¦RECETTES
+183¦Tìm cảm hứng của bạn ↗¦ひらめきを見つける ↗¦寻找你的灵感 ↗¦Trouvez l’inspiration ↗
+184¦KẾ HOẠCH NHỎ TUẦN NÀY¦今週の小さな献立¦本周小计划¦LE PETIT MENU DE LA SEMAINE
+185¦T2¦月¦周一¦LUN
+186¦Món gì đó tươi mát¦さっぱりしたもの¦清新一点¦Une touche de fraîcheur
+187¦T3¦火¦周二¦MAR
+188¦Món cả nhà đều thích¦家族の定番¦全家都爱¦Un favori de la famille
+189¦T4¦水¦周三¦MER
+190¦Thử món mới¦新しい料理に挑戦¦尝点新鲜¦Une nouvelle découverte
+191¦NGÀY VUI BẮT ĐẦU TỪ CHÚT KẾ HOẠCH¦楽しい毎日は、小さな計画から¦美好的一天，始于一点计划¦LES BELLES JOURNÉES COMMENCENT PAR UN PETIT PLAN
+192¦Một tuần món ngon.¦1週間の献立。¦一周的美味。¦Une semaine de repas.
+193¦Bớt một điều phải lo.¦悩みごとをひとつ減らして。¦少一件要操心的事。¦Une chose de moins à prévoir.
+194¦Lưu món bạn yêu thích, điều chỉnh khẩu phần và để mỗi ngày đều có món ngon đáng mong đợi.¦好きなレシピを保存し、人数に合わせて、毎日楽しみになる献立を作りましょう。¦收藏喜欢的食谱，调整份数，让每一天都有值得期待的美味。¦Enregistrez vos recettes, adaptez les portions et donnez à chaque jour une promesse gourmande.
+195¦Cùng lên lịch ăn nha¦1週間を計画しましょう¦一起规划本周菜单¦Planifions votre semaine
+196¦“Nguyên liệu tuyệt nhất luôn là¦「最高の隠し味は、いつも¦“最好的食材，总是¦« Le meilleur ingrédient est toujours
+197¦một chút tò mò.¦少しの好奇心。¦一点好奇心。¦un peu de curiosité.
+198¦Gặp những người đằng sau công thức ↗¦レシピを紹介する人たちへ ↗¦认识食谱背后的创作者 ↗¦Rencontrez les créateurs des recettes ↗
+199¦ĐI VÒNG MỘT CHÚT¦ちょっと寄り道¦小小绕路¦UN PETIT DÉTOUR
+200¦Trang này chưa có trong thực đơn.¦このページはメニューにありません。¦菜单上没有这个页面。¦Cette page n’est pas au menu.
+201¦Cùng tìm món ngon khác nha.¦別のおいしい料理を探しましょう。¦不如寻找另一道美味吧。¦Trouvons plutôt une bonne recette.
+202¦Khám phá công thức ↗¦レシピを探す ↗¦探索食谱 ↗¦Explorer les recettes ↗
+203¦CHÚT KẾ HOẠCH, THÊM NHẸ NHÀNG¦小さな計画で、大きなゆとりを¦一点计划，轻松许多¦UN PETIT PLAN CHANGE TOUT
+204¦Một tuần ăn ngon của bạn.¦あなたの、おいしい1週間。¦为你安排美味的一周。¦Votre semaine, délicieusement prévue.
+205¦Mỗi bữa một món, khẩu phần vừa đủ và chút ngẫu hứng.¦1食にひとつのレシピ。人数に合わせて、自由な余白も。¦每餐一道食谱，份数恰到好处，也留点随心的空间。¦Une recette par repas, des portions adaptées et une place pour l’imprévu.
+206¦trên 21 bữa đã lên lịch¦/ 21食を計画済み¦/ 21餐已安排¦repas prévus sur 21
+207¦· Tự động lưu trên thiết bị này¦・この端末に自動保存¦· 自动保存在此设备¦· Enregistrement automatique sur cet appareil
+208¦Tìm ý tưởng món ngon ↗¦献立のアイデアを探す ↗¦寻找食谱灵感 ↗¦Trouver des idées de recettes ↗
+209¦Tuần mới, nhiều điều đáng mong đợi.¦新しい1週間、広がる楽しみ。¦全新一周，充满可能。¦Une nouvelle semaine pleine de possibilités.
+210¦Chọn ô bất kỳ bên dưới để thêm bữa đầu tiên.¦下の枠を選んで、最初の料理を追加しましょう。¦选择下方任意餐位，加入第一餐。¦Choisissez une case ci-dessous pour ajouter votre premier repas.
+211¦NGÀY 0¦日目 0¦第0天¦JOUR 0
+212¦Đổi¦変更¦更改¦Modifier
+213¦Xóa¦削除¦移除¦Retirer
+214¦Thêm công thức¦レシピを追加¦添加食谱¦Ajouter une recette
+215¦Lịch ăn lưu mã món và khẩu phần. Bỏ yêu thích không xóa bữa đã lên lịch. Xóa dữ liệu trình duyệt sẽ xóa lịch ăn đã lưu.¦献立にはレシピIDと人数を保存します。お気に入り解除では献立は消えません。ブラウザーのデータを消去すると保存済みの献立も消えます。¦计划保存食谱编号和份数，取消收藏不会移除已安排的餐食。清除浏览器数据会删除已保存的计划。¦Le menu utilise des identifiants et des portions. Retirer un favori n’efface pas ses repas planifiés. Effacer les données du navigateur supprime le menu enregistré.
+216¦Đóng trình sửa bữa ăn¦献立の編集を閉じる¦关闭餐食编辑器¦Fermer l’éditeur du repas
+217¦DÀNH CHỖ CHO MÓN NGON¦おいしい料理の席を用意して¦为美味留个位置¦FAITES UNE PLACE AU BON
+218¦Chọn công thức¦レシピを選択¦选择食谱¦Choisir une recette
+219¦Vui lòng chọn công thức.¦レシピを選んでください。¦请选择食谱。¦Choisissez une recette.
+220¦Khẩu phần¦人数¦份数¦Portions
+221¦Nhập số nguyên từ 1 đến 20.¦1〜20の整数を入力してください。¦请输入1至20的整数。¦Saisissez un entier de 1 à 20.
+222¦Lưu bữa này¦この食事を保存¦保存本餐¦Enregistrer ce repas
+223¦Hủy¦キャンセル¦取消¦Annuler
+224¦← Tất cả người đóng góp¦← 投稿者一覧¦← 全部创作者¦← Tous les contributeurs
+225¦Trong gian bếp:¦得意な料理：¦厨房兴趣：¦En cuisine :
+226¦Từ gian bếp của¦こちらのキッチンから：¦来自¦Dans la cuisine de
+227¦¦のキッチン¦的厨房¦
+228¦công thức¦件のレシピ¦道食谱¦recettes
+229¦Không tìm thấy người đóng góp.¦投稿者が見つかりませんでした。¦未找到创作者。¦Contributeur introuvable.
+230¦Gặp người đóng góp¦投稿者を見る¦认识创作者¦Rencontrer les contributeurs

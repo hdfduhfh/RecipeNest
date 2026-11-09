@@ -1,0 +1,23 @@
+<section class="wrap page-intro">
+  <p class="eyebrow">{{ 'text.bac3839d283f' | t }}</p>
+  <h1>{{ 'text.2966ffb99d1e' | t }}</h1>
+  <p>{{ 'text.85a5f677d826' | t }}</p>
+</section>
+<section class="wrap section-bottom">
+  <div class="results-bar">
+    <p role="status"><b>{{favourites.recipes.length || 0}}</b> {{ 'text.b39102a562b9' | t }}</p>
+    <a class="text-link" href="#!/planner">{{ 'text.6c2294cbc5a5' | t }}</a>
+  </div>
+  <div class="recipe-grid">
+    <recipe-card
+      ng-repeat="recipe in favourites.recipes track by recipe.id"
+      recipe="recipe"
+    ></recipe-card>
+  </div>
+  <div class="empty-state" ng-if="!favourites.recipes.length">
+    <span aria-hidden="true">♡</span>
+    <h2>{{ 'text.44fe33a0ccdd' | t }}</h2>
+    <p>{{ 'text.c9c946d89ade' | t }}<br />{{ 'text.15fde0f62bb6' | t }}</p>
+    <a class="button btn btn-primary" href="#!/recipes">{{ 'text.1195e99723b4' | t }}</a>
+  </div>
+</section>

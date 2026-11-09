@@ -1,0 +1,155 @@
+<section
+  class="nest-chat-panel"
+  ng-if="chat.isOpen"
+  role="dialog"
+  aria-labelledby="nest-chat-title"
+>
+  <header class="nest-chat-header">
+    <span class="nest-chat-avatar" aria-hidden="true">✦</span>
+    <div>
+      <h2 id="nest-chat-title">{{ chat.t('title') }}</h2>
+      <p>
+        <span class="nest-chat-dot" ng-class="{'is-ai': chat.connected}"></span>{{
+        chat.t(chat.connected ? 'ai' : 'local') }}
+      </p>
+    </div>
+    <button
+      type="button"
+      class="nest-chat-icon"
+      ng-click="chat.clear()"
+      aria-label="{{ chat.t('clear') }}"
+      title="{{ chat.t('clear') }}"
+    >
+      ↺
+    </button>
+    <button
+      type="button"
+      class="nest-chat-icon"
+      ng-click="chat.toggle()"
+      aria-label="{{ chat.t('close') }}"
+    >
+      ×
+    </button>
+  </header>
+  <div
+    class="nest-chat-log"
+    role="log"
+    aria-live="polite"
+    aria-relevant="additions text"
+    aria-busy="{{ chat.busy }}"
+  >
+    <div class="nest-chat-intro">
+      <span aria-hidden="true">✦</span>
+      <p>{{ chat.t('welcome') }}</p>
+    </div>
+    <div class="nest-chat-suggestions" ng-if="!chat.messages.length">
+      <button
+        type="button"
+        ng-repeat="key in chat.quickKeys"
+        ng-click="chat.send(chat.t(key))"
+        ng-disabled="chat.busy"
+      >
+        {{ chat.t(key) }} <span aria-hidden="true">↗</span>
+      </button>
+    </div>
+    <article
+      class="nest-chat-message"
+      ng-repeat="message in chat.messages track by $index"
+      ng-class="{'is-user': message.role === 'user'}"
+    >
+      <p class="nest-chat-bubble" ng-bind="message.text"></p>
+      <div class="nest-chat-recipes" ng-if="message.recipes.length">
+        <small>{{ chat.t('sources') }}</small
+        ><a
+          ng-repeat="recipe in message.recipes track by recipe.id"
+          ng-href="#!/recipe/{{ recipe.id }}"
+          ng-click="chat.followRecipe()"
+          ><img ng-src="{{ recipe.image }}" alt="" loading="lazy" /><span
+            ><strong>{{ chat.recipeText(recipe.name) }}</strong
+            ><small
+              >{{ chat.t('minutes', {n: recipe.minutes}) }} · {{ chat.t('baseServings', {n:
+              recipe.servings}) }}</small
+            ></span
+          ><span aria-hidden="true">↗</span></a
+        >
+      </div>
+      <a
+        class="nest-chat-planner"
+        ng-if="message.planner"
+        href="#!/planner"
+        ng-click="chat.followRecipe()"
+        >{{ chat.t('planner') }} ↗</a
+      >
+      <small class="nest-chat-mode" ng-if="message.role === 'assistant'"
+        >{{ chat.t(message.mode === 'ai' ? 'ai' : 'local') }}</small
+      >
+    </article>
+    <p class="nest-chat-thinking" ng-if="chat.busy" role="status">
+      <span aria-hidden="true">● ● ●</span> {{ chat.t('thinking') }}
+    </p>
+    <div class="nest-chat-error" ng-if="chat.error" role="alert">
+      <p>{{ chat.error }}</p>
+      <button type="button" ng-click="chat.retry(false)" ng-disabled="chat.busy">
+        {{ chat.t('retry') }}</button
+      ><button type="button" ng-click="chat.retry(true)" ng-disabled="chat.busy">
+        {{ chat.t('guide') }}
+      </button>
+    </div>
+  </div>
+  <form class="nest-chat-compose" ng-submit="chat.send()">
+    <label class="sr-only" for="nest-chat-input">{{ chat.t('placeholder') }}</label>
+    <textarea
+      id="nest-chat-input"
+      ng-model="chat.draft"
+      ng-keydown="chat.keydown($event)"
+      rows="2"
+      maxlength="2000"
+      placeholder="{{ chat.t('placeholder') }}"
+      ng-disabled="chat.busy"
+    ></textarea>
+    <button
+      type="submit"
+      ng-disabled="chat.busy || !chat.draft.trim()"
+      aria-label="{{ chat.t('send') }}"
+    >
+      <svg
+        viewBox="0 0 24 24"
+        width="21"
+        height="21"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.8"
+        aria-hidden="true"
+      >
+        <path d="m5 12 7-7 7 7M12 5v15" />
+      </svg>
+    </button>
+  </form>
+  <div class="nest-chat-footer">
+    <p>{{ chat.t('footer') }}</p>
+    <details>
+      <summary>{{ chat.t(chat.connected ? 'ai' : 'guide') }}</summary>
+      <p>{{ chat.t(chat.connected ? 'privacy' : 'localNote') }}</p>
+    </details>
+  </div>
+</section>
+<button
+  class="nest-chat-launcher"
+  type="button"
+  ng-click="chat.toggle()"
+  aria-expanded="{{ chat.isOpen }}"
+  aria-label="{{ chat.t(chat.isOpen ? 'close' : 'open') }}"
+>
+  <svg
+    viewBox="0 0 24 24"
+    width="23"
+    height="23"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="1.7"
+    aria-hidden="true"
+  >
+    <path d="M20 11.5a8 8 0 0 1-8 8H5l-3 2v-10a9 9 0 0 1 18 0Z" />
+    <path d="M7 11h.01M11 11h.01M15 11h.01" stroke-width="3" stroke-linecap="round" /></svg
+  ><span>{{ chat.t('open') }}</span><i aria-hidden="true">✦</i>
+</button>

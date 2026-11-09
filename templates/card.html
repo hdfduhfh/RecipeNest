@@ -1,0 +1,31 @@
+<article class="recipe-card card h-100">
+  <div class="card-image">
+    <a ng-href="#!/recipe/{{recipe.id}}" tabindex="-1" aria-hidden="true"
+      ><img ng-src="{{recipe.image}}" alt="" loading="lazy" width="640" height="440" /></a
+    ><span class="image-label badge rounded-pill">{{ (recipe.meal) | t }}</span
+    ><button
+      class="heart"
+      ng-click="toggle()"
+      ng-class="{selected: saved.has(recipe.id)}"
+      ng-attr-aria-pressed="{{saved.has(recipe.id)}}"
+      aria-label="{{ (saved.has(recipe.id) ? 'Unsave' : 'Save') | t }} {{ (recipe.name) | t }}"
+    >
+      {{ (saved.has(recipe.id) ? '♥' : '♡') | t }}
+    </button>
+  </div>
+  <div class="card-body">
+    <p class="eyebrow">
+      {{ (recipe.cuisine) | t }} <span>· {{recipe.minutes}} {{ 'text.04e66352aa8f' | t }}</span>
+    </p>
+    <h3><a ng-href="#!/recipe/{{recipe.id}}">{{ (recipe.name) | t }}</a></h3>
+    <p>{{ (recipe.description) | t }}</p>
+    <div class="card-bottom">
+      <span>{{ (recipe.tags[0] || 'Everyday favourite') | t }}</span
+      ><a
+        ng-href="#!/recipe/{{recipe.id}}"
+        aria-label="{{ 'text.69bd4ef9fbd0' | t }} {{ (recipe.name) | t }}"
+        >{{ 'text.d25388d22018' | t }} <span aria-hidden="true">↗</span></a
+      >
+    </div>
+  </div>
+</article>

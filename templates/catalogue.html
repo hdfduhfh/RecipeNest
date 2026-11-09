@@ -1,0 +1,69 @@
+<section class="page-intro wrap">
+  <p class="eyebrow">{{ 'text.cdafbed63be2' | t }}</p>
+  <h1>{{ 'text.e90c6cd554b5' | t }}</h1>
+  <p>{{ 'text.ff800e0e7307' | t }}</p>
+</section>
+<section class="wrap catalogue-layout section-bottom">
+  <aside class="filter-panel">
+    <div class="filter-title">
+      <h2>{{ 'text.f3710aca737c' | t }}</h2>
+      <button class="link-button" ng-click="catalogue.clear()">
+        {{ 'text.c043160a89ba' | t }}
+      </button>
+    </div>
+    <label for="keyword">{{ 'text.bce06414177f' | t }}</label
+    ><input class="form-control"
+      id="keyword"
+      type="search"
+      ng-model="catalogue.filters.query"
+      placeholder="{{ 'text.3d6fad3202ff' | t }}"
+    /><label for="cuisine">{{ 'text.acef9c91d892' | t }}</label
+    ><select class="form-select" id="cuisine" ng-model="catalogue.filters.cuisine">
+      <option value="">{{ 'text.defa39c865b2' | t }}</option>
+      <option ng-repeat="c in catalogue.cuisines" value="{{c}}">{{ (c) | t }}</option></select
+    ><label for="meal">{{ 'text.bdc280824316' | t }}</label
+    ><select class="form-select" id="meal" ng-model="catalogue.filters.meal">
+      <option value="">{{ 'text.9096797edd30' | t }}</option>
+      <option value="Breakfast">{{ 'text.364653cd2a4a' | t }}</option>
+      <option value="Lunch">{{ 'text.585ecb76103a' | t }}</option>
+      <option value="Dinner">{{ 'text.8cf98a54654a' | t }}</option>
+      <option value="Snack">{{ 'text.071a0788f410' | t }}</option></select
+    ><label for="prep-time">{{ 'text.d01bf4311378' | t }}</label
+    ><select class="form-select" id="prep-time" ng-model="catalogue.filters.time">
+      <option value="">{{ 'text.d7854118cda9' | t }}</option>
+      <option value="15">{{ 'text.d272d5109674' | t }}</option>
+      <option value="30">{{ 'text.f1ac1d3c3327' | t }}</option>
+      <option value="45">{{ 'text.77ed39f82304' | t }}</option></select
+    ><label for="diet">{{ 'text.a05b88ed247d' | t }}</label
+    ><select class="form-select" id="diet" ng-model="catalogue.filters.diet">
+      <option value="">{{ 'text.d937b8a8142f' | t }}</option>
+      <option ng-repeat="tag in catalogue.tags" value="{{tag}}">{{ (tag) | t }}</option>
+    </select>
+    <p class="tiny muted">{{ 'text.22c05a5d0c8d' | t }}</p>
+  </aside>
+  <div>
+    <div class="results-bar">
+      <p role="status"><b>{{catalogue.results.length || 0}}</b> {{ 'text.e319160d93b3' | t }}</p>
+      <div>
+        <label for="sort">{{ 'text.a2a5bdeca939' | t }}</label
+        ><select class="form-select" id="sort" ng-model="catalogue.filters.sort">
+          <option value="az">{{ 'text.d7fd54f0f4f9' | t }}</option>
+          <option value="za">{{ 'text.cf1de7573841' | t }}</option>
+          <option value="quick">{{ 'text.e25d4657f102' | t }}</option>
+        </select>
+      </div>
+    </div>
+    <div class="recipe-grid catalogue-grid">
+      <recipe-card
+        ng-repeat="recipe in catalogue.results track by recipe.id"
+        recipe="recipe"
+      ></recipe-card>
+    </div>
+    <div class="empty-state" ng-if="catalogue.results.length === 0">
+      <span aria-hidden="true">⌕</span>
+      <h2>{{ 'text.806d50d4b33e' | t }}</h2>
+      <p>{{ 'text.3576a8633cb3' | t }}</p>
+      <button class="button btn btn-primary" ng-click="catalogue.clear()">{{ 'text.7dd6d1994540' | t }}</button>
+    </div>
+  </div>
+</section>

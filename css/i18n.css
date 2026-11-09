@@ -1,0 +1,183 @@
+/* Extra room for translated labels and a keyboard-accessible language selector. */
+html:lang(hi) body,
+html:lang(hi) button,
+html:lang(hi) input,
+html:lang(hi) select,
+html:lang(hi) textarea,
+html:lang(hi) h1,
+html:lang(hi) h2,
+html:lang(hi) h3,
+html:lang(hi) .hero-recipe strong,
+html:lang(hi) .hero-stamp b,
+html:lang(hi) .kitchen-note p,
+html:lang(hi) .planned-name,
+html:lang(hi) .gallery-grid figcaption b,
+html:lang(hi) .promo-art > div {
+  font-family: 'Nirmala UI', Mangal, 'Segoe UI', sans-serif;
+  letter-spacing: 0;
+}
+html:lang(hi) h1,
+html:lang(hi) h2,
+html:lang(hi) h3 {
+  line-height: 1.45;
+}
+html:lang(hi) .hero h1 {
+  font-size: clamp(38px, 4.6vw, 64px);
+  line-height: 1.5;
+}
+html:lang(hi) .hero-stamp b {
+  font-size: 17px;
+  line-height: 1.4;
+}
+html:lang(hi) .eyebrow {
+  letter-spacing: 0.3px;
+}
+html:lang(hi) .day-card > h2 {
+  font-size: 19px;
+}
+.header-inner {
+  gap: 18px;
+}
+.header-inner nav {
+  gap: 20px;
+}
+.card-body,
+.hero-copy,
+.profile-card,
+.contact-note,
+.detail-hero > div {
+  min-width: 0;
+}
+.card-body h3,
+.planned-name,
+.profile-card h2,
+.detail-hero h1 {
+  overflow-wrap: anywhere;
+}
+.card-bottom {
+  flex-wrap: wrap;
+}
+html:lang(ja) h1,
+html:lang(ja) h2,
+html:lang(ja) h3 {
+  font-family: 'Yu Mincho', 'Yu Gothic', Meiryo, serif;
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+html:lang(zh-CN) h1,
+html:lang(zh-CN) h2,
+html:lang(zh-CN) h3 {
+  font-family: 'Microsoft YaHei', SimSun, serif;
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+html:lang(ja) .hero h1,
+html:lang(zh-CN) .hero h1 {
+  font-size: clamp(38px, 4.1vw, 64px);
+}
+html:lang(fr) .hero h1 {
+  font-size: clamp(45px, 5.6vw, 78px);
+}
+.hero-stamp {
+  letter-spacing: 0.4px;
+}
+html:not(:lang(en)) .hero-stamp b {
+  font-size: 19px;
+  line-height: 1.2;
+}
+.hero-recipe strong {
+  line-height: 1.35;
+}
+.day-card > h2 {
+  overflow-wrap: anywhere;
+}
+html:lang(vi) .hero-recipe strong,
+html:lang(vi) .kitchen-note p,
+html:lang(vi) .planned-name,
+html:lang(vi) .gallery-grid figcaption b,
+html:lang(vi) .promo-art > div {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  letter-spacing: -0.3px;
+}
+html:lang(vi) h1,
+html:lang(vi) h2,
+html:lang(vi) h3,
+html:lang(vi) .hero-stamp b {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  letter-spacing: -0.7px;
+}
+html:lang(vi) .hero h1 {
+  font-size: clamp(48px, 5.2vw, 72px);
+  letter-spacing: -1.5px;
+  line-height: 1.13;
+}
+@media (min-width: 651px) and (max-width: 1100px) {
+  .header-inner {
+    flex-wrap: wrap;
+    padding-top: 10px;
+    gap: 5px 20px;
+  }
+  .header-inner nav {
+    order: 4;
+    flex: 0 0 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0 25px;
+  }
+  .header-inner nav a {
+    padding-block: 12px 18px;
+  }
+  .header-inner nav a.active:after {
+    bottom: 8px;
+  }
+  .saved-nav {
+    margin-left: auto;
+  }
+}
+@media (max-width: 650px) {
+  .menu-toggle {
+    width: 38px;
+    height: 38px;
+    flex: 0 0 38px;
+    padding: 4px;
+    font-size: 19px;
+  }
+  .header-inner {
+    gap: 6px 10px;
+    padding-top: 8px;
+  }
+  .header-inner nav {
+    order: 5;
+  }
+  .hero-tags {
+    align-items: flex-start;
+  }
+  .hero-tags > span {
+    flex-basis: 100%;
+  }
+  .hero-recipe strong {
+    font-size: 18px;
+  }
+  html:lang(fr) .hero h1 {
+    font-size: 48px;
+    letter-spacing: -2px;
+  }
+  html:lang(vi) .hero h1 {
+    font-size: 58px;
+  }
+  html:lang(ja) .page-intro h1,
+  html:lang(zh-CN) .page-intro h1 {
+    font-size: 36px;
+  }
+  .hero-search input {
+    font-size: 11px;
+  }
+  .page-intro h1,
+  .contact-note h2,
+  .planner-promo h2 {
+    overflow-wrap: anywhere;
+  }
+  .day-card > h2 {
+    font-size: 21px;
+  }
+}

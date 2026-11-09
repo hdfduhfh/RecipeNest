@@ -1,0 +1,23 @@
+<section class="wrap page-intro">
+  <p class="eyebrow">{{ 'text.239951d6074e' | t }}</p>
+  <h1>{{ 'text.73edd8654b48' | t }}</h1>
+  <p>{{ 'text.9e6c09e0f0c1' | t }}</p>
+</section>
+<section class="wrap section-bottom">
+  <section class="collection-section" ng-repeat="collection in shell.data.collections">
+    <div class="collection-banner">
+      <img ng-src="{{collection.image}}" alt="" loading="lazy" />
+      <div>
+        <p class="eyebrow">{{collection.recipeIds.length}} {{ 'text.7842a4953aee' | t }}</p>
+        <h2>{{ (collection.name) | t }}</h2>
+        <p>{{ (collection.description) | t }}</p>
+      </div>
+    </div>
+    <div class="recipe-grid">
+      <recipe-card
+        ng-repeat="recipe in collections.recipesFor(collection) track by recipe.id"
+        recipe="recipe"
+      ></recipe-card>
+    </div>
+  </section>
+</section>

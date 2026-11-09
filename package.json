@@ -1,0 +1,14 @@
+{
+  "name": "recipenest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Recipe discovery and a browser-local meal planner, built with AngularJS 1.8.2",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

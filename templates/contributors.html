@@ -1,0 +1,21 @@
+<section class="wrap page-intro">
+  <p class="eyebrow">{{ 'text.86e39d4bf204' | t }}</p>
+  <h1>{{ 'text.6b5a4f50c694' | t }}</h1>
+  <p>{{ 'text.50c977dcdf52' | t }}</p>
+</section>
+<section class="wrap section-bottom">
+  <div class="profile-grid">
+    <article class="profile-card card h-100" ng-repeat="person in shell.data.contributors">
+      <div class="avatar" ng-style="{'background-color':person.colour}" aria-hidden="true">
+        {{person.initials}}
+      </div>
+      <span class="pill">{{ 'text.230c951ef106' | t }}</span>
+      <h2>{{ (person.name) | t }}</h2>
+      <p class="eyebrow">{{ (person.speciality) | t }}</p>
+      <p>{{ (person.background) | t }}</p>
+      <a class="text-link" ng-href="#!/contributor/{{person.id}}"
+        >{{ 'text.1e3bba92f74b' | t:{name:person.firstName} }}</a
+      >
+    </article>
+  </div>
+</section>

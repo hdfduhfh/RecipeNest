@@ -1,0 +1,76 @@
+<section class="wrap page-intro">
+  <p class="eyebrow">{{ 'text.a71d908ae03e' | t }}</p>
+  <h1>{{ 'text.07f22e953f74' | t }}</h1>
+  <p>{{ 'text.a6a8d265010f' | t }}</p>
+</section>
+<section class="wrap section-bottom">
+  <div class="gallery-grid">
+    <figure ng-repeat="recipe in gallery.items track by recipe.id">
+      <button
+        ng-click="gallery.open($index, $event)"
+        aria-label="{{ 'text.d84e02ba1e46' | t }} {{ (recipe.name) | t }}"
+      >
+        <img
+          ng-src="{{recipe.image}}"
+          alt="{{ (recipe.imageAlt) | t }}"
+          width="640"
+          height="500"
+          loading="lazy"
+        /><span class="gallery-expand" aria-hidden="true">↗</span>
+      </button>
+      <figcaption>
+        <b>{{ (recipe.name) | t }}</b
+        ><small>{{recipe.imageCredit}} {{ 'text.616ff9b1c661' | t }}</small>
+      </figcaption>
+    </figure>
+  </div>
+  <p class="tiny">
+    {{ 'text.33bf7da2edfa' | t }}
+    <a href="assets/CREDITS.md">{{ 'text.3e2b0370d027' | t }}</a>.
+  </p>
+</section>
+<div
+  class="modal-backdrop"
+  ng-if="gallery.index !== null"
+  modal-keys="gallery.close()"
+  gallery-keys="gallery.next(offset)"
+>
+  <section class="gallery-modal" role="dialog" aria-modal="true" aria-labelledby="preview-title">
+    <button
+      class="modal-close"
+      id="gallery-close"
+      ng-click="gallery.close()"
+      aria-label="{{ 'text.c4d5897cbd0c' | t }}"
+    >
+      ×</button
+    ><img
+      ng-src="{{gallery.items[gallery.index].image}}"
+      alt="{{ (gallery.items[gallery.index].imageAlt) | t }}"
+    />
+    <div class="preview-caption">
+      <button
+        class="round-button"
+        ng-click="gallery.next(-1)"
+        aria-label="{{ 'text.46edf0f8b4d6' | t }}"
+      >
+        ←
+      </button>
+      <div aria-live="polite">
+        <p class="eyebrow">{{gallery.index + 1}} / {{gallery.items.length}}</p>
+        <h2 id="preview-title">{{ (gallery.items[gallery.index].name) | t }}</h2>
+        <p>{{gallery.items[gallery.index].imageCredit}} {{ 'text.c59aa76fda5e' | t }}</p>
+        <a class="text-link" ng-href="#!/recipe/{{gallery.items[gallery.index].id}}"
+          >{{ 'text.e0bdef884593' | t }}</a
+        >
+      </div>
+      <button
+        class="round-button"
+        ng-click="gallery.next(1)"
+        aria-label="{{ 'text.eb89a789f147' | t }}"
+      >
+        →
+      </button>
+    </div>
+    <p class="tiny muted">{{ 'text.448a57b3c316' | t }}</p>
+  </section>
+</div>

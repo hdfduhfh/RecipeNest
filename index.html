@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en" ng-app="recipeNest">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Discover everyday recipes, save your favourites and plan a week of delicious meals with RecipeNest."
+    />
+    <title>RecipeNest · Everyday food, thoughtfully made</title>
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/i18n.css" />
+    <link rel="stylesheet" href="css/language-picker.css" />
+    <link rel="stylesheet" href="css/chat.css" />
+    <script defer src="assets/vendor/angular.min.js"></script>
+    <script defer src="assets/vendor/angular-route.min.js"></script>
+    <script defer src="js/logic.js"></script>
+    <script defer src="js/translations.js"></script>
+    <script defer src="js/i18n-core.js"></script>
+    <script defer src="js/app.js"></script>
+    <script defer src="js/i18n-angular.js"></script>
+    <script defer src="js/language-picker.js"></script>
+    <script defer src="js/chat-locales.js"></script>
+    <script defer src="js/chat-core.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-theme.css" />
+    <script defer src="js/chat.js"></script>
+    <script defer src="js/ui-effects.js"></script>
+  </head>
+
+  <body ng-controller="ShellController as shell">
+    <a
+      class="skip-link"
+      href="#main-content"
+      onclick="document.getElementById('main-content').focus(); return false;"
+      >{{ 'text.0a4470d64e9d' | t }}</a
+    >
+    <div class="topline">{{ 'text.bd3460ec368e' | t }}</div>
+    <div class="route-progress" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="header-inner wrap container-fluid">
+        <a href="#!/" class="brand" aria-label="{{ 'text.cf3a8ac6059a' | t }}"
+          ><span class="brand-mark" aria-hidden="true">rn<span>✳</span></span
+          >Recipe<span>Nest</span><span class="brand-dot">.</span></a
+        >
+        <button
+          class="menu-toggle"
+          ng-click="shell.menuOpen = !shell.menuOpen"
+          aria-controls="main-nav"
+          ng-attr-aria-expanded="{{shell.menuOpen}}"
+        >
+          <span aria-hidden="true">{{shell.menuOpen ? '×' : '☰'}}</span>
+          <span class="sr-only">{{ (shell.menuOpen ? 'Close menu ×' : 'Menu ☰') | t }}</span>
+        </button>
+        <nav
+          id="main-nav"
+          ng-class="{open: shell.menuOpen}"
+          aria-label="{{ 'text.efd197f3fce4' | t }}"
+        >
+          <a
+            href="#!/"
+            ng-class="{active: shell.active('/')}"
+            ng-attr-aria-current="{{shell.active('/') ? 'page' : undefined}}"
+            >{{ 'text.70f8bb9a8a53' | t }}</a
+          >
+          <a
+            href="#!/recipes"
+            ng-class="{active: shell.active('/recipe')}"
+            ng-attr-aria-current="{{shell.active('/recipe') ? 'page' : undefined}}"
+            >{{ 'text.9fb1092f32d4' | t }}</a
+          >
+          <a
+            href="#!/collections"
+            ng-class="{active: shell.active('/collections')}"
+            ng-attr-aria-current="{{shell.active('/collections') ? 'page' : undefined}}"
+            >{{ 'text.4bbb632f02fd' | t }}</a
+          >
+          <a
+            href="#!/planner"
+            ng-class="{active: shell.active('/planner')}"
+            ng-attr-aria-current="{{shell.active('/planner') ? 'page' : undefined}}"
+            >{{ 'text.f6e67904bf1a' | t }}</a
+          >
+          <a
+            href="#!/about"
+            ng-class="{active: shell.active('/about')}"
+            ng-attr-aria-current="{{shell.active('/about') ? 'page' : undefined}}"
+            >{{ 'text.6b21fb791ac0' | t }}</a
+          >
+        </nav>
+        <a
+          class="saved-nav"
+          href="#!/favourites"
+          ng-class="{active: shell.active('/favourites')}"
+          aria-label="{{ 'text.53ebe0b616b3' | t }} {{shell.saved.favourites.length}} {{ 'text.b39102a562b9' | t }}"
+          ><span aria-hidden="true">♡</span
+          ><span class="saved-label">{{ 'text.2051e4674186' | t }}</span
+          ><b ng-cloak>{{shell.saved.favourites.length}}</b></a
+        >
+        <language-picker class="language-picker"></language-picker>
+      </div>
+    </header>
+    <div class="wrap" ng-cloak>
+      <p
+        class="notice warning"
+        role="status"
+        ng-repeat="warning in shell.saved.warnings track by $index"
+      >
+        {{ (warning) | t }}
+      </p>
+      <p class="notice error" role="alert" ng-if="shell.error">{{ (shell.error) | t }}</p>
+      <p class="loading" ng-if="shell.loading" role="status">{{ 'text.7b276ae0fb71' | t }}</p>
+    </div>
+    <p class="wrap notice warning" role="status" ng-if="shell.i18n.storageWarning">
+      {{ 'text.7264415e0b7b' | t }}
+    </p>
+    <main id="main-content" tabindex="-1" rn-page-motion ng-view></main>
+    <p
+      class="sr-only"
+      aria-live="polite"
+      ng-bind="shell.message | t:{recipe:(shell.messageRecipe | t)}"
+    ></p>
+    <p
+      class="sr-only"
+      aria-live="polite"
+      ng-bind="saveMessage | t:{recipe:(saveRecipeName | t)}"
+    ></p>
+    <noscript>
+      <p class="notice error">Please enable JavaScript to explore RecipeNest.</p>
+    </noscript>
+    <footer>
+      <div class="wrap footer-grid">
+        <div>
+          <a href="#!/" class="brand">RecipeNest<span class="brand-dot">.</span></a>
+          <p>{{ 'text.7cffdb6e8cf2' | t }}<br />{{ 'text.4fa1c4b21a80' | t }}</p>
+          <small>{{ 'text.663883870753' | t }}</small>
+        </div>
+        <div>
+          <h2>{{ 'text.b965ae66fcc4' | t }}</h2>
+          <a href="#!/recipes">{{ 'text.39e2ef7a56ee' | t }}</a
+          ><a href="#!/collections">{{ 'text.4bbb632f02fd' | t }}</a
+          ><a href="#!/gallery">{{ 'text.1d885996c401' | t }}</a>
+        </div>
+        <div>
+          <h2>{{ 'text.1dbf31afe471' | t }}</h2>
+          <a href="#!/favourites">{{ 'text.e6ccc0fdea85' | t }}</a
+          ><a href="#!/planner">{{ 'text.f6e67904bf1a' | t }}</a
+          ><a href="#!/contributors">{{ 'text.a60a223c98b2' | t }}</a>
+        </div>
+        <div>
+          <h2>RecipeNest</h2>
+          <a href="#!/about">{{ 'text.64c186ef1209' | t }}</a
+          ><a href="#!/contact">{{ 'text.4832e45812a2' | t }}</a>
+          <p class="tiny">{{ 'text.a20f7bfe5ded' | t }}<br />{{ 'text.711ad8f90946' | t }}</p>
+        </div>
+      </div>
+      <div class="wrap footer-bottom">
+        <span>{{ 'text.2f2ca9b1ff2a' | t }}</span
+        ><span>HTML · CSS · JavaScript · AngularJS 1.8.2</span>
+      </div>
+    </footer>
+    <recipe-chat></recipe-chat>
+  </body>
+</html>

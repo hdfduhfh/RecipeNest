@@ -1,0 +1,123 @@
+<div class="wrap section-bottom" ng-if="detail.recipe">
+  <nav class="breadcrumbs" aria-label="{{ 'text.c766e665183d' | t }}">
+    <a href="#!/recipes">{{ 'text.a25606e5eac8' | t }}</a
+    ><span>/ {{ (detail.recipe.cuisine) | t }}</span>
+  </nav>
+  <section class="detail-hero">
+    <div>
+      <p class="eyebrow">{{ (detail.recipe.cuisine) | t }} · {{ (detail.recipe.meal) | t }}</p>
+      <h1>{{ (detail.recipe.name) | t }}</h1>
+      <p class="lead">{{ (detail.recipe.description) | t }}</p>
+      <div class="detail-meta">
+        <span
+          ><b>{{detail.recipe.minutes}} {{ 'text.b6c935d4f3c7' | t }}</b>{{ 'text.0e5d2d7e66a2' | t
+          }}</span
+        ><span
+          ><b>{{detail.recipe.servings}} {{ 'text.f722126a80ea' | t }}</b>{{ 'text.bc9271812ab7' | t
+          }}</span
+        >
+      </div>
+      <div class="tags"><span ng-repeat="tag in detail.recipe.tags">{{ (tag) | t }}</span></div>
+      <p class="author-byline">
+        {{ 'text.79dffba1c11d' | t }}
+        <a ng-href="#!/contributor/{{detail.author.id}}">{{detail.author.name}}</a
+        ><small>{{ 'text.a4798471bf58' | t }}</small>
+      </p>
+      <div class="actions">
+        <button
+          class="button btn btn-primary"
+          ng-click="shell.toggle(detail.recipe)"
+          ng-attr-aria-pressed="{{shell.saved.has(detail.recipe.id)}}"
+        >
+          {{ (shell.saved.has(detail.recipe.id) ? '♥ Saved to favourites' : '♡ Save recipe') | t }}</button
+        ><a
+          class="button btn secondary btn-outline-primary"
+          ng-href="#!/planner?recipe={{detail.recipe.id}}&servings={{detail.servings || detail.recipe.servings}}"
+          >{{ 'text.01103be23d80' | t }}</a
+        >
+      </div>
+    </div>
+    <img
+      class="detail-photo"
+      ng-src="{{detail.recipe.image}}"
+      alt="{{ (detail.recipe.imageAlt) | t }}"
+      width="800"
+      height="700"
+    />
+  </section>
+  <section class="cooking-layout">
+    <aside class="ingredients">
+      <p class="eyebrow">{{ 'text.b078f5b6565a' | t }}</p>
+      <h2>{{ 'text.f9e84ee2ac46' | t }}</h2>
+      <form name="servingForm" novalidate>
+        <label for="servings">{{ 'text.06d09a3eb816' | t }}</label>
+        <div class="serving-control">
+          <input class="form-control"
+            id="servings"
+            name="servings"
+            type="number"
+            min="1"
+            max="20"
+            step="1"
+            ng-model="detail.servings"
+            ng-change="detail.calculate()"
+            aria-describedby="serving-help serving-error"
+            required
+          /><span>{{ 'text.f722126a80ea' | t }}</span>
+        </div>
+        <p class="tiny" id="serving-help">
+          {{ 'text.97f77b88e649' | t:{count:detail.recipe.servings} }}
+        </p>
+        <p class="field-error" id="serving-error" role="alert" ng-if="detail.calculatorError">
+          {{ (detail.calculatorError) | t }}
+        </p>
+      </form>
+      <ul class="ingredient-list" ng-if="!detail.calculatorError">
+        <li ng-repeat="ingredient in detail.scaled">
+          <span>{{ (ingredient.name) | t }}</span
+          ><b ng-if="ingredient.scalable !== false"
+            >{{ingredient.quantity}} {{ (ingredient.unit) | t }}</b
+          ><b ng-if="ingredient.scalable === false"
+            >{{ (ingredient.note) | t }}<small>{{ 'text.14b15746f141' | t }}</small></b
+          >
+        </li>
+      </ul>
+      <div class="allergen-note">
+        <b>{{ 'text.b9556d1bc0c9' | t }}</b>
+        <p>{{ (detail.recipe.allergens | tList) || ('text.9c9f43a0cce0' | t) }}.</p>
+        <small>{{ 'text.9ecee1df61b4' | t }}</small>
+      </div>
+    </aside>
+    <div class="method">
+      <p class="eyebrow">{{ 'text.9fad8015af25' | t }}</p>
+      <h2>{{ 'text.67b3d23b59c3' | t }}</h2>
+      <ol class="steps">
+        <li ng-repeat="step in detail.recipe.steps">
+          <span class="step-number">{{($index + 1) < 10 ? '0' : ''}}{{$index + 1}}</span>
+          <p>{{ (step) | t }}</p>
+        </li>
+      </ol>
+      <div class="cooking-note">
+        <h3>{{ 'text.4a042100a334' | t }}</h3>
+        <p>{{ (detail.recipe.notes) | t }}</p>
+      </div>
+    </div>
+  </section>
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">{{ 'text.13dc52eef023' | t }}</p>
+      <h2>{{ 'text.cf4b3094c327' | t }}</h2>
+    </div>
+  </div>
+  <div class="recipe-grid three">
+    <recipe-card
+      ng-repeat="recipe in detail.related track by recipe.id"
+      recipe="recipe"
+    ></recipe-card>
+  </div>
+</div>
+<section class="wrap empty-state" ng-if="!detail.recipe && !shell.loading">
+  <h1>{{ 'text.93743a83e397' | t }}</h1>
+  <p>{{ 'text.a321ad017b02' | t }}</p>
+  <a class="button btn btn-primary" href="#!/recipes">{{ 'text.8f15be3f40b2' | t }}</a>
+</section>

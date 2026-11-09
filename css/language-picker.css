@@ -1,0 +1,190 @@
+/* Adapted from the supplied Sweet Bakery header: round flag + native disclosure. */
+.language-picker {
+  display: block;
+  position: relative;
+  flex: 0 0 auto;
+  z-index: 20;
+  padding: 0;
+}
+.language-picker .native-dropdown {
+  position: relative;
+  display: block;
+}
+.language-picker .native-dropdown[open] {
+  z-index: 120;
+}
+.language-picker summary {
+  list-style: none;
+  user-select: none;
+  cursor: pointer;
+}
+.language-picker summary::-webkit-details-marker {
+  display: none;
+}
+.language-picker summary::marker {
+  display: none;
+  content: '';
+}
+.language-picker .round-action {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  border: 1px solid #eee2d8;
+  background: #fff;
+  color: #51443e;
+  padding: 0;
+  transition: 0.2s ease;
+}
+.language-picker .round-action:hover {
+  color: #681f2b;
+  border-color: #d8b9af;
+  box-shadow: 0 8px 24px rgba(80, 39, 30, 0.1);
+  transform: translateY(-1px);
+}
+.language-picker .flag-img {
+  display: block;
+  width: 26px;
+  height: 18px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(42, 32, 28, 0.12);
+}
+.language-picker .current-flag {
+  width: 25px;
+  height: 17px;
+}
+.language-picker .flag-cell {
+  width: 30px;
+  display: grid;
+  place-items: center;
+  flex: 0 0 30px;
+}
+.language-picker .dropdown-panel {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 12px);
+  width: 260px;
+  max-width: calc(100vw - 24px);
+  max-height: min(440px, calc(100dvh - 130px));
+  overflow-y: auto;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid #eee2d8;
+  border-radius: 18px;
+  box-shadow: 0 22px 55px rgba(45, 28, 21, 0.16);
+  transform-origin: top right;
+  animation: language-panel-in 0.16s ease;
+  z-index: 100;
+}
+.language-picker .dropdown-heading {
+  padding: 9px 10px 7px;
+  color: #83766f;
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.language-picker .language-dropdown > button {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  padding: 10px 11px;
+  border-radius: 11px;
+  color: #514741;
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+.language-picker .language-dropdown > button:hover {
+  background: #fff5e9;
+  color: #681f2b;
+  filter: none;
+}
+.language-picker .language-dropdown > button b {
+  font-weight: 700;
+  flex: 1;
+}
+.language-picker .language-dropdown > button small {
+  color: #a39690;
+  font-size: 10px;
+  font-weight: 800;
+}
+.language-picker .language-dropdown > button.active {
+  background: #fff0df;
+  color: #681f2b;
+}
+.language-picker summary:focus-visible,
+.language-picker .language-dropdown > button:focus-visible {
+  outline: 3px solid #a13f22;
+  outline-offset: 3px;
+}
+@keyframes language-panel-in {
+  from {
+    opacity: 0;
+    transform: translateY(-7px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+@media (max-width: 650px) {
+  .header-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 38px 45px 40px;
+    column-gap: 6px;
+    padding-block: 8px;
+    min-height: 72px;
+  }
+  .header-inner > .brand {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .header-inner > .menu-toggle {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+  }
+  .header-inner > .saved-nav {
+    grid-column: 3;
+    grid-row: 1;
+    gap: 3px;
+  }
+  .header-inner > .language-picker {
+    grid-column: 4;
+    grid-row: 1;
+  }
+  .header-inner > nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+  .language-picker .round-action {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 359px) {
+  .header-inner > .brand {
+    font-size: 20px;
+  }
+  .header-inner .brand-mark {
+    width: 24px;
+    height: 29px;
+    margin-right: 6px;
+    font-size: 18px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .language-picker .dropdown-panel {
+    animation: none;
+  }
+  .language-picker .round-action {
+    transition: none;
+  }
+}

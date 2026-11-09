@@ -1,0 +1,177 @@
+Language¦Ngôn ngữ¦言語¦语言¦Langue
+Menu ☰¦Menu ☰¦メニュー ☰¦菜单 ☰¦Menu ☰
+Close menu ×¦Đóng menu ×¦メニューを閉じる ×¦关闭菜单 ×¦Fermer le menu ×
+Recipe¦Công thức¦レシピ¦食谱¦Recette
+Save¦Lưu¦保存¦收藏¦Enregistrer
+Unsave¦Bỏ lưu¦保存を解除¦取消收藏¦Retirer des favoris
+View¦Xem¦表示¦查看¦Voir
+Preview image for¦Xem trước ảnh món¦写真を表示：¦预览图片：¦Aperçu de
+Favourites,¦Yêu thích,¦お気に入り、¦收藏，¦Favoris,
+Everyday favourite¦Món quen yêu thích¦毎日のお気に入り¦日常最爱¦Un favori du quotidien
+♥ Saved to favourites¦♥ Đã lưu yêu thích¦♥ お気に入りに保存済み¦♥ 已加入收藏¦♥ Enregistrée dans les favoris
+♡ Save recipe¦♡ Lưu công thức¦♡ レシピを保存¦♡ 收藏食谱¦♡ Enregistrer la recette
+Monday¦Thứ Hai¦月曜日¦星期一¦Lundi
+Tuesday¦Thứ Ba¦火曜日¦星期二¦Mardi
+Wednesday¦Thứ Tư¦水曜日¦星期三¦Mercredi
+Thursday¦Thứ Năm¦木曜日¦星期四¦Jeudi
+Friday¦Thứ Sáu¦金曜日¦星期五¦Vendredi
+Saturday¦Thứ Bảy¦土曜日¦星期六¦Samedi
+Sunday¦Chủ nhật¦日曜日¦星期日¦Dimanche
+Add¦Thêm¦追加¦添加¦Ajouter
+Italian¦Ý¦イタリア料理¦意大利菜¦Italienne
+Mediterranean¦Địa Trung Hải¦地中海料理¦地中海菜¦Méditerranéenne
+Vietnamese¦Việt Nam¦ベトナム料理¦越南菜¦Vietnamienne
+Japanese¦Nhật Bản¦日本料理¦日本菜¦Japonaise
+Indian¦Ấn Độ¦インド料理¦印度菜¦Indienne
+Mexican¦Mexico¦メキシコ料理¦墨西哥菜¦Mexicaine
+Vegan¦Thuần chay¦ヴィーガン¦纯素¦Végétalien
+Dairy-free¦Không sữa¦乳製品不使用¦不含乳制品¦Sans produits laitiers
+Wheat¦Lúa mì¦小麦¦小麦¦Blé
+Milk¦Sữa¦乳¦乳¦Lait
+Sesame¦Mè¦ごま¦芝麻¦Sésame
+Egg¦Trứng¦卵¦蛋¦Œuf
+Soy¦Đậu nành¦大豆¦大豆¦Soja
+None declared in sample data¦Không ghi nhận trong dữ liệu mẫu¦サンプルデータに記載なし¦示例数据未标注¦Aucun déclaré dans les exemples
+To taste¦Nêm vừa ăn¦お好みで¦适量¦Selon le goût
+Enter a whole number of servings from 1 to 20.¦Nhập số khẩu phần nguyên từ 1 đến 20.¦人数は1〜20の整数で入力してください。¦请输入1至20的整数份数。¦Saisissez un nombre entier de portions entre 1 et 20.
+Choose a recipe and a whole number of servings from 1 to 20.¦Chọn công thức và nhập khẩu phần là số nguyên từ 1 đến 20.¦レシピを選び、人数を1〜20の整数で入力してください。¦请选择食谱并输入1至20的整数份数。¦Choisissez une recette et un nombre entier de portions de 1 à 20.
+Meal saved to {slot}.¦Đã lưu bữa ăn vào {slot}.¦{slot} に食事を保存しました。¦餐食已保存至{slot}。¦Repas enregistré pour {slot}.
+Meal removed. Other planned meals are unchanged.¦Đã xóa bữa ăn. Các bữa khác được giữ nguyên.¦食事を削除しました。他の献立は変わりません。¦已移除餐食，其他计划保持不变。¦Repas retiré. Les autres repas prévus sont conservés.
+{recipe} saved to favourites.¦Đã lưu {recipe} vào yêu thích.¦{recipe} をお気に入りに保存しました。¦已将{recipe}加入收藏。¦{recipe} ajoutée aux favoris.
+{recipe} removed from favourites.¦Đã bỏ {recipe} khỏi yêu thích.¦{recipe} をお気に入りから解除しました。¦已取消收藏{recipe}。¦{recipe} retirée des favoris.
+Browser storage is unavailable or saved data could not be read. You can keep using RecipeNest in this tab; changes may not survive a reload.¦Không thể dùng bộ nhớ trình duyệt hoặc đọc dữ liệu đã lưu. Bạn vẫn dùng được RecipeNest trong tab này; thay đổi có thể mất khi tải lại.¦ブラウザーの保存領域を利用できないか、保存済みデータを読み込めません。このタブでは引き続き使用できますが、再読み込みすると変更が失われる場合があります。¦浏览器存储不可用或无法读取已保存数据。你仍可在此标签页使用RecipeNest，但刷新后更改可能丢失。¦Le stockage est indisponible ou les données enregistrées sont illisibles. Vous pouvez continuer dans cet onglet, mais les modifications risquent de disparaître au rechargement.
+Some saved entries were invalid and were ignored. Your valid favourites and meals are still available.¦Một số mục lưu không hợp lệ đã được bỏ qua. Món yêu thích và lịch ăn hợp lệ vẫn còn.¦無効な保存データを一部除外しました。有効なお気に入りと献立は引き続き利用できます。¦已忽略部分无效记录，有效的收藏和餐食仍可使用。¦Certaines entrées invalides ont été ignorées. Vos favoris et repas valides restent disponibles.
+The recipe catalogue could not be loaded. Start the local HTTP server and reload this page.¦Không tải được danh sách công thức. Hãy khởi động máy chủ HTTP local rồi tải lại trang.¦レシピ一覧を読み込めませんでした。ローカルHTTPサーバーを起動して再読み込みしてください。¦无法加载食谱列表，请启动本地HTTP服务器后刷新页面。¦Impossible de charger les recettes. Lancez le serveur HTTP local puis rechargez la page.
+Your language choice works in this tab, but could not be saved in this browser.¦Ngôn ngữ đã đổi trong tab này nhưng chưa thể lưu trong trình duyệt.¦このタブの言語は変更しましたが、ブラウザーに保存できませんでした。¦当前标签页已切换语言，但无法保存语言设置。¦La langue est changée dans cet onglet, mais le navigateur n’a pas pu l’enregistrer.
+Thanks, {name}! Your input is valid. This demonstration has not sent or saved your message.¦Cảm ơn {name}! Thông tin hợp lệ. Bản minh họa không gửi hoặc lưu lời nhắn của bạn.¦{name}さん、ありがとうございます。入力内容は有効です。このデモではメッセージの送信や保存は行っていません。¦谢谢{name}！输入有效。本演示未发送或保存你的留言。¦Merci, {name} ! Vos données sont valides. Cette démonstration n’a ni envoyé ni enregistré votre message.
+Meet {name} & explore recipes ↗¦Gặp {name} và khám phá công thức ↗¦{name}の紹介とレシピを見る ↗¦认识{name}并探索食谱 ↗¦Découvrez {name} et ses recettes ↗
+From {name}’s kitchen¦Từ gian bếp của {name}¦{name}のキッチンから¦来自{name}的厨房¦Dans la cuisine de {name}
+Whole numbers, 1–20. Quantities scale from {count} base servings and round to 2 decimals.¦Nhập số nguyên từ 1–20. Nguyên liệu tính từ {count} khẩu phần gốc, làm tròn hai chữ số thập phân.¦1〜20の整数を指定します。元の{count}人分を基準に調整し、小数第2位まで丸めます。¦请输入1至20的整数。用量按原始{count}份计算，保留两位小数。¦Entiers de 1 à 20. Quantités adaptées à partir de {count} portions initiales, arrondies à deux décimales.
+A little inspiration for every meal¦Cảm hứng cho từng bữa ăn¦毎日の食事にひらめきを¦每一餐的一点灵感¦Un peu d’inspiration à chaque repas
+Recipe catalogue¦Danh sách công thức¦レシピ一覧¦食谱目录¦Catalogue de recettes
+Recipe details¦Chi tiết công thức¦レシピの詳細¦食谱详情¦Détail de la recette
+Your favourites¦Món yêu thích của bạn¦あなたのお気に入り¦你的收藏¦Vos favoris
+Weekly meal planner¦Lịch ăn trong tuần¦1週間の献立¦每周用餐计划¦Menus de la semaine
+Meet our contributors¦Gặp những người đóng góp¦投稿者の紹介¦认识我们的创作者¦Rencontrez nos contributeurs
+Contributor profile¦Hồ sơ người đóng góp¦投稿者プロフィール¦创作者资料¦Profil du contributeur
+About RecipeNest¦Giới thiệu RecipeNest¦RecipeNest について¦关于RecipeNest¦À propos de RecipeNest
+Say hello¦Gửi lời chào¦お問い合わせ¦打个招呼¦Dites-nous bonjour
+Page not found¦Không tìm thấy trang¦ページが見つかりません¦页面不存在¦Page introuvable
+From our kitchen¦Từ gian bếp tụi mình¦私たちのキッチンから¦来自我们的厨房¦Depuis notre cuisine
+Arborio rice¦Gạo Arborio¦アルボリオ米¦阿尔博里奥米¦Riz arborio
+Avocado¦Bơ¦アボカド¦牛油果¦Avocat
+Balsamic vinegar¦Giấm balsamic¦バルサミコ酢¦意大利黑醋¦Vinaigre balsamique
+Banana¦Chuối¦バナナ¦香蕉¦Banane
+Bell peppers¦Ớt chuông¦パプリカ¦甜椒¦Poivrons
+Bread¦Bánh mì¦パン¦面包¦Pain
+Broccoli¦Bông cải xanh¦ブロッコリー¦西兰花¦Brocoli
+Brown sugar¦Đường nâu¦ブラウンシュガー¦红糖¦Sucre roux
+Butter¦Bơ lạt¦バター¦黄油¦Beurre
+Cabbage¦Bắp cải¦キャベツ¦卷心菜¦Chou
+Carrot¦Cà rốt¦にんじん¦胡萝卜¦Carotte
+Cheddar¦Phô mai cheddar¦チェダーチーズ¦切达奶酪¦Cheddar
+Cherry tomatoes¦Cà chua bi¦ミニトマト¦樱桃番茄¦Tomates cerises
+Chicken breast¦Ức gà¦鶏むね肉¦鸡胸肉¦Blanc de poulet
+Chopped tomatoes¦Cà chua băm¦カットトマト¦切碎番茄¦Tomates concassées
+Coconut milk¦Nước cốt dừa¦ココナッツミルク¦椰奶¦Lait de coco
+Cooked black beans¦Đậu đen đã nấu¦ゆで黒豆¦熟黑豆¦Haricots noirs cuits
+Cooked chickpeas¦Đậu gà đã nấu¦ゆでひよこ豆¦熟鹰嘴豆¦Pois chiches cuits
+Cooked kidney beans¦Đậu đỏ đã nấu¦ゆでキドニービーンズ¦熟红腰豆¦Haricots rouges cuits
+Corn tortillas¦Bánh tortilla bắp¦コーントルティーヤ¦玉米饼¦Tortillas de maïs
+Cucumber¦Dưa leo¦きゅうり¦黄瓜¦Concombre
+Curry powder¦Bột cà ri¦カレー粉¦咖喱粉¦Curry en poudre
+Dried oregano¦Lá oregano khô¦ドライオレガノ¦干牛至¦Origan séché
+Dry jasmine rice¦Gạo jasmine¦ジャスミン米（乾燥）¦生茉莉香米¦Riz jasmin cru
+Dry quinoa¦Hạt quinoa khô¦キヌア（乾燥）¦干藜麦¦Quinoa cru
+Dry red lentils¦Đậu lăng đỏ khô¦赤レンズ豆（乾燥）¦干红扁豆¦Lentilles corail sèches
+Dry rice¦Gạo¦米（乾燥）¦生大米¦Riz cru
+Dry rice vermicelli¦Bún gạo khô¦米麺（乾燥）¦干米粉¦Vermicelles de riz secs
+Dry sushi rice¦Gạo sushi¦すし米（乾燥）¦生寿司米¦Riz à sushi cru
+Eggs¦Trứng¦卵¦鸡蛋¦Œufs
+Feta¦Phô mai feta¦フェタチーズ¦菲达奶酪¦Feta
+Firm tofu¦Đậu hũ cứng¦木綿豆腐¦老豆腐¦Tofu ferme
+Flour tortillas¦Bánh tortilla lúa mì¦小麦トルティーヤ¦面粉薄饼¦Tortillas de blé
+Fresh basil¦Húng quế tươi¦フレッシュバジル¦新鲜罗勒¦Basilic frais
+Fresh ginger¦Gừng tươi¦しょうが¦鲜姜¦Gingembre frais
+Fresh mint¦Bạc hà tươi¦フレッシュミント¦新鲜薄荷¦Menthe fraîche
+Garlic¦Tỏi¦にんにく¦大蒜¦Ail
+Ground cumin¦Bột cumin¦クミンパウダー¦孜然粉¦Cumin moulu
+Ground turmeric¦Bột nghệ¦ターメリック¦姜黄粉¦Curcuma moulu
+Lemon juice¦Nước cốt chanh vàng¦レモン汁¦柠檬汁¦Jus de citron
+Lemongrass¦Sả¦レモングラス¦香茅¦Citronnelle
+Lettuce¦Xà lách¦レタス¦生菜¦Laitue
+Lime juice¦Nước cốt chanh xanh¦ライム汁¦青柠汁¦Jus de citron vert
+Mozzarella¦Phô mai mozzarella¦モッツァレラ¦马苏里拉奶酪¦Mozzarella
+Mushrooms¦Nấm¦きのこ¦蘑菇¦Champignons
+Nori sheets¦Lá rong biển nori¦焼きのり¦海苔片¦Feuilles de nori
+Olive oil¦Dầu ô liu¦オリーブオイル¦橄榄油¦Huile d’olive
+Olives¦Quả ô liu¦オリーブ¦橄榄¦Olives
+Onion¦Hành tây¦玉ねぎ¦洋葱¦Oignon
+Pak choi¦Cải thìa¦チンゲンサイ¦小白菜¦Pak-choï
+Parmesan¦Phô mai parmesan¦パルメザンチーズ¦帕尔马奶酪¦Parmesan
+Pita bread¦Bánh mì pita¦ピタパン¦皮塔饼¦Pain pita
+Plain flour¦Bột mì đa dụng¦小麦粉¦中筋面粉¦Farine de blé
+Plain yogurt¦Sữa chua không đường¦プレーンヨーグルト¦原味酸奶¦Yaourt nature
+Potatoes¦Khoai tây¦じゃがいも¦土豆¦Pommes de terre
+Red onion¦Hành tây tím¦赤玉ねぎ¦紫洋葱¦Oignon rouge
+Rice paper¦Bánh tráng¦ライスペーパー¦米纸¦Feuilles de riz
+Rice vinegar¦Giấm gạo¦米酢¦米醋¦Vinaigre de riz
+Rolled oats¦Yến mạch cán¦オートミール¦燕麦片¦Flocons d’avoine
+Rustic bread¦Bánh mì đồng quê¦カンパーニュ¦乡村面包¦Pain de campagne
+Salad greens¦Rau salad¦サラダ用の葉野菜¦沙拉绿叶菜¦Jeunes pousses
+Salt and pepper¦Muối và tiêu¦塩・こしょう¦盐和胡椒¦Sel et poivre
+Sesame seeds¦Hạt mè¦いりごま¦芝麻¦Graines de sésame
+Small baguettes¦Bánh mì baguette nhỏ¦小さなバゲット¦小法棍¦Petites baguettes
+Smoked paprika¦Bột ớt paprika xông khói¦スモークパプリカ¦烟熏红椒粉¦Paprika fumé
+Soy sauce¦Nước tương¦しょうゆ¦酱油¦Sauce soja
+Spaghetti¦Mì spaghetti¦スパゲッティ¦意大利长面¦Spaghettis
+Spinach¦Cải bó xôi¦ほうれん草¦菠菜¦Épinards
+Spring onion¦Hành lá¦青ねぎ¦小葱¦Oignon nouveau
+Sweetcorn¦Bắp ngọt¦スイートコーン¦甜玉米¦Maïs doux
+Tahini¦Sốt mè tahini¦タヒニ（練りごま）¦塔希尼芝麻酱¦Tahini
+Toasted coconut¦Dừa nướng¦ローストココナッツ¦烤椰蓉¦Noix de coco grillée
+Tomato¦Cà chua¦トマト¦番茄¦Tomate
+Tomatoes¦Cà chua¦トマト¦番茄¦Tomates
+Vegetable oil¦Dầu ăn thực vật¦植物油¦植物油¦Huile végétale
+Vegetable stock¦Nước dùng rau củ¦野菜スープ¦蔬菜高汤¦Bouillon de légumes
+Vegetarian hard cheese¦Phô mai cứng chay¦ベジタリアン用ハードチーズ¦素食硬奶酪¦Fromage à pâte dure végétarien
+Water¦Nước¦水¦水¦Eau
+Wheat noodles¦Mì lúa mì¦小麦麺¦小麦面条¦Nouilles de blé
+White miso¦Tương miso trắng¦白みそ¦白味噌¦Miso blanc
+g¦g¦g¦克¦g
+ml¦ml¦ml¦毫升¦ml
+clove¦tép¦片¦瓣¦gousse
+piece¦cái¦個¦个¦pièce
+pieces¦cái¦個¦个¦pièces
+sheets¦lá¦枚¦张¦feuilles
+slices¦lát¦枚¦片¦tranches
+tsp¦muỗng cà phê¦小さじ¦茶匙¦c. à café
+Fresh herbs¦Rau thơm tươi¦フレッシュハーブ¦新鲜香草¦Herbes fraîches
+Rice bowls¦Cơm tô¦どんぶり¦米饭碗¦Bols de riz
+Vegetable-forward lunches¦Bữa trưa nhiều rau¦野菜たっぷりの昼ごはん¦以蔬菜为主的午餐¦Déjeuners riches en légumes
+Lentils and pulses¦Đậu lăng và các loại đậu¦レンズ豆と豆類¦扁豆与豆类¦Lentilles et légumineuses
+Seasonal salads¦Salad theo mùa¦季節のサラダ¦时令沙拉¦Salades de saison
+Gentle spices¦Gia vị nhẹ nhàng¦やさしいスパイス¦温和香料¦Épices douces
+Pasta¦Mì Ý¦パスタ¦意面¦Pâtes
+Quick breakfasts¦Bữa sáng nhanh¦手早い朝ごはん¦快手早餐¦Petits-déjeuners rapides
+Sharing food¦Chia sẻ món ngon¦料理を分かち合うこと¦分享美食¦Le plaisir de partager
+A bowl of pasta with green herbs¦Tô mì Ý cùng rau thơm xanh¦緑のハーブを添えたパスタ¦搭配绿香草的一碗意面¦Un bol de pâtes aux herbes vertes
+Toast topped with diced tomatoes and fresh herbs¦Bánh mì nướng phủ cà chua hạt lựu và rau thơm¦角切りトマトとハーブをのせたトースト¦铺有番茄丁和新鲜香草的吐司¦Tartines aux dés de tomates et aux herbes fraîches
+A warm rice dish with savoury toppings¦Món cơm ấm cùng topping mặn thơm¦具材をのせた温かい米料理¦搭配咸香配料的热米饭¦Un plat de riz chaud garni d’ingrédients savoureux
+A colourful mixed vegetable salad¦Salad rau củ trộn nhiều màu¦彩り豊かなミックス野菜サラダ¦缤纷混合蔬菜沙拉¦Une salade de légumes variés et colorés
+A colourful bowl of fresh vegetables, chickpeas and greens¦Tô rau củ tươi nhiều màu, đậu gà và rau xanh¦新鮮な野菜とひよこ豆、葉野菜の彩りボウル¦装有新鲜蔬菜、鹰嘴豆和绿叶菜的彩色碗¦Un bol coloré de légumes frais, de pois chiches et de feuilles vertes
+Leafy salad with colourful fresh vegetables¦Salad lá xanh với rau củ tươi nhiều màu¦彩り豊かな野菜と葉物のサラダ¦搭配缤纷鲜蔬的绿叶沙拉¦Une salade de feuilles et de légumes frais colorés
+A bowl of creamy hummus with chickpeas, herbs and oil¦Tô hummus mịn với đậu gà, rau thơm và dầu¦ひよこ豆、ハーブ、オイルを添えたなめらかなフムス¦搭配鹰嘴豆、香草与油的绵滑豆泥¦Un bol de houmous crémeux avec pois chiches, herbes et huile
+A plated breakfast with toast and eggs¦Đĩa ăn sáng với bánh mì nướng và trứng¦トーストと卵を盛った朝食プレート¦一盘吐司与鸡蛋早餐¦Une assiette de petit-déjeuner avec toast et œufs
+A prepared bowl with colourful vegetables¦Tô món ăn cùng rau củ nhiều màu¦彩り豊かな野菜を盛りつけたボウル¦搭配缤纷蔬菜的成品饭碗¦Un bol préparé avec des légumes colorés
+Fresh rice paper rolls with colourful vegetables and dipping sauce¦Gỏi cuốn rau củ nhiều màu cùng nước chấm¦彩り野菜の生春巻きとつけだれ¦缤纷蔬菜米纸卷与蘸酱¦Rouleaux de printemps aux légumes colorés avec sauce
+A filled Vietnamese baguette with fresh herbs and vegetables¦Bánh mì Việt kẹp rau thơm và rau củ tươi¦ハーブと野菜を挟んだベトナムのバゲット¦夹有新鲜香草与蔬菜的越式法棍¦Une baguette vietnamienne garnie d’herbes et de légumes frais
+A breakfast bowl topped with fruit¦Tô ăn sáng phủ trái cây¦フルーツをのせた朝食ボウル¦铺有水果的早餐碗¦Un bol du matin garni de fruits
+A prepared bowl with tofu, vegetables and eggs, illustrating a rice bowl style¦Tô đậu hũ, rau củ và trứng minh họa phong cách cơm tô¦豆腐、野菜、卵を盛ったライスボウルの参考写真¦搭配豆腐、蔬菜和鸡蛋的饭碗风格示意图¦Un bol de tofu, légumes et œufs illustrant un style de bol de riz
+A steaming bowl of noodle soup¦Tô mì súp nóng¦湯気の立つヌードルスープ¦一碗热气腾腾的汤面¦Un bol fumant de soupe de nouilles
+A Japanese-style rice dish with a savoury topping¦Món cơm kiểu Nhật với topping mặn¦具をのせた日本風のごはん¦搭配咸香配料的日式米饭¦Un plat de riz de style japonais avec garniture salée
+A stack of golden pancakes on a plate¦Đĩa bánh pancake vàng xếp chồng¦皿に重ねたきつね色のパンケーキ¦盘中叠放的金黄煎饼¦Une pile de crêpes épaisses dorées sur une assiette
+A warmly coloured curry in a serving bowl¦Tô cà ri màu sắc ấm áp¦温かみのある色のカレーを盛った器¦一碗色泽温暖的咖喱¦Un curry aux couleurs chaudes dans un bol
+A selection of Indian-style dishes in bowls¦Các món phong cách Ấn Độ trong tô¦器に盛られたインド風の料理いろいろ¦碗装的多款印度风味菜肴¦Une sélection de plats d’inspiration indienne dans des bols
+Soft tacos with vegetables and fresh garnishes¦Tacos mềm với rau củ và rau thơm¦野菜とフレッシュな薬味のソフトタコス¦搭配蔬菜与新鲜配料的软塔可¦Des tacos souples aux légumes et garnitures fraîches
+A savoury tortilla dish with colourful fillings¦Món tortilla mặn với nhân nhiều màu¦彩り豊かな具入りの塩味トルティーヤ料理¦内馅缤纷的咸味薄饼料理¦Un plat salé de tortillas aux garnitures colorées
