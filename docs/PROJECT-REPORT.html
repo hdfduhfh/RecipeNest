@@ -659,7 +659,7 @@ FUNCTION countMeals(plan)
       </figure>
       <h2 id="tests">5 Test cases and actual results</h2>
       <p>
-        Test date: 31 October 2026. Runtime: Node.js 24.19.0; AngularJS/route 1.8.2. The in-app browser reported Chrome/156.0.0.0 on Windows NT 10.0. Running  <code>npm test</code>  passed all 33 tests. Service tests use mock storage to exercise error paths without changing browser security settings.
+        Historical test results from 31 October 2026 are retained as reference. They predate this edition. Run tests/browser.html through Live Server for current browser checks.
       </p>
       <div class="table-scroll">
         <table>
@@ -855,21 +855,8 @@ FUNCTION countMeals(plan)
       </div>
       <h2 id="startup">7 Prerequisites and startup</h2>
       <p>
-        Extract the entire ZIP package. You need Node.js 18+ or Python 3, a modern browser, and an editor if you want to modify the code. The extracted version does not require npm install or an Internet connection to run. Double-click START-WINDOWS.bat, or run one of the commands below from the RecipeNest root folder.
-      </p>
-      <pre>
-node server.js
-# Or
-python -m http.server 4175 --bind 127.0.0.1
-
-# Open http://127.0.0.1:4175
-# Test with Node
-npm test</pre
-      >
-      <p>
-        Do not open the site through file:// because AngularJS loads templates and JSON over HTTP. Hashbang routing allows recipe detail links to be refreshed on a static server. If necessary, change the Node server port using the PORT environment variable.
-      </p>
-      <h3>Reset browser data</h3>
+        Open the project folder in VS Code. Install Live Server by Ritwick Dey, then right-click index.html and select Open with Live Server. The application uses only browser JavaScript, local JSON and HTML templates. No application backend is required.</p>
+      <p>Use the address opened by Live Server, usually http://127.0.0.1:5500. Do not open index.html through file://. Open tests/browser.html through Live Server to run browser checks.</p><h3>Reset browser data</h3>
       <p>
         Delete the two keys  <code>recipenest.favourites.v1</code>  and  <code>recipenest.plan.v1</code>  from DevTools → Application/Storage → Local Storage for the project origin, then reload the page. Alternatively, use the browser’s option to clear site data. Different addresses or ports use separate storage areas.
       </p>

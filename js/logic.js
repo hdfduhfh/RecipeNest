@@ -1,4 +1,4 @@
-/* Pure, framework-independent algorithms. Also loaded by Node's test runner. */
+/* Pure, framework-independent algorithms. Used by the browser checks. */
 (function (root, factory) {
   'use strict';
   if (typeof module === 'object' && module.exports) module.exports = factory();

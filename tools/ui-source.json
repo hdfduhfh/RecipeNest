@@ -36,7 +36,7 @@
   "A little kitchen maths.",
   "Scaled quantity = original quantity × requested servings ÷ original servings. Choose a whole number from 1 to 20. Results round to two decimal places; original units stay the same. “To taste” ingredients do not scale. Preparation time does not scale with servings.",
   "Sample data, honest scope.",
-  "RecipeNest is an educational recipe website built with AngularJS. Recipes, dietary tags and allergens are sample content, and profiles are fictional. The optional assistant uses Ollama Cloud. There are no accounts, payments or email delivery.",
+  "RecipeNest is an educational recipe website built with AngularJS. Recipes, dietary tags and allergens are sample content, and profiles are fictional. The assistant searches recipe data in your browser. There are no accounts, payments or email delivery.",
   "Images & acknowledgements.",
   "Illustrative food photos come from Unsplash and are included locally. They may not depict the exact dish. The gallery captions identify the provider; the",
   "asset credits",

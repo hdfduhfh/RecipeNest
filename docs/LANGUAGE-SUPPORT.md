@@ -1,100 +1,103 @@
-# Hỗ trợ sáu ngôn ngữ trong RecipeNest
+# Six-Language Support in RecipeNest
 
-## Cách dùng
+Historical test results in this document predate the Live Server edition. For current checks, see `LIVE-SERVER-CHECKS.md` and open `tests/browser.html` through Live Server.
 
-Mở website như cũ. Chọn ngôn ngữ ở bộ chọn trong header:
+## Usage
 
-| Lựa chọn | Mã lưu | Thuộc tính HTML lang |
+Open the website and use the language selector in the header:
+
+| Language | Stored code | HTML lang attribute |
 |---|---|---|
 | English | en | en |
-| Tiếng Việt | vi | vi |
-| 日本語 | ja | ja |
-| 中文 (Trung giản thể) | zh | zh-CN |
-| Français | fr | fr |
-| हिन्दी (Hindi) | hi | hi-IN |
+| Vietnamese | vi | vi |
+| Japanese | ja | ja |
+| Simplified Chinese | zh | zh-CN |
+| French | fr | fr |
+| Hindi | hi | hi-IN |
 
-Tiếng Anh đứng đầu và là mặc định khi chưa có lựa chọn, giá trị lưu không hợp lệ hoặc không đọc được bộ nhớ. Ứng dụng không tự suy ra ngôn ngữ từ trình duyệt/hệ điều hành. Sau khi chọn, ngôn ngữ được nhớ riêng theo địa chỉ và cổng của website.
+English appears first and is the default when there is no saved selection, the stored value is invalid, or storage cannot be read. The application does not infer a language from the browser or operating system. A selection is saved separately for each website address and port.
 
-Chuyển ngôn ngữ không reload route. Bộ lọc, nội dung form đang nhập, trạng thái xác thực, khẩu phần calculator, mục yêu thích và lịch ăn vẫn được giữ. Ngôn ngữ cũng đổi tiêu đề tab, mô tả ảnh, nhãn hỗ trợ đọc màn hình và thông báo. Tên thương hiệu, tên người và tên thư viện được giữ nguyên. Báo cáo, credits nguồn ảnh và tài liệu kỹ thuật không thuộc nội dung cần chuyển ngôn ngữ của giao diện.
+Switching languages does not reload the route. Filters, form entries, validation state, calculator servings, favourites, and planned meals remain intact. The tab title, image descriptions, screen-reader labels, and messages are also updated. Brand names, personal names, and library names remain unchanged. Reports, image credits, and technical documentation are separate from the translated interface.
 
-## Nội dung đã dịch
+## Translation Coverage
 
-- Header, footer, menu mobile, nút, nhãn, placeholder, trạng thái rỗng, lỗi nhập liệu và thông báo.
-- Tên, mô tả, cả 4 bước nấu, ghi chú, nhãn chế độ ăn, chất gây dị ứng và mô tả ảnh của 24 công thức.
-- Tên nguyên liệu và nhãn đơn vị; dữ liệu lượng và đơn vị chuẩn gốc không bị thay đổi.
-- Bộ sưu tập, tiểu sử và nội dung hồ sơ người đóng góp hư cấu.
-- Các ngày, bữa ăn, trình sửa planner, xác nhận form và calculator.
+- Header, footer, mobile menu, buttons, labels, placeholders, empty states, validation errors, and messages.
+- Names, descriptions, all four cooking steps, notes, dietary labels, allergens, and image descriptions for all 24 recipes.
+- Ingredient names and unit labels; original numeric quantities and canonical units remain unchanged.
+- Collections, biographies, and fictional contributor profiles.
+- Days, meals, the planner editor, form confirmations, and calculator messages.
 
-Tìm kiếm chấp nhận tên món/nguyên liệu theo ngôn ngữ đang chọn và từ khóa tiếng Anh. Tiếng Việt hỗ trợ tìm không dấu, gồm cả đ/d. Sắp xếp catalogue dùng `Intl.Collator` theo ngôn ngữ đang chọn. Các bộ lọc kết hợp vẫn dùng giá trị chuẩn như Italian, Breakfast và Vegan, trong khi nhãn được dịch.
+Search accepts recipe and ingredient names in the selected language and English keywords. Vietnamese search also supports text without diacritics, including the Vietnamese stroked-d character. Catalogue sorting uses `Intl.Collator` for the selected language. Combined filters retain canonical values such as Italian, Breakfast, and Vegan while their displayed labels are translated.
 
-## Cấu trúc mã nguồn
+## Source Structure
 
-| File | Vai trò |
+| File | Purpose |
 |---|---|
-| js/i18n-core.js | Hàm thuần: danh sách ngôn ngữ, chuẩn hóa, dịch, thay tham số, phục hồi lựa chọn và tìm/sắp xếp đa ngôn ngữ |
-| js/i18n-angular.js | Service I18n, filter t/tList, cập nhật lang/title và sự kiện languageChanged |
-| js/translations.js | Bundle từ điển local cho cả sáu ngôn ngữ; không tải dịch vụ bên ngoài |
-| css/i18n.css | Khoảng trống cho nhãn dài, menu/selector mobile và font hỗ trợ Việt/Nhật/Trung |
-| tools/ui-source.json | Nội dung gốc tiếng Anh của các chuỗi giao diện |
-| tools/ui-translations.txt | Bản dịch giao diện; cột đầu là chỉ số trong ui-source.json |
-| tools/common-translations.txt | Thuật ngữ, nhãn, thông báo có tham số, nguyên liệu và mô tả ảnh |
-| tools/recipe-translations.txt | Nội dung công thức theo ID và trường: name, description, notes, 0–3 là các bước nấu |
-| tools/other-content.txt | Hồ sơ người đóng góp và bộ sưu tập theo ID |
-| tools/hindi-translations.txt | Bản dịch Hindi theo nguồn tham chiếu ui/common/recipe/other/image |
-| tools/build-translations.py | Tạo lại bundle và kiểm tra đủ bản dịch cho dữ liệu món ăn |
-| tests/i18n.test.js | Kiểm thử mặc định, lưu lựa chọn, dữ liệu dịch, tìm kiếm, bộ lọc, tham số và dịch vụ AngularJS |
+| js/i18n-core.js | Pure functions for supported languages, normalization, translation, parameters, restoring selections, multilingual search, and sorting |
+| js/i18n-angular.js | I18n service, t/tList filters, lang/title updates, and the languageChanged event |
+| js/translations.js | Local dictionary bundle for all six languages; no external translation service |
+| css/i18n.css | Space for longer labels, mobile menus/selectors, and Vietnamese/Japanese/Chinese font support |
+| tools/ui-source.json | Original English interface strings |
+| tools/ui-translations.txt | Interface translations; the first column is an index in ui-source.json |
+| tools/common-translations.txt | Terms, labels, parameterized messages, ingredients, and image descriptions |
+| tools/recipe-translations.txt | Recipe text by ID and field: name, description, notes, and cooking steps 0–3 |
+| tools/other-content.txt | Contributor profiles and collections by ID |
+| tools/hindi-translations.txt | Hindi translations using ui/common/recipe/other/image references |
+| tools/build-translations.py | Regenerates the bundle and checks translation coverage for recipe data |
+| tests/browser.html | Browser checks for the Live Server edition |
 
-Template dùng filter `t` và các khóa ổn định `text.<hash>` để không nhúng đoạn văn dài vào biểu thức HTML. Bundle có ánh xạ tiếng Anh cho các khóa này. Những giá trị động như tên món dùng trực tiếp `recipe.name | t`. Filter có `$stateful` để cập nhật ngay khi ngôn ngữ thay đổi.
+Templates use the `t` filter and stable `text.<hash>` keys to avoid placing long paragraphs inside HTML expressions. The bundle maps these keys to English text. Dynamic values such as recipe names use expressions like `recipe.name | t`. The filter is `$stateful` so the interface updates immediately when the language changes.
 
-## Sửa bản dịch
+## Editing Translations
 
-Mở các file `.txt` trong `tools`. Mỗi dòng có 5 cột, phân cách bằng ký tự `¦`: khóa, tiếng Việt, tiếng Nhật, tiếng Trung, tiếng Pháp. Giữ nguyên tham số `{name}`, `{recipe}`, `{slot}` hoặc `{count}` nếu có. Không đưa ký tự `¦` vào câu dịch.
+Open the `.txt` files in `tools/`. Each line in the original translation files has five columns separated by `¦`: key, Vietnamese, Japanese, Chinese, and French. Preserve parameters such as `{name}`, `{recipe}`, `{slot}`, and `{count}`. Do not include `¦` inside translated text.
 
-Sau khi sửa, chạy từ thư mục RecipeNest:
+After editing, run the optional translation builder from the RecipeNest folder:
 
 ```sh
 python tools/build-translations.py
-npm test
 ```
 
-Không cần cài thêm gói để tạo bản dịch; script chỉ dùng thư viện chuẩn Python. Với việc sửa câu dịch hiện có, không cần sửa template và không cần đổi dữ liệu `data/recipes.json`.
+Then open `tests/browser.html` with Live Server.
 
-## Lưu dữ liệu và tương thích
+The builder uses only Python's standard library and requires no additional packages. Python is an optional authoring tool and is not required to run the website. Editing existing translations does not require template changes or changes to `data/recipes.json`.
 
-Ngôn ngữ lưu dưới khóa `recipenest.language.v1`. Khóa này tách biệt với `recipenest.favourites.v1` và `recipenest.plan.v1`. Không đổi format của favourite hoặc planner, không sửa ID món, không di chuyển dữ liệu cũ. Nếu không lưu được ngôn ngữ, lựa chọn vẫn hoạt động trong tab và có cảnh báo.
+## Storage and Compatibility
 
-Để chỉ đặt lại ngôn ngữ, chọn English hoặc xóa đúng khóa ngôn ngữ rồi reload. Không cần xóa món yêu thích và lịch ăn. Các giá trị hiển thị được render như text qua AngularJS, không dùng ng-bind-html và không gửi nội dung form lên backend.
+The selected language is stored under `recipenest.language.v1`, independently of `recipenest.favourites.v1` and `recipenest.plan.v1`. The translation feature does not change favourite or planner formats, modify recipe IDs, or migrate existing data. If the language selection cannot be saved, it still works in the current tab and a warning is shown.
 
-## Kiểm thử thực tế
+To reset only the language, select English or delete the language key and reload. Favourites and planned meals do not need to be deleted. Display values are rendered as text through AngularJS rather than `ng-bind-html`, and form content is not sent to a backend.
 
-- `npm test`: **45/45 ca đạt**, gồm các kiểm tra cũ và kiểm tra Hindi bổ sung.
-- Trình duyệt trong ứng dụng: **165 lượt màn hình**, gồm 5 ngôn ngữ × 11 route × 3 độ rộng 360, 768, 1280 px. Không tràn ngang, không hiện mã dịch thô và không có console error/warning trong lượt kiểm tra cuối. Chi tiết: `language-viewport-checks.json`.
-- Kiểm tra lựa chọn ngôn ngữ còn sau reload; tìm `dau hu` và `豆腐` trả các món liên quan.
-- Kiểm tra keyword basil + Italian + Breakfast + ≤15 phút + Vegan: cùng 1 công thức trong cả sáu ngôn ngữ; giá trị bộ lọc vẫn giữ nguyên khi nhãn đổi.
-- Nhập tên/email/thông điệp, đổi ngôn ngữ trước và sau submit: giữ nội dung và xác nhận demo được dịch. Không email nào được gửi.
-- Calculator 6 người vẫn giữ 540 g spaghetti khi chuyển sang tiếng Pháp; thêm vào planner giữ 6 người, đổi sang tiếng Việt rồi reload vẫn còn bữa đó. Favourite vẫn tham chiếu cùng ID.
-- Menu mobile Nhật mở được, chọn Recipes tự đóng và aria-expanded trả về false.
-- Ảnh chụp thực tế: `languages-desktop.png`, `languages-mobile.png`. Dữ liệu đã lưu trong ảnh là dữ liệu thử trên cổng preview riêng, không được đưa vào mặc định của dự án.
+## Historical Verification
 
-Đây là kiểm tra trên trình duyệt trong ứng dụng và viewport mô phỏng; chưa khẳng định kiểm thử đầy đủ trình duyệt desktop thứ hai hoặc điện thoại thật. Các giới hạn kiểm thử cũ trong TEST-RESULTS.md vẫn áp dụng.
+- The earlier automated suite passed 45/45 checks, including the original checks and additional Hindi coverage. These results belong to the previous test suite, not the current browser-check page.
+- The in-app browser was checked across 165 views: five languages × 11 routes × three widths of 360, 768, and 1280 px. The final run recorded no horizontal overflow, unresolved translation keys, or console errors/warnings. See `language-viewport-checks.json`.
+- Language selection survived reload. Searches using an unaccented Vietnamese tofu keyword and the Chinese tofu keyword returned relevant dishes.
+- Combining the keyword basil with Italian, Breakfast, a 15-minute limit, and Vegan returned the same single recipe across all six languages. Filter values remained unchanged when labels changed.
+- Name, email, and message entries were retained when switching languages before and after form submission. The demonstration confirmation was translated. No email was sent.
+- The calculator retained 540 g of spaghetti for six people after switching to French. Adding the recipe to the planner retained six servings; switching to Vietnamese and reloading preserved the meal. Favourites continued to reference the same ID.
+- The Japanese mobile menu opened and closed after selecting Recipes; aria-expanded returned to false.
+- Historical screenshots: `languages-desktop.png` and `languages-mobile.png`. Their saved data was test data from a separate preview port and was not included as project defaults.
 
-## Bổ sung Hindi
+These checks used the in-app browser and simulated viewports. They do not establish full coverage on a second independent desktop browser or a physical phone. The limitations in `TEST-RESULTS.md` still apply.
 
-Hindi (हिन्दी) là lựa chọn thứ sáu, mã `hi`, locale `hi-IN`. Tiếng Anh vẫn đứng đầu và làm mặc định. Bản dịch của năm ngôn ngữ trước đã được so sánh và giữ nguyên.
+## Hindi Addition
 
-File `tools/hindi-translations.txt` dùng hai cột, cách nhau bằng `¦`: tham chiếu nguồn và bản dịch Hindi. Tiền tố `ui:` chỉ chỉ số trong ui-source.json; `common:` chỉ chuỗi tiếng Anh; `recipe:` chỉ ID và trường; `other:` chỉ contributor/collection; `image:` chỉ ID món. Sau khi sửa chạy lại `python tools/build-translations.py`, rồi `npm test`. Các file dịch Việt/Nhật/Trung/Pháp vẫn giữ cấu trúc 5 cột cũ.
+Hindi is the sixth language, using code `hi` and locale `hi-IN`. English remains first and is the default. The existing translations for the first five languages were compared and preserved.
 
-Đã kiểm tra Hindi trên 11 route ở độ rộng 360, 768 và 1280 px: 33 lượt, không tràn ngang, không hiện mã bản dịch hoặc lỗi console. Dữ liệu tại `hindi-viewport-checks.json`. Tìm `बेसिल` trả 3 món liên quan; kết hợp Italian + Breakfast + 15 phút + Vegan còn 1 bruschetta. Chọn Hindi rồi reload vẫn giữ ngôn ngữ và HTML lang hi-IN. Font hỗ trợ Devanagari được áp dụng riêng, không tải font từ mạng. Ảnh chụp tại `hindi-desktop.png`.
+`tools/hindi-translations.txt` contains two columns separated by `¦`: a source reference and its Hindi translation. Prefixes identify the source: `ui:` refers to an index in ui-source.json; `common:` refers to an English string; `recipe:` refers to a recipe ID and field; `other:` refers to a contributor or collection; and `image:` refers to a recipe ID. After editing, run `python tools/build-translations.py`, then open `tests/browser.html` through Live Server. The Vietnamese/Japanese/Chinese/French files retain their original five-column structure.
 
-## Thiết kế bộ chọn lá cờ theo bài mẫu
+Historical Hindi checks covered 11 routes at widths of 360, 768, and 1280 px: 33 views with no horizontal overflow, unresolved translation keys, or console errors. See `hindi-viewport-checks.json`. Searching for basil in Hindi returned three relevant dishes; combining Italian, Breakfast, a 15-minute limit, and Vegan returned one bruschetta recipe. Selecting Hindi and reloading preserved the language and HTML lang `hi-IN`. Devanagari font support was applied locally without downloading fonts. See `hindi-desktop.png`.
 
-Đã thay select cũ bằng nút tròn có ảnh cờ SVG, theo header trong dự án Sweet Bakery do người dùng cung cấp. Bảng mở nền trắng, rộng 260 px, bo góc 18 px, có bóng đổ, mỗi dòng gồm cờ, tên bản ngữ và mã viết tắt. Dòng đang chọn dùng nền kem và chữ màu rượu vang. Tái sử dụng 5 SVG từ mẫu và bổ sung SVG Ấn Độ cho Hindi. English vẫn đứng đầu và làm mặc định.
+## Flag Selector Design
 
-- `templates/language-picker.html`: summary/details và danh sách 6 nút chọn.
-- `js/language-picker.js`: directive nối với service I18n hiện có, đóng sau khi chọn, khi bấm ngoài, nhấn Escape hoặc đổi route; hỗ trợ mũi tên, Home và End, trả focus về nút cờ sau khi chọn.
-- `css/language-picker.css`: thiết kế tham chiếu, giới hạn kích thước panel và header mobile.
-- `assets/images/flags/`: sáu ảnh SVG local, không dùng emoji hoặc dịch vụ mạng.
+The earlier select control was replaced with a round SVG flag button based on the header in the supplied Sweet Bakery reference project. The white panel is 260 px wide with 18 px rounded corners and a shadow. Each row contains a flag, native language name, and short code. The selected row uses a cream background and burgundy text. Five reference SVGs were reused and an Indian flag was added for Hindi. English remains first and is the default.
 
-Kiểm tra UI: 24 tổ hợp (6 ngôn ngữ × 320/360/768/1280 px), không tràn trang hoặc panel, mỗi bảng chỉ có một dòng đang chọn và không có cờ lỗi. Đã thử bàn phím, Escape, bấm ngoài, nhớ ngôn ngữ sau reload, giữ form và calculator 6 người với 540 g pasta, giữ favourite. Menu mobile vẫn mở/đóng và chuyển trang bình thường. Kết quả chi tiết: `flag-picker-checks.json`; ảnh: `flag-picker-desktop.png`, `flag-picker-mobile.png`. Các ca tự động hiện có vẫn đạt 45/45.
+- `templates/language-picker.html`: summary/details control and six language buttons.
+- `js/language-picker.js`: directive connected to the existing I18n service. It closes after selection, an outside click, Escape, or a route change; supports arrow keys, Home, and End; and restores focus to the flag button after selection.
+- `css/language-picker.css`: reference styling, panel size limits, and mobile header layout.
+- `assets/images/flags/`: six local SVG flags without emoji or external services.
 
-Dữ liệu trên ảnh là dữ liệu thử ở cổng preview riêng; không đưa dữ liệu trình duyệt thử vào mã nguồn.
+Historical UI checks covered 24 combinations: six languages × widths of 320, 360, 768, and 1280 px. No page or panel overflow or broken flags were recorded, and each panel had exactly one selected row. Checks included keyboard navigation, Escape, outside clicks, language persistence after reload, retained form entries, six-serving calculator output of 540 g pasta, and favourites. The mobile menu continued to open, close, and navigate normally. See `flag-picker-checks.json`, `flag-picker-desktop.png`, and `flag-picker-mobile.png`. The earlier automated suite remained at 45/45 passing checks.
+
+Screenshot data came from a separate preview port; browser test data was not embedded in the source code. Localized screenshots and recorded interface text remain in their original languages as historical evidence.

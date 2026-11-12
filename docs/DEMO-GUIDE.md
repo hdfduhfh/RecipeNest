@@ -1,3 +1,5 @@
+Historical reference: results below predate the Live Server edition. Current checks: tests/browser.html.
+
 # RecipeNest Video Demo Guide (5–7 Minutes)
 
 This document is a recording guide, not a completed video. Run the website through an HTTP server, then use your preferred screen recorder.

@@ -1,6 +1,8 @@
+Historical reference: results below predate the Live Server edition. Current checks: tests/browser.html.
+
 
 > recipenest@1.0.0 test
-> node --test tests/*.test.js
+> Open tests/browser.html with Live Server
 
 ✔ six supported languages, with English first and no automatic browser-language selection (1.3139ms)
 ✔ unknown translation keys and languages fall back safely to English (0.2806ms)

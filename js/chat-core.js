@@ -1,4 +1,4 @@
-/* Deterministic site search, shared by the browser guide and the AI grounding server. */
+/* Deterministic site search, shared by the browser guide and the recipe guide. */
 (function (root, factory) {
   'use strict';
   if (typeof module === 'object' && module.exports)

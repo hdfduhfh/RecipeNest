@@ -1,6 +1,8 @@
+Historical reference: results below predate the Live Server edition. Current checks: tests/browser.html.
+
 
 > recipenest@1.0.0 test
-> node --test tests/*.test.js
+> Open tests/browser.html with Live Server
 
 ✔ 24 unique, fully linked sample records, local assets and collections (2.9259ms)
 ✔ serving boundaries 1 and 20 are accepted (0.1004ms)

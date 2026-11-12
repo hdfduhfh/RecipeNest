@@ -47,7 +47,7 @@
         'Scaled quantity = original quantity × requested servings ÷ original servings. Choose a whole number from 1 to 20. Results round to two decimal places; original units stay the same. “To taste” ingredients do not scale. Preparation time does not scale with servings.',
       'text.ce9a8ae78570': 'Sample data, honest scope.',
       'text.56556640a390':
-        'RecipeNest is an educational recipe website built with AngularJS. Recipes, dietary tags and allergens are sample content, and profiles are fictional. The optional assistant uses Ollama Cloud. There are no accounts, payments or email delivery.',
+        'RecipeNest is an educational recipe website built with AngularJS. Recipes, dietary tags and allergens are sample content, and profiles are fictional. The assistant searches recipe data in your browser. There are no accounts, payments or email delivery.',
       'text.30007502805e': 'Images & acknowledgements.',
       'text.df255f0db396':
         'Illustrative food photos come from Unsplash and are included locally. They may not depict the exact dish. The gallery captions identify the provider; the',
@@ -774,8 +774,8 @@
       'Scaled quantity = original quantity × requested servings ÷ original servings. Choose a whole number from 1 to 20. Results round to two decimal places; original units stay the same. “To taste” ingredients do not scale. Preparation time does not scale with servings.':
         'Lượng mới = lượng gốc × khẩu phần yêu cầu ÷ khẩu phần gốc. Chọn số nguyên từ 1 đến 20. Kết quả làm tròn hai chữ số thập phân, giữ nguyên đơn vị. Nguyên liệu “nêm vừa ăn” không nhân theo khẩu phần. Thời gian chuẩn bị không thay đổi theo khẩu phần.',
       'Sample data, honest scope.': 'Dữ liệu mẫu, phạm vi rõ ràng.',
-      'RecipeNest is an educational recipe website built with AngularJS. Recipes, dietary tags and allergens are sample content, and profiles are fictional. The optional assistant uses Ollama Cloud. There are no accounts, payments or email delivery.':
-        'RecipeNest là website công thức nấu ăn phục vụ học tập, xây dựng bằng AngularJS. Công thức, nhãn chế độ ăn và chất gây dị ứng là dữ liệu mẫu; hồ sơ người đóng góp là hư cấu. Trợ lý tùy chọn sử dụng Ollama Cloud. Website không có tài khoản, thanh toán hay gửi email.',
+      'RecipeNest is an educational recipe website built with AngularJS. Recipes, dietary tags and allergens are sample content, and profiles are fictional. The assistant searches recipe data in your browser. There are no accounts, payments or email delivery.':
+        'RecipeNest là website công thức nấu ăn phục vụ học tập, xây dựng bằng AngularJS. Công thức, nhãn chế độ ăn và chất gây dị ứng là dữ liệu mẫu; hồ sơ người đóng góp là hư cấu. Trợ lý tra cứu dữ liệu công thức trong trình duyệt. Website không có tài khoản, thanh toán hay gửi email.',
       'Images & acknowledgements.': 'Hình ảnh và ghi công.',
       'Illustrative food photos come from Unsplash and are included locally. They may not depict the exact dish. The gallery captions identify the provider; the':
         'Ảnh minh họa từ Unsplash được lưu sẵn trong dự án và có thể khác món ăn thực tế. Chú thích gallery ghi nhà cung cấp; phần',
@@ -1554,7 +1554,7 @@
         'Lượng mới = lượng gốc × khẩu phần yêu cầu ÷ khẩu phần gốc. Chọn số nguyên từ 1 đến 20. Kết quả làm tròn hai chữ số thập phân, giữ nguyên đơn vị. Nguyên liệu “nêm vừa ăn” không nhân theo khẩu phần. Thời gian chuẩn bị không thay đổi theo khẩu phần.',
       'text.ce9a8ae78570': 'Dữ liệu mẫu, phạm vi rõ ràng.',
       'text.56556640a390':
-        'RecipeNest là website công thức nấu ăn phục vụ học tập, xây dựng bằng AngularJS. Công thức, nhãn chế độ ăn và chất gây dị ứng là dữ liệu mẫu; hồ sơ người đóng góp là hư cấu. Trợ lý tùy chọn sử dụng Ollama Cloud. Website không có tài khoản, thanh toán hay gửi email.',
+        'RecipeNest là website công thức nấu ăn phục vụ học tập, xây dựng bằng AngularJS. Công thức, nhãn chế độ ăn và chất gây dị ứng là dữ liệu mẫu; hồ sơ người đóng góp là hư cấu. Trợ lý tra cứu dữ liệu công thức trong trình duyệt. Website không có tài khoản, thanh toán hay gửi email.',
       'text.30007502805e': 'Hình ảnh và ghi công.',
       'text.df255f0db396':
         'Ảnh minh họa từ Unsplash được lưu sẵn trong dự án và có thể khác món ăn thực tế. Chú thích gallery ghi nhà cung cấp; phần',
@@ -2227,8 +2227,8 @@
       'Scaled quantity = original quantity × requested servings ÷ original servings. Choose a whole number from 1 to 20. Results round to two decimal places; original units stay the same. “To taste” ingredients do not scale. Preparation time does not scale with servings.':
         '変更後の分量＝元の分量×希望人数÷元の人数です。1〜20の整数を指定します。小数第2位まで丸め、単位は変えません。「お好みで」の材料と調理時間は人数に合わせて変更しません。',
       'Sample data, honest scope.': 'サンプルデータとサイトの範囲。',
-      'RecipeNest is an educational recipe website built with AngularJS. Recipes, dietary tags and allergens are sample content, and profiles are fictional. The optional assistant uses Ollama Cloud. There are no accounts, payments or email delivery.':
-        'RecipeNest は AngularJS で作成した学習用レシピサイトです。レシピ、食事タグ、アレルゲンはサンプル情報で、プロフィールは架空です。任意のアシスタントは Ollama Cloud を利用します。アカウント、決済、メール送信機能はありません。',
+      'RecipeNest is an educational recipe website built with AngularJS. Recipes, dietary tags and allergens are sample content, and profiles are fictional. The assistant searches recipe data in your browser. There are no accounts, payments or email delivery.':
+        'RecipeNest は AngularJS で作成した学習用レシピサイトです。レシピ、食事タグ、アレルゲンはサンプル情報で、プロフィールは架空です。任意のアシスタントは RecipeNest を利用します。アカウント、決済、メール送信機能はありません。',
       'Images & acknowledgements.': '画像とクレジット。',
       'Illustrative food photos come from Unsplash and are included locally. They may not depict the exact dish. The gallery captions identify the provider; the':
         '料理の参考写真は Unsplash から取得し、ローカルに保存しています。実際の料理とは異なる場合があります。提供元はギャラリーの説明に、元の画像URLは',
@@ -3010,7 +3010,7 @@
         '変更後の分量＝元の分量×希望人数÷元の人数です。1〜20の整数を指定します。小数第2位まで丸め、単位は変えません。「お好みで」の材料と調理時間は人数に合わせて変更しません。',
       'text.ce9a8ae78570': 'サンプルデータとサイトの範囲。',
       'text.56556640a390':
-        'RecipeNest は AngularJS で作成した学習用レシピサイトです。レシピ、食事タグ、アレルゲンはサンプル情報で、プロフィールは架空です。任意のアシスタントは Ollama Cloud を利用します。アカウント、決済、メール送信機能はありません。',
+        'RecipeNest は AngularJS で作成した学習用レシピサイトです。レシピ、食事タグ、アレルゲンはサンプル情報で、プロフィールは架空です。任意のアシスタントは RecipeNest を利用します。アカウント、決済、メール送信機能はありません。',
       'text.30007502805e': '画像とクレジット。',
       'text.df255f0db396':
         '料理の参考写真は Unsplash から取得し、ローカルに保存しています。実際の料理とは異なる場合があります。提供元はギャラリーの説明に、元の画像URLは',
@@ -3683,8 +3683,8 @@
       'Scaled quantity = original quantity × requested servings ÷ original servings. Choose a whole number from 1 to 20. Results round to two decimal places; original units stay the same. “To taste” ingredients do not scale. Preparation time does not scale with servings.':
         '新用量＝原用量×所需份数÷原份数。请输入1至20的整数。结果保留两位小数，单位不变。“适量”的食材和准备时间不随份数变化。',
       'Sample data, honest scope.': '示例数据，明确范围。',
-      'RecipeNest is an educational recipe website built with AngularJS. Recipes, dietary tags and allergens are sample content, and profiles are fictional. The optional assistant uses Ollama Cloud. There are no accounts, payments or email delivery.':
-        'RecipeNest 是使用 AngularJS 构建的教学食谱网站。食谱、饮食标签和过敏原为示例数据，人物资料为虚构。可选助手使用 Ollama Cloud。网站没有账户、支付或邮件发送功能。',
+      'RecipeNest is an educational recipe website built with AngularJS. Recipes, dietary tags and allergens are sample content, and profiles are fictional. The assistant searches recipe data in your browser. There are no accounts, payments or email delivery.':
+        'RecipeNest 是使用 AngularJS 构建的教学食谱网站。食谱、饮食标签和过敏原为示例数据，人物资料为虚构。可选助手使用 RecipeNest。网站没有账户、支付或邮件发送功能。',
       'Images & acknowledgements.': '图片与鸣谢。',
       'Illustrative food photos come from Unsplash and are included locally. They may not depict the exact dish. The gallery captions identify the provider; the':
         '示意美食照片来自Unsplash，已包含在本地项目中，可能与实际菜品不同。图库说明标注提供方；以下',
@@ -4448,7 +4448,7 @@
         '新用量＝原用量×所需份数÷原份数。请输入1至20的整数。结果保留两位小数，单位不变。“适量”的食材和准备时间不随份数变化。',
       'text.ce9a8ae78570': '示例数据，明确范围。',
       'text.56556640a390':
-        'RecipeNest 是使用 AngularJS 构建的教学食谱网站。食谱、饮食标签和过敏原为示例数据，人物资料为虚构。可选助手使用 Ollama Cloud。网站没有账户、支付或邮件发送功能。',
+        'RecipeNest 是使用 AngularJS 构建的教学食谱网站。食谱、饮食标签和过敏原为示例数据，人物资料为虚构。可选助手使用 RecipeNest。网站没有账户、支付或邮件发送功能。',
       'text.30007502805e': '图片与鸣谢。',
       'text.df255f0db396':
         '示意美食照片来自Unsplash，已包含在本地项目中，可能与实际菜品不同。图库说明标注提供方；以下',
@@ -5058,8 +5058,8 @@
       'Scaled quantity = original quantity × requested servings ÷ original servings. Choose a whole number from 1 to 20. Results round to two decimal places; original units stay the same. “To taste” ingredients do not scale. Preparation time does not scale with servings.':
         'Quantité adaptée = quantité initiale × portions demandées ÷ portions initiales. Choisissez un entier de 1 à 20. Le résultat est arrondi à deux décimales, sans changer les unités. Les ingrédients « selon le goût » et la durée ne sont pas ajustés.',
       'Sample data, honest scope.': 'Des exemples et un cadre clair.',
-      'RecipeNest is an educational recipe website built with AngularJS. Recipes, dietary tags and allergens are sample content, and profiles are fictional. The optional assistant uses Ollama Cloud. There are no accounts, payments or email delivery.':
-        'RecipeNest est un site pédagogique de recettes réalisé avec AngularJS. Les recettes, étiquettes alimentaires et allergènes sont des exemples, et les profils sont fictifs. L’assistant facultatif utilise Ollama Cloud. Il n’y a ni comptes, ni paiements, ni envoi d’e-mails.',
+      'RecipeNest is an educational recipe website built with AngularJS. Recipes, dietary tags and allergens are sample content, and profiles are fictional. The assistant searches recipe data in your browser. There are no accounts, payments or email delivery.':
+        'RecipeNest est un site pédagogique de recettes réalisé avec AngularJS. Les recettes, étiquettes alimentaires et allergènes sont des exemples, et les profils sont fictifs. L’assistant recherche les recettes dans votre navigateur. Il n’y a ni comptes, ni paiements, ni envoi d’e-mails.',
       'Images & acknowledgements.': 'Images et remerciements.',
       'Illustrative food photos come from Unsplash and are included locally. They may not depict the exact dish. The gallery captions identify the provider; the':
         'Les photos d’illustration proviennent d’Unsplash et sont incluses localement. Elles peuvent différer du plat réel. La galerie indique le fournisseur ; les',
@@ -5854,7 +5854,7 @@
         'Quantité adaptée = quantité initiale × portions demandées ÷ portions initiales. Choisissez un entier de 1 à 20. Le résultat est arrondi à deux décimales, sans changer les unités. Les ingrédients « selon le goût » et la durée ne sont pas ajustés.',
       'text.ce9a8ae78570': 'Des exemples et un cadre clair.',
       'text.56556640a390':
-        'RecipeNest est un site pédagogique de recettes réalisé avec AngularJS. Les recettes, étiquettes alimentaires et allergènes sont des exemples, et les profils sont fictifs. L’assistant facultatif utilise Ollama Cloud. Il n’y a ni comptes, ni paiements, ni envoi d’e-mails.',
+        'RecipeNest est un site pédagogique de recettes réalisé avec AngularJS. Les recettes, étiquettes alimentaires et allergènes sont des exemples, et les profils sont fictifs. L’assistant recherche les recettes dans votre navigateur. Il n’y a ni comptes, ni paiements, ni envoi d’e-mails.',
       'text.30007502805e': 'Images et remerciements.',
       'text.df255f0db396':
         'Les photos d’illustration proviennent d’Unsplash et sont incluses localement. Elles peuvent différer du plat réel. La galerie indique le fournisseur ; les',
@@ -6603,8 +6603,8 @@
       'Scaled quantity = original quantity × requested servings ÷ original servings. Choose a whole number from 1 to 20. Results round to two decimal places; original units stay the same. “To taste” ingredients do not scale. Preparation time does not scale with servings.':
         'नई मात्रा = मूल मात्रा × माँगी गई परोस संख्या ÷ मूल परोस संख्या। 1 से 20 तक पूर्णांक चुनें। परिणाम दो दशमलव स्थान तक होता है और इकाई नहीं बदलती। “स्वादानुसार” सामग्री की मात्रा और तैयारी का समय लोगों की संख्या के साथ नहीं बदलते।',
       'Sample data, honest scope.': 'नमूना डेटा, स्पष्ट दायरा।',
-      'RecipeNest is an educational recipe website built with AngularJS. Recipes, dietary tags and allergens are sample content, and profiles are fictional. The optional assistant uses Ollama Cloud. There are no accounts, payments or email delivery.':
-        'RecipeNest, AngularJS से बनी एक शैक्षिक रेसिपी वेबसाइट है। रेसिपी, आहार टैग और एलर्जेन नमूना जानकारी हैं; प्रोफ़ाइल काल्पनिक हैं। वैकल्पिक सहायक Ollama Cloud का उपयोग करता है। यहाँ खाते, भुगतान या ईमेल भेजने की सुविधा नहीं है।',
+      'RecipeNest is an educational recipe website built with AngularJS. Recipes, dietary tags and allergens are sample content, and profiles are fictional. The assistant searches recipe data in your browser. There are no accounts, payments or email delivery.':
+        'RecipeNest, AngularJS से बनी एक शैक्षिक रेसिपी वेबसाइट है। रेसिपी, आहार टैग और एलर्जेन नमूना जानकारी हैं; प्रोफ़ाइल काल्पनिक हैं। सहायक आपके ब्राउज़र में रेसिपी के डेटा में खोजता है। यहाँ खाते, भुगतान या ईमेल भेजने की सुविधा नहीं है।',
       'Images & acknowledgements.': 'तस्वीरें और आभार।',
       'Illustrative food photos come from Unsplash and are included locally. They may not depict the exact dish. The gallery captions identify the provider; the':
         'उदाहरण वाली तस्वीरें Unsplash से हैं और प्रोजेक्ट में स्थानीय रूप से शामिल हैं। वे वास्तविक व्यंजन से अलग हो सकती हैं। गैलरी में प्रदाता का नाम है और',
@@ -7388,7 +7388,7 @@
         'नई मात्रा = मूल मात्रा × माँगी गई परोस संख्या ÷ मूल परोस संख्या। 1 से 20 तक पूर्णांक चुनें। परिणाम दो दशमलव स्थान तक होता है और इकाई नहीं बदलती। “स्वादानुसार” सामग्री की मात्रा और तैयारी का समय लोगों की संख्या के साथ नहीं बदलते।',
       'text.ce9a8ae78570': 'नमूना डेटा, स्पष्ट दायरा।',
       'text.56556640a390':
-        'RecipeNest, AngularJS से बनी एक शैक्षिक रेसिपी वेबसाइट है। रेसिपी, आहार टैग और एलर्जेन नमूना जानकारी हैं; प्रोफ़ाइल काल्पनिक हैं। वैकल्पिक सहायक Ollama Cloud का उपयोग करता है। यहाँ खाते, भुगतान या ईमेल भेजने की सुविधा नहीं है।',
+        'RecipeNest, AngularJS से बनी एक शैक्षिक रेसिपी वेबसाइट है। रेसिपी, आहार टैग और एलर्जेन नमूना जानकारी हैं; प्रोफ़ाइल काल्पनिक हैं। सहायक आपके ब्राउज़र में रेसिपी के डेटा में खोजता है। यहाँ खाते, भुगतान या ईमेल भेजने की सुविधा नहीं है।',
       'text.30007502805e': 'तस्वीरें और आभार।',
       'text.df255f0db396':
         'उदाहरण वाली तस्वीरें Unsplash से हैं और प्रोजेक्ट में स्थानीय रूप से शामिल हैं। वे वास्तविक व्यंजन से अलग हो सकती हैं। गैलरी में प्रदाता का नाम है और',

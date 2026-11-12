@@ -8,15 +8,13 @@
       controllerAs: 'chat',
       templateUrl: 'templates/chat.html',
       controller: [
-        '$http',
         '$timeout',
         '$element',
         '$scope',
         'Catalogue',
         'I18n',
-        function ($http, $timeout, $element, $scope, Catalogue, I18n) {
+        function ($timeout, $element, $scope, Catalogue, I18n) {
           var vm = this,
-            pending = null,
             generation = 0,
             lastRequest = null;
           vm.i18n = I18n;
@@ -32,9 +30,6 @@
             return I18n.t(value);
           };
           vm.quickKeys = ['quick', 'veggie', 'help'];
-          $http.get('api/chat/status', { timeout: 5000 }).then(function (response) {
-            vm.connected = response.data.configured === true;
-          }, angular.noop);
           function focusInput() {
             $timeout(function () {
               var input = $element[0].querySelector('textarea');
@@ -60,8 +55,6 @@
           };
           vm.clear = function () {
             generation += 1;
-            if (pending) pending.abort();
-            pending = null;
             vm.messages = [];
             vm.draft = '';
             vm.busy = false;
@@ -84,64 +77,23 @@
             });
             scroll();
           }
-          function run(request, forceGuide) {
+          function run(request) {
             vm.busy = true;
             vm.error = '';
             var token = generation;
             Catalogue.ready.then(
               function () {
                 if (token !== generation) return;
-                if (!vm.connected || forceGuide) {
-                  append(
-                    RecipeChat.guide(
-                      Catalogue.recipes,
-                      request.message,
-                      request.language,
-                      request.previousIds
-                    )
-                  );
-                  vm.busy = false;
-                  focusInput();
-                  return;
-                }
-                // Native fetch allows a cleared conversation to cancel its in-flight request.
-                var controller = new AbortController();
-                pending = controller;
-                var timer = setTimeout(function () {
-                  controller.abort();
-                }, 50000);
-                fetch('api/chat', {
-                  method: 'POST',
-                  headers: { 'Content-Type': 'application/json' },
-                  body: JSON.stringify(request),
-                  signal: controller.signal,
-                })
-                  .then(function (response) {
-                    if (!response.ok) throw new Error('chat unavailable');
-                    return response.json();
-                  })
-                  .then(function (response) {
-                    if (typeof response.answer !== 'string' || !response.answer.trim())
-                      throw new Error('empty answer');
-                    $scope.$evalAsync(function () {
-                      if (token === generation) append(response);
-                    });
-                  })
-                  .catch(function () {
-                    $scope.$evalAsync(function () {
-                      if (token === generation) vm.error = vm.t('error');
-                    });
-                  })
-                  .finally(function () {
-                    clearTimeout(timer);
-                    $scope.$evalAsync(function () {
-                      if (token === generation) {
-                        vm.busy = false;
-                        pending = null;
-                        focusInput();
-                      }
-                    });
-                  });
+                append(
+                  RecipeChat.guide(
+                    Catalogue.recipes,
+                    request.message,
+                    request.language,
+                    request.previousIds
+                  )
+                );
+                vm.busy = false;
+                focusInput();
               },
               function () {
                 if (token === generation) {
@@ -179,10 +131,10 @@
             vm.messages.push({ role: 'user', text: message });
             vm.draft = '';
             scroll();
-            run(lastRequest, false);
+            run(lastRequest);
           };
-          vm.retry = function (guide) {
-            if (lastRequest && !vm.busy) run(lastRequest, guide);
+          vm.retry = function () {
+            if (lastRequest && !vm.busy) run(lastRequest);
           };
           vm.keydown = function (event) {
             if (
@@ -204,7 +156,6 @@
           $element[0].addEventListener('keydown', escape);
           $scope.$on('$destroy', function () {
             generation += 1;
-            if (pending) pending.abort();
             $element[0].removeEventListener('keydown', escape);
           });
         },

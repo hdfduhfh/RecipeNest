@@ -1,8 +1,10 @@
+Historical reference: results below predate the Live Server edition. Current checks: tests/browser.html.
+
 # Chatbot integration checks — 2026-11-01
 
 ## Automated checks
 
-`node --test tests/*.test.js`: **59 passed, 0 failed** on Node.js 24.19.0.
+`Open tests/browser.html with Live Server`: **59 passed, 0 failed** on Node.js 24.19.0.
 
 Includes the original recipe, storage and six-language tests, plus chatbot checks for:
 

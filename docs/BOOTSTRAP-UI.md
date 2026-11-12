@@ -1,3 +1,5 @@
+Historical reference: results below predate the Live Server edition. Current checks: tests/browser.html.
+
 # Bootstrap interface update
 
 RecipeNest now includes Bootstrap 5.3.8 CSS locally in `assets/vendor/bootstrap.min.css`.

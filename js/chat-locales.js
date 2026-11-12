@@ -12,8 +12,8 @@
       open: 'Ask Nest',
       close: 'Close chat',
       clear: 'New conversation',
-      ai: 'AI · Ollama Cloud',
-      local: 'Recipe guide · AI not connected',
+      ai: 'AI · RecipeNest',
+      local: "Recipe guide",
       welcome:
         'Hi! What would you like to cook? I can help you explore RecipeNest recipes, ingredients and cooking steps.',
       placeholder: 'Ask about a recipe or ingredient…',
@@ -31,7 +31,7 @@
       footer: 'Answers are based on RecipeNest. Check the recipe before cooking.',
       privacy:
         'AI messages are sent to the configured AI service. Chats are not saved by RecipeNest.',
-      localNote: 'This guide searches the site data. Connect AI for free-form conversation.',
+      localNote: "This guide searches RecipeNest data in your browser.",
       found: 'Here are some recipes from RecipeNest that match your request:',
       none: 'I could not find a matching recipe in RecipeNest. Try a dish name, ingredient, cuisine or a time limit.',
       choose:
@@ -51,8 +51,8 @@
       open: 'Hỏi Nest',
       close: 'Đóng trò chuyện',
       clear: 'Cuộc trò chuyện mới',
-      ai: 'AI · Ollama Cloud',
-      local: 'Tra cứu công thức · Chưa kết nối AI',
+      ai: 'AI · RecipeNest',
+      local: "Tra cứu công thức",
       welcome:
         'Xin chào! Hôm nay bạn muốn nấu món gì? Tôi có thể giúp bạn tìm công thức, nguyên liệu và hướng dẫn nấu ăn trên RecipeNest.',
       placeholder: 'Hỏi về món ăn hoặc nguyên liệu…',
@@ -70,7 +70,7 @@
       footer: 'Câu trả lời dựa trên RecipeNest. Xem lại công thức trước khi nấu.',
       privacy:
         'Tin nhắn AI được gửi tới dịch vụ AI đã cấu hình. RecipeNest không lưu cuộc trò chuyện.',
-      localNote: 'Phần này tra cứu dữ liệu website. Kết nối AI để trò chuyện tự nhiên.',
+      localNote: "Phần này tra cứu dữ liệu RecipeNest ngay trong trình duyệt.",
       found: 'Tui tìm được những công thức này trong RecipeNest phù hợp với yêu cầu của bà:',
       none: 'Tui chưa tìm được công thức phù hợp trong RecipeNest. Bà thử tên món, nguyên liệu, nền ẩm thực hoặc số phút nấu nha.',
       choose: 'Bà muốn xem món nào? Bà có thể hỏi nguyên liệu hoặc các bước nấu nha.',
@@ -89,8 +89,8 @@
       open: 'Nest に質問',
       close: 'チャットを閉じる',
       clear: '新しい会話',
-      ai: 'AI · Ollama Cloud',
-      local: 'レシピ検索 · AI 未接続',
+      ai: 'AI · RecipeNest',
+      local: "レシピ検索",
       welcome:
         'こんにちは！今日は何を作りますか？RecipeNest のレシピ、材料、作り方をご案内します。',
       placeholder: 'レシピや材料について質問…',
@@ -108,7 +108,7 @@
       footer: '回答は RecipeNest の情報に基づきます。調理前にレシピをご確認ください。',
       privacy:
         'AI メッセージは設定された AI サービスに送信されます。RecipeNest は会話を保存しません。',
-      localNote: 'サイトのデータを検索します。自由な会話には AI の接続が必要です。',
+      localNote: "ブラウザーで RecipeNest のデータを検索します。",
       found: 'ご希望に合う RecipeNest のレシピです：',
       none: '一致するレシピが見つかりませんでした。料理名、材料、国の料理、調理時間でお試しください。',
       choose: 'どのレシピをご覧になりますか？材料や作り方について質問できます。',
@@ -127,8 +127,8 @@
       open: '问问 Nest',
       close: '关闭聊天',
       clear: '开始新对话',
-      ai: 'AI · Ollama Cloud',
-      local: '食谱查询 · AI 未连接',
+      ai: 'AI · RecipeNest',
+      local: "食谱查询",
       welcome: '你好！今天想做什么菜？我可以帮你查找 RecipeNest 的食谱、食材和烹饪步骤。',
       placeholder: '询问食谱或食材…',
       send: '发送消息',
@@ -144,7 +144,7 @@
       guide: '使用食谱查询',
       footer: '回答基于 RecipeNest。烹饪前请查看食谱。',
       privacy: 'AI 消息会发送至已配置的 AI 服务。RecipeNest 不保存聊天记录。',
-      localNote: '此功能查询网站数据。自然对话需要连接 AI。',
+      localNote: "此功能在浏览器中查询 RecipeNest 数据。",
       found: '以下 RecipeNest 食谱符合你的要求：',
       none: '没有找到匹配的食谱。请尝试菜名、食材、菜系或烹饪时间。',
       choose: '你想了解哪道菜？可以询问食材或烹饪步骤。',
@@ -163,8 +163,8 @@
       open: 'Demander à Nest',
       close: 'Fermer le chat',
       clear: 'Nouvelle conversation',
-      ai: 'AI · Ollama Cloud',
-      local: 'Guide de recettes · IA non connectée',
+      ai: 'AI · RecipeNest',
+      local: "Guide de recettes",
       welcome:
         'Bonjour ! Que souhaitez-vous cuisiner ? Je peux vous aider à explorer les recettes, les ingrédients et les étapes de RecipeNest.',
       placeholder: 'Une question sur une recette ou un ingrédient…',
@@ -182,8 +182,7 @@
       footer: 'Les réponses reposent sur RecipeNest. Vérifiez la recette avant de cuisiner.',
       privacy:
         'Les messages IA sont envoyés au service IA configuré. RecipeNest ne conserve pas les conversations.',
-      localNote:
-        'Ce guide recherche dans les données du site. Connectez l’IA pour une conversation libre.',
+      localNote: "Ce guide recherche les données de RecipeNest dans votre navigateur.",
       found: 'Voici des recettes RecipeNest qui correspondent à votre demande :',
       none: 'Aucune recette correspondante. Essayez un plat, un ingrédient, une cuisine ou une durée.',
       choose: 'Quelle recette souhaitez-vous découvrir ? Demandez les ingrédients ou les étapes.',
@@ -202,8 +201,8 @@
       open: 'Nest से पूछें',
       close: 'चैट बंद करें',
       clear: 'नई बातचीत',
-      ai: 'AI · Ollama Cloud',
-      local: 'रेसिपी गाइड · AI जुड़ा नहीं है',
+      ai: 'AI · RecipeNest',
+      local: "रेसिपी गाइड",
       welcome:
         'नमस्ते! आज क्या पकाना चाहेंगे? मैं RecipeNest की रेसिपी, सामग्री और बनाने के चरण खोजने में मदद कर सकता हूँ।',
       placeholder: 'रेसिपी या सामग्री के बारे में पूछें…',
@@ -221,7 +220,7 @@
       footer: 'उत्तर RecipeNest पर आधारित हैं। पकाने से पहले रेसिपी जाँच लें।',
       privacy:
         'AI संदेश कॉन्फ़िगर की गई AI सेवा को भेजे जाते हैं। RecipeNest बातचीत सहेजता नहीं है।',
-      localNote: 'यह गाइड वेबसाइट के डेटा में खोजता है। स्वाभाविक बातचीत के लिए AI जोड़ें।',
+      localNote: "यह गाइड आपके ब्राउज़र में RecipeNest के डेटा में खोजता है।",
       found: 'आपकी माँग से मेल खाती RecipeNest की रेसिपी:',
       none: 'मेल खाती रेसिपी नहीं मिली। व्यंजन, सामग्री, पकवान शैली या समय बताकर खोजें।',
       choose: 'कौन सी रेसिपी देखना चाहेंगे? सामग्री या बनाने के चरण पूछ सकते हैं।',

@@ -1,72 +1,74 @@
-# Kết quả kiểm thử RecipeNest
+# RecipeNest Test Results
 
-Ngày kiểm tra: **31/10/2026**. Mã nguồn đã chạy qua HTTP tại `http://127.0.0.1:4175`.
+Historical reference: these results predate the Live Server edition. Current checks are documented in `LIVE-SERVER-CHECKS.md`; open `tests/browser.html` through Live Server to run the browser checks. Historical counts below refer to earlier test suites, not the current browser-check page.
 
-## Môi trường thực tế
+Historical test date: **31 October 2026**. The source was served over local HTTP. Startup instructions for the current edition are in `README.md`.
 
-- Windows 10/11 (user agent báo Windows NT 10.0).
-- Trình duyệt trong ứng dụng ChatGPT, engine báo **Chrome/156.0.0.0**. Đây là user agent, không khẳng định bản Chrome desktop cài riêng.
-- Node.js **24.19.0**.
-- AngularJS **1.8.2**, angular-route **1.8.2**.
-- Viewport: **360 × 900, 768 × 900, 1280 × 900**; kiểm tra trực quan mobile ở **360 × 800**.
+## Recorded Environment
 
-## Kiểm tra tự động
+- Windows 10/11; the user agent reported Windows NT 10.0.
+- ChatGPT's in-app browser reported **Chrome/156.0.0.0**. This identifies the reported user agent rather than confirming a separately installed desktop Chrome version.
+- Historical test runtime: Node.js **24.19.0**. It is not required to run the current Live Server edition.
+- AngularJS **1.8.2** and angular-route **1.8.2**.
+- Viewports: **360 × 900, 768 × 900, and 1280 × 900**; visual mobile inspection at **360 × 800**.
 
-`npm test` → **33 tests, 33 passed, 0 failed**.
+## Historical Automated Checks
 
-29 test kiểm tra schema, liên kết ID, ảnh local, khẩu phần, rounding, unit, non-scalable ingredient, keyword, AND filters, sort, immutable dataset, loại trùng ID, làm sạch planner và tài nguyên template/script.
+The initial suite recorded **33 tests, 33 passed, and 0 failed**.
 
-4 test bổ sung chạy trực tiếp factory `SavedData` thực tế với dependency được cung cấp bằng test harness: favourite persistence, planner replacement/removal/persistence, JSON lỗi, storage bị chặn và fallback trong bộ nhớ. Đây là test service với mock storage, không phải tuyên bố đã thay quyền lưu trữ của trình duyệt thật.
+Twenty-nine checks covered the schema, ID links, local images, servings, rounding, units, non-scalable ingredients, keyword search, combined AND filters, sorting, dataset immutability, duplicate ID removal, planner cleanup, and template/script assets.
 
-## Kiểm tra giao diện thực tế
+Four additional checks exercised the actual `SavedData` factory with dependencies supplied by a test harness: favourite persistence; planner replacement, removal, and persistence; malformed JSON; blocked storage; and in-memory fallback. These used mock storage and do not imply that permissions were changed in a real browser.
 
-| ID | Thao tác / đầu vào | Kết quả mong đợi | Kết quả thực tế |
+## Historical Interface Checks
+
+| ID | Action or input | Expected result | Recorded result |
 |---|---|---|---|
-| UI01 | Mở catalogue ban đầu | 24 món | Đạt: 24 món, A–Z |
-| UI02 | Search `basil` + Italian + Breakfast + ≤15 min + Vegan | Chỉ Tomato & basil bruschetta | Đạt: 1 món |
-| UI03 | Mở món từ UI02 rồi Back to recipes | Giữ tất cả filter | Đạt: vẫn 1 món và filter giữ nguyên |
-| UI04 | Keyword `nothing-xyz-999` | 0 kết quả và gợi ý clear | Đạt |
-| UI05 | Clear all | Trả 24 món, bỏ filter | Đạt |
-| UI06 | Lemon pasta, 180 g / base 2, requested 1, 6, 20 | 90 g, 540 g, 1800 g | Đạt; salt to taste không nhân |
-| UI07 | Requested 0, 21, 1.5, trống | Báo lỗi, không hiển thị lượng mới | Đạt cả 4 trường hợp |
-| UI08 | Save Lemon pasta rồi reload detail | Vẫn Saved to favourites | Đạt, deep-view refresh hoạt động |
-| UI09 | Add to meal plan | Editor mở với công thức được chọn | Đạt, Monday Dinner |
-| UI10 | Planner servings 1.5 và Save | Chặn lưu và báo lỗi | Đạt |
-| UI11 | Lưu Monday Dinner 3 người; Tuesday Lunch rainbow bowl 2 người | Count 2; reload còn dữ liệu | Đạt |
-| UI12 | Unsave pasta trong Favourites | Favourites rỗng, planner vẫn 2 bữa | Đạt |
-| UI13 | Đổi Monday Dinner thành 1 người, xóa Tuesday Lunch | Monday 1 người, count 1 | Đạt |
-| UI14 | Submit contact trống | 3 lỗi tại từng ô | Đạt |
-| UI15 | Email `bad-email`, các ô khác hợp lệ | Lỗi email, không success | Đạt |
-| UI16 | `Demo Cook`, `demo@example.com`, thông điệp mẫu | Xác nhận demo, không gửi/lưu | Đạt |
-| UI17 | Reset contact | Xóa input, lỗi, success | Đạt |
-| UI18 | Gallery: mở ảnh, Next, ArrowRight, Escape | Chuyển ảnh, đóng và trả focus | Đạt; focus trả về nút ảnh mở đầu |
-| UI19 | Mobile 360: mở menu, chọn Recipes | Menu mở được, tự đóng sau chọn | Đạt, aria-expanded về false |
-| UI20 | Mobile 360: sửa Monday Dinner | Editor vừa màn hình, ô nhập và nút dùng được | Đạt, kiểm tra trực quan |
-| UI21 | 11 route × 3 viewport 360/768/1280 | Không tràn ngang, không ảnh lỗi | Đạt 33 lượt; xem viewport-checks.json |
-| UI22 | Calculator 6 người → Add to meal plan | Editor giữ 6 người từ calculator | Đạt |
-| UI23 | Recipe ID / contributor ID / route không tồn tại | Hiển thị trang lỗi có link quay lại | Đạt cả 3 trường hợp |
+| UI01 | Open the initial catalogue | 24 recipes | Passed: 24 recipes, sorted A–Z |
+| UI02 | Search basil + Italian + Breakfast + ≤15 minutes + Vegan | Only Tomato & basil bruschetta | Passed: one recipe |
+| UI03 | Open the UI02 recipe, then select Back to recipes | Preserve all filters | Passed: one result and all filters retained |
+| UI04 | Search for nothing-xyz-999 | No results and a clear-filters suggestion | Passed |
+| UI05 | Select Clear all | Restore 24 recipes and remove filters | Passed |
+| UI06 | Lemon pasta: 180 g at base 2 servings; request 1, 6, and 20 | 90 g, 540 g, and 1800 g | Passed; salt to taste was not scaled |
+| UI07 | Request 0, 21, 1.5, or an empty serving value | Show an error and hide calculated quantities | Passed in all four cases |
+| UI08 | Save Lemon pasta and reload its detail page | Remain Saved to favourites | Passed; refreshing the detail route worked |
+| UI09 | Select Add to meal plan | Open the editor with the selected recipe | Passed: Monday Dinner |
+| UI10 | Enter 1.5 servings in the planner and save | Block saving and show an error | Passed |
+| UI11 | Save Monday Dinner for 3 people and Tuesday Lunch with rainbow bowl for 2 | Count two meals and preserve data after reload | Passed |
+| UI12 | Remove pasta from Favourites | Empty favourites while retaining two planned meals | Passed |
+| UI13 | Change Monday Dinner to 1 serving and remove Tuesday Lunch | Monday retains 1 serving; count becomes one | Passed |
+| UI14 | Submit an empty contact form | Three field-specific errors | Passed |
+| UI15 | Enter bad-email with other fields valid | Email error without success confirmation | Passed |
+| UI16 | Submit Demo Cook, demo@example.com, and a sample message | Demonstration confirmation without sending or storing data | Passed |
+| UI17 | Reset the contact form | Clear inputs, errors, and success state | Passed |
+| UI18 | Open a gallery image, use Next, ArrowRight, and Escape | Change images, close the dialog, and restore focus | Passed; focus returned to the original image button |
+| UI19 | At 360 px width, open the menu and select Recipes | Open the menu and close it after selection | Passed; aria-expanded returned to false |
+| UI20 | Edit Monday Dinner at 360 px width | Editor fits; fields and controls remain usable | Passed through visual inspection |
+| UI21 | Check 11 routes at widths of 360, 768, and 1280 px | No horizontal overflow or broken images | Passed across 33 views; see viewport-checks.json |
+| UI22 | Set the calculator to 6 servings, then Add to meal plan | Planner editor retains 6 servings | Passed |
+| UI23 | Open an unknown recipe ID, contributor ID, or route | Error page with a return link | Passed in all three cases |
 
-Không có console error/warning trong lượt kiểm tra cuối của trình duyệt.
+No console errors or warnings were recorded in the final browser run.
 
-### Viewport measurements
+### Viewport Measurements
 
-11 route đã đo: home, recipes, recipe/lemon-pasta, planner, favourites, collections, contributors, contributor/linh, gallery, about, contact.
+The 11 measured routes were home, recipes, recipe/lemon-pasta, planner, favourites, collections, contributors, contributor/linh, gallery, about, and contact.
 
-`document.documentElement.scrollWidth` đo được 345, 753, 1265 px tương ứng viewport 360, 768, 1280 px (phần chênh là thanh cuộn dọc). Tất cả đều ≤ chiều rộng viewport. `brokenImages` = 0 tại thời điểm quan sát. Ảnh offscreen lazy-load còn được kiểm tra qua tồn tại tài nguyên và test dataset; không khẳng định phép đo DOM tức thời là kiểm tra mọi byte ảnh trong tất cả trình duyệt.
+`document.documentElement.scrollWidth` measured 345, 753, and 1265 px for viewport widths of 360, 768, and 1280 px respectively. The difference was the vertical scrollbar. All measurements were within the viewport width. `brokenImages` was zero at observation time. Offscreen lazy-loaded images were also checked through resource existence and dataset checks; an instantaneous DOM measurement does not verify every image byte in every browser.
 
-## Cần kiểm tra thêm trước khi nộp chính thức
+## Verification Still Required Before Formal Submission
 
-- **Một trình duyệt desktop độc lập thứ hai** (ví dụ Microsoft Edge hoặc Firefox), ghi đúng version và chạy lại toàn bộ UI01–UI21. Chưa tuyên bố đạt yêu cầu kiểm tra đầy đủ hai trình duyệt desktop chỉ dựa vào trình duyệt trong ứng dụng.
-- Thử trên thiết bị điện thoại thật nếu có. Các viewport nêu trên là mô phỏng kích thước, không phải kiểm tra thiết bị thật.
-- Đọc bằng screen reader và kiểm tra WCAG toàn diện chưa thực hiện. Hiện đã có label, alt, focus rõ ràng, skip link và modal keyboard controls.
-- Video demo **chưa được quay**; có kịch bản `DEMO-GUIDE.md` để bạn quay và nộp.
+- Check a **second independent desktop browser**, such as Microsoft Edge or Firefox, record its version, and repeat UI01–UI21. The in-app browser alone does not establish full coverage in two desktop browsers.
+- Test a physical phone if available. The recorded viewports simulate dimensions rather than physical devices.
+- Screen-reader testing and a comprehensive WCAG audit have not been completed. Labels, alternative text, visible focus, a skip link, and modal keyboard controls are present.
+- The demonstration video **has not been recorded**. `DEMO-GUIDE.md` provides a recording script.
 
-Không ghi các hạng mục chưa chạy là Passed. Node tests và các phép đo viewport có thể chạy lại bằng mã nguồn trong ZIP.
+Do not mark checks that have not been run as Passed. The current edition includes browser checks; older results and viewport measurements remain historical references.
 
-## Cập nhật hỗ trợ ngôn ngữ
+## Historical Language Support Update
 
-Bản cập nhật năm ngôn ngữ đã bổ sung 11 ca kiểm thử, tổng hiện tại 44/44 ca đạt. Kết quả kiểm tra giao diện, giới hạn và hướng dẫn sửa bản dịch nằm trong [LANGUAGE-SUPPORT.md](LANGUAGE-SUPPORT.md).
+The five-language update added 11 checks, bringing the suite to 44/44 passing checks. Interface results, limitations, and translation editing instructions are in [LANGUAGE-SUPPORT.md](LANGUAGE-SUPPORT.md).
 
-### Bổ sung Hindi
+### Hindi Addition
 
-Đã mở rộng kiểm thử sang Hindi: 45/45 ca đạt. Kiểm tra giao diện Hindi 33 lượt (11 route × 3 kích thước), không tràn ngang và không lỗi console. Chi tiết trong LANGUAGE-SUPPORT.md và hindi-viewport-checks.json.
+The suite was extended to Hindi and recorded 45/45 passing checks. Hindi interface checks covered 33 views: 11 routes × three sizes, with no horizontal overflow or console errors. See `LANGUAGE-SUPPORT.md` and `hindi-viewport-checks.json`.

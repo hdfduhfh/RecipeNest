@@ -9,8 +9,8 @@
     <div>
       <h2 id="nest-chat-title">{{ chat.t('title') }}</h2>
       <p>
-        <span class="nest-chat-dot" ng-class="{'is-ai': chat.connected}"></span>{{
-        chat.t(chat.connected ? 'ai' : 'local') }}
+        <span class="nest-chat-dot"></span>{{
+        chat.t('local') }}
       </p>
     </div>
     <button
@@ -81,7 +81,7 @@
         >{{ chat.t('planner') }} ↗</a
       >
       <small class="nest-chat-mode" ng-if="message.role === 'assistant'"
-        >{{ chat.t(message.mode === 'ai' ? 'ai' : 'local') }}</small
+        >{{ chat.t('local') }}</small
       >
     </article>
     <p class="nest-chat-thinking" ng-if="chat.busy" role="status">
@@ -89,9 +89,7 @@
     </p>
     <div class="nest-chat-error" ng-if="chat.error" role="alert">
       <p>{{ chat.error }}</p>
-      <button type="button" ng-click="chat.retry(false)" ng-disabled="chat.busy">
-        {{ chat.t('retry') }}</button
-      ><button type="button" ng-click="chat.retry(true)" ng-disabled="chat.busy">
+      <button type="button" ng-click="chat.retry()" ng-disabled="chat.busy">
         {{ chat.t('guide') }}
       </button>
     </div>
@@ -128,8 +126,8 @@
   <div class="nest-chat-footer">
     <p>{{ chat.t('footer') }}</p>
     <details>
-      <summary>{{ chat.t(chat.connected ? 'ai' : 'guide') }}</summary>
-      <p>{{ chat.t(chat.connected ? 'privacy' : 'localNote') }}</p>
+      <summary>{{ chat.t('guide') }}</summary>
+      <p>{{ chat.t('localNote') }}</p>
     </details>
   </div>
 </section>
